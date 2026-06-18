@@ -16,7 +16,7 @@ MediCore DB is a production-ready relational database system designed to model, 
 * **Data Volume:** Powered by a procedural generation script supplying **+2,000 realistic clinical records**.
 * **95% Performance Boost:** Query search space optimized via strategic indexation, dropping row scans from **2,020 to just 67**.
 * **Enterprise Compliance:** Zero physical data loss enforced through custom **Soft-Delete** architectures and **automated system auditing**.
-* * **Data Engineering Pipeline:** End-to-end Python ETL process that extracts clinical data, applies transformations, masks sensitive PII data, and structures analytics assets.
+* **Data Engineering Pipeline:** End-to-end Python ETL process that extracts clinical data, applies transformations, masks sensitive PII data, and structures analytics assets.
 
 
 ---
@@ -78,6 +78,7 @@ To prove performance stability under load, the active hospitalization reporting 
 * **Before Optimization (No Indices):** `Table scan on admission (type: ALL)`. Evaluated **2,020 rows** sequentially.
 * **After Optimization (`idx_admission_discharge_date`):** Switched to `Index lookup (type: ref)`. Rows evaluated dropped to **67** (Over **95% database overhead reduction**).
 
+## ERD
 ![MediCore DB ERD](erd.png)
 > **Note on Database Performance:** The ERD above displays the default constraint-generated indices (Primary Keys, Foreign Keys, and Unique constraints). Custom operational indices designed to optimize analytical queries (such as `idx_admission_discharge_date` and `idx_patient_active`) are cleanly separated and deployed via the `04_optimization/indexes.sql` pipeline to avoid schema clutter and ensure modular performance tuning.
 
