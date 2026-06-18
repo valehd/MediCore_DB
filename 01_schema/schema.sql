@@ -2,6 +2,7 @@
 -- MediCore DB - Core Schema
 -- Hospital operations database structure
 -- =========================================================
+CREATE DATABASE IF NOT EXISTS medicore_db;
 
 USE medicore_db;
 
@@ -22,7 +23,8 @@ CREATE TABLE patient (
     last_name VARCHAR(100) NOT NULL,
     birth_date DATE NOT NULL,
     sex ENUM('F','M') NOT NULL,
-    national_id VARCHAR(20) UNIQUE
+    national_id VARCHAR(20) UNIQUE,
+    is_active TINYINT(1) NOT NULL DEFAULT 1
 );
 
 -- Table: bed

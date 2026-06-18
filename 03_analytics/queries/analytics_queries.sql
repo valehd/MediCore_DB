@@ -22,6 +22,7 @@ SELECT
     COUNT(a.admission_id) AS total_admissions
 FROM patient p
 JOIN admission a ON p.patient_id = a.patient_id
+WHERE p.is_active = 1
 GROUP BY p.patient_id
 ORDER BY total_admissions DESC;
 
@@ -47,6 +48,8 @@ SELECT
 FROM department d
 JOIN bed b ON d.department_id = b.department_id
 JOIN admission a ON b.bed_id = a.bed_id
+JOIN patient p ON a.patient_id = p.patient_id 
+WHERE p.is_active = 1 
 GROUP BY d.department_name
 ORDER BY total_admissions DESC;
 

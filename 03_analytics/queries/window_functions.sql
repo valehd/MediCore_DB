@@ -9,6 +9,7 @@ SELECT
     RANK() OVER (ORDER BY COUNT(a.admission_id) DESC) AS patient_rank
 FROM patient p
 LEFT JOIN admission a ON p.patient_id = a.patient_id
+WHERE p.is_active = 1 
 GROUP BY p.patient_id, p.first_name, p.last_name;
 
 
@@ -29,6 +30,7 @@ FROM (
         ) AS rn
     FROM patient p
     JOIN admission a ON p.patient_id = a.patient_id
+    WHERE p.is_active = 1
 ) t
 WHERE t.rn = 1;
 

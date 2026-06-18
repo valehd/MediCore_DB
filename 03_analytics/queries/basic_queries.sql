@@ -16,7 +16,8 @@ FROM admission a
 JOIN patient p ON a.patient_id = p.patient_id
 JOIN bed b ON a.bed_id = b.bed_id
 JOIN department d ON b.department_id = d.department_id
-WHERE a.discharge_date IS NULL;
+WHERE a.discharge_date IS NULL
+    AND p.is_active = 1;
 
 
 -- Query 2: Bed occupancy metrics by department (operational KPI)
@@ -73,4 +74,5 @@ FROM admission a
 JOIN patient p ON a.patient_id = p.patient_id
 JOIN bed b ON a.bed_id = b.bed_id
 JOIN department d ON b.department_id = d.department_id
-WHERE a.discharge_date IS NULL;
+WHERE a.discharge_date IS NULL
+AND p.is_active = 1;

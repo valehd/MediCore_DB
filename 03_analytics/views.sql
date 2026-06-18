@@ -19,7 +19,9 @@ FROM admission a
 JOIN patient p ON a.patient_id = p.patient_id
 JOIN bed b ON a.bed_id = b.bed_id
 JOIN department d ON b.department_id = d.department_id
-WHERE a.discharge_date IS NULL;
+WHERE a.discharge_date IS NULL
+    AND p.is_active = 1;
+
 
 
 -- View: vw_bed_occupancy
@@ -60,7 +62,8 @@ END AS admission_status
 FROM admission a
 JOIN patient p ON a.patient_id = p.patient_id
 JOIN bed b ON a.bed_id = b.bed_id
-JOIN department d ON b.department_id = d.department_id;
+JOIN department d ON b.department_id = d.department_id
+    AND p.is_active = 1;
 
 -- View: vw_patient_summary
 -- Purpose: Aggregates patient history and utilization metrics
@@ -80,4 +83,5 @@ SELECT
     ) AS avg_stay_days
 FROM patient p
 LEFT JOIN admission a ON p.patient_id = a.patient_id
+WHERE p.is_active = 1
 GROUP BY p.patient_id, p.first_name, p.last_name;

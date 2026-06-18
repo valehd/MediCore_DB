@@ -28,11 +28,12 @@ INSERT INTO bed (bed_number, department_id, status) VALUES
 -- =========================================================
 -- Patients (Demographic Data)
 -- =========================================================
-INSERT INTO patient (first_name, last_name, birth_date, sex, national_id) VALUES
-('Camila', 'Rojas', '1995-04-10', 'F', '12345678-9'),
-('Diego', 'Muñoz', '1988-11-22', 'M', '98765432-1'),
-('Fernanda', 'González', '2001-02-15', 'F', '11223344-5'),
-('Javier', 'Silva', '1979-07-30', 'M', '55667788-0');
+-- Added 'is_active' column to align with soft-delete schema requirements
+INSERT INTO patient (first_name, last_name, birth_date, sex, national_id, is_active) VALUES
+('Camila', 'Rojas', '1995-04-10', 'F', '12345678-9', 1),
+('Diego', 'Muñoz', '1988-11-22', 'M', '98765432-1', 1),
+('Fernanda', 'González', '2001-02-15', 'F', '11223344-5', 1),
+('Javier', 'Silva', '1979-07-30', 'M', '55667788-0', 1);
 
 -- =========================================================
 -- Admissions (Hospitalization Records)

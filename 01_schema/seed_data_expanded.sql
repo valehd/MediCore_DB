@@ -105,3 +105,62 @@ INSERT INTO admission (patient_id, bed_id, admission_date, discharge_date, diagn
 (18, 19, '2026-06-11 18:00:00', NULL, 'Trauma'),
 (19, 20, '2026-06-12 19:00:00', NULL, 'Observation'),
 (20, 21, '2026-06-13 20:00:00', NULL, 'Critical care');
+
+
+-- =========================================================
+-- LARGE VOLUME GENERATION FOR OPTIMIZATION AND TESTING
+-- =========================================================
+
+DELIMITER $$
+
+CREATE PROCEDURE PopulateMassivePatients()
+BEGIN
+    DECLARE i INT DEFAULT 1;
+    DECLARE random_name VARCHAR(50);
+    DECLARE random_last VARCHAR(50);
+    DECLARE random_sex CHAR(1);
+    DECLARE random_birth DATE;
+    DECLARE random_rut VARCHAR(12);
+
+    WHILE i <= 1000 DO
+        -- Alternate random names and genders
+        SET random_sex = IF(RAND() > 0.5, 'M', 'F');
+        SET random_name = ELT(FLOOR(1 + RAND() * 10), 'Camila', 'Diego', 'Fernanda', 'Javier', 'Valentina', 'Matías', 'Isidora', 'Sebastián', 'Francisca', 'Tomás');
+        SET random_last = ELT(FLOOR(1 + RAND() * 10), 'Rojas', 'Muñoz', 'González', 'Silva', 'Torres', 'López', 'Fernández', 'Araya', 'Castro', 'Herrera');
+        
+        -- Random birthdate between 1970 and 2015
+        SET random_birth = DATE_ADD('1970-01-01', INTERVAL FLOOR(RAND() * 16500) DAY);
+        
+        -- Fake but unique National ID to prevent constraint collisions
+        SET random_rut = CONCAT(CONVERT(20000000 + i, CHAR), '-K');
+
+        INSERT INTO patient (first_name, last_name, birth_date, sex, national_id)
+        VALUES (random_name, random_last, random_birth, random_sex, random_rut);
+
+        SET i = i + 1;
+    END WHILE;
+END$$
+
+DELIMITER ;
+
+-- Execute patient generation procedure and clean up
+CALL PopulateMassivePatients();
+DROP PROCEDURE PopulateMassivePatients;
+
+
+-- Massive cross-join generation for clinical history (~2,000 historical rows)
+INSERT INTO admission (patient_id, bed_id, admission_date, discharge_date, diagnosis)
+SELECT 
+    p.patient_id,
+    -- Random bed assignment between 1 and 30
+    FLOOR(1 + RAND() * 30) AS bed_id,
+    -- Random admission date within the last 2 years
+    DATE_SUB(NOW(), INTERVAL FLOOR(RAND() * 730) DAY) AS admission_date,
+    -- 90% discharged (historical cases), 10% currently hospitalized (discharge_date IS NULL)
+    IF(RAND() > 0.1, DATE_SUB(NOW(), INTERVAL FLOOR(RAND() * 10) DAY), NULL) AS discharge_date,
+    -- Random clinical diagnosis
+    ELT(FLOOR(1 + RAND() * 6), 'Premature birth monitoring', 'Post-surgical recovery', 'Respiratory infection', 'Trauma care', 'Cardiac monitoring', 'Flu complications') AS diagnosis
+FROM patient p
+-- Cross join multiplier to duplicate record generation per patient
+CROSS JOIN (SELECT 1 UNION SELECT 2) t
+WHERE p.patient_id > 20; -- Keeps your original 20 seed patients intact

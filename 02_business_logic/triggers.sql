@@ -27,6 +27,20 @@ DELIMITER ;
 
 
 
+ALTER TABLE patient ADD COLUMN is_active TINYINT(1) DEFAULT 1;
 
 
 
+DELIMITER $$
+
+-- Trigger: trg_prevent_patient_delete
+-- Purpose: Enforces soft-delete compliance by blocking physical DELETE operations on patients
+CREATE TRIGGER trg_prevent_patient_delete
+BEFORE DELETE ON patient
+FOR EACH ROW
+BEGIN
+    SIGNAL SQLSTATE '45000'
+    SET MESSAGE_TEXT = 'Physical deletion is prohibited by hospital compliance policy. Update is_active to 0 instead.';
+END $$
+
+DELIMITER ;
