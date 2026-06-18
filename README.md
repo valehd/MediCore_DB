@@ -77,6 +77,7 @@ medicore-db/
 ├── queries.sql
 ├── audit_tables.sql
 └── README.md
+
 🚀 Example Usage
 CALL sp_admit_patient(1, 1, 'Respiratory distress');
 CALL sp_discharge_patient(1);
