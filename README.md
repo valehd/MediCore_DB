@@ -86,7 +86,7 @@ To prove performance stability under load, the active hospitalization reporting 
 
 ## 🛠️ Tech Stack
 * **Engine:** MySQL 8.0+
-* * **Languages & Ecosystem:** SQL (DDL/DML), Python 3.x (`pandas`, `pymysql`)
+* **Languages & Ecosystem:** SQL (DDL/DML), Python 3.x (`pandas`, `pymysql`)
 * **SQL Paradigms:** DDL/DML, Procedural SQL, Window Functions, Database Indexing, Triggers, Query Optimization.
 
 ---
