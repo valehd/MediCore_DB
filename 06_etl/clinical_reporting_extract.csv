@@ -1,0 +1,2021 @@
+admission_id,patient_id,full_name,patient_age_at_admission,national_id,admission_date,length_of_stay_days,diagnosis
+1,1,Camila Rojas,31,XX.XXX.XXX-9,2026-06-10 08:00:00,8,Premature birth monitoring
+2,2,Diego Muñoz,38,XX.XXX.XXX-7,2026-06-12 14:30:00,6,Post-surgical recovery
+3,3,Fernanda González,25,XX.XXX.XXX-5,2026-06-15 09:00:00,3,Medical observation
+4,4,Javier Silva,47,XX.XXX.XXX-3,2026-06-16 18:45:00,2,Respiratory infection
+5,5,Valentina Torres,34,XX.XXX.XXX-1,2026-06-01 10:00:00,4,Flu complications
+6,6,Matías López,41,XX.XXX.XXX-8,2026-05-20 09:15:00,8,Post surgery recovery
+7,7,Isidora Fernández,28,XX.XXX.XXX-6,2026-06-18 13:00:00,0,Routine observation
+8,8,Sebastián Araya,51,XX.XXX.XXX-4,2026-06-02 07:45:00,8,Trauma care
+9,9,Francisca Castro,26,XX.XXX.XXX-2,2026-06-11 16:20:00,7,Pediatric infection
+10,10,Tomás Herrera,36,XX.XXX.XXX-0,2026-06-03 08:30:00,5,Emergency care
+11,11,Catalina Vargas,33,XX.XXX.XXX-9,2026-05-15 11:00:00,6,Cardiac monitoring
+12,12,Benjamín Riquelme,44,XX.XXX.XXX-7,2026-06-05 12:00:00,13,Respiratory distress
+13,13,Josefina Molina,29,XX.XXX.XXX-5,2026-06-06 13:30:00,12,Observation
+14,14,Nicolás Cáceres,37,XX.XXX.XXX-3,2026-06-07 14:00:00,11,Internal infection
+15,15,Antonia Bravo,24,XX.XXX.XXX-1,2026-06-08 15:00:00,10,Emergency case
+16,16,Pedro Fuentes,48,XX.XXX.XXX-8,2026-06-09 16:00:00,9,Surgery recovery
+17,17,María Pérez,30,XX.XXX.XXX-6,2026-06-10 17:00:00,8,Routine check
+18,18,Cristóbal Reyes,39,XX.XXX.XXX-4,2026-06-11 18:00:00,7,Trauma
+19,19,Daniela Espinoza,35,XX.XXX.XXX-2,2026-06-12 19:00:00,6,Observation
+20,20,Andrés Valdés,43,XX.XXX.XXX-0,2026-06-13 20:00:00,4,Critical care
+21,21,Diego Rojas,18,XX.XXX.XXX-K,2025-08-19 19:31:05,294,Trauma care
+22,21,Diego Rojas,18,XX.XXX.XXX-K,2025-10-09 19:31:05,246,Post-surgical recovery
+23,22,Fernanda González,28,XX.XXX.XXX-K,2026-03-28 19:31:05,75,Post-surgical recovery
+24,22,Fernanda González,26,XX.XXX.XXX-K,2024-06-26 19:31:05,721,Premature birth monitoring
+25,23,Fernanda Castro,36,XX.XXX.XXX-K,2024-12-04 19:31:05,560,Post-surgical recovery
+26,23,Fernanda Castro,37,XX.XXX.XXX-K,2025-12-30 19:31:05,163,Premature birth monitoring
+27,24,Sebastián Castro,53,XX.XXX.XXX-K,2025-05-05 19:31:05,407,Respiratory infection
+28,24,Sebastián Castro,53,XX.XXX.XXX-K,2025-01-13 19:31:05,521,Flu complications
+29,25,Valentina Muñoz,39,XX.XXX.XXX-K,2024-08-09 19:31:05,669,Cardiac monitoring
+30,25,Valentina Muñoz,41,XX.XXX.XXX-K,2026-05-20 19:31:05,24,Flu complications
+31,26,Valentina Muñoz,31,XX.XXX.XXX-K,2025-09-16 19:31:05,275,Post-surgical recovery
+32,26,Valentina Muñoz,31,XX.XXX.XXX-K,2025-03-01 19:31:05,465,Flu complications
+33,27,Sebastián Rojas,21,XX.XXX.XXX-K,2025-01-21 19:31:05,508,Post-surgical recovery
+34,27,Sebastián Rojas,21,XX.XXX.XXX-K,2025-02-22 19:31:05,474,Cardiac monitoring
+35,28,Sebastián Muñoz,30,XX.XXX.XXX-K,2025-11-23 19:31:05,198,Premature birth monitoring
+36,28,Sebastián Muñoz,30,XX.XXX.XXX-K,2025-11-11 19:31:05,214,Cardiac monitoring
+37,29,Diego Castro,20,XX.XXX.XXX-K,2024-09-17 19:31:05,630,Cardiac monitoring
+38,29,Diego Castro,21,XX.XXX.XXX-K,2025-11-22 19:31:05,208,Post-surgical recovery
+39,30,Sebastián Muñoz,44,XX.XXX.XXX-K,2026-01-08 19:31:05,152,Premature birth monitoring
+40,30,Sebastián Muñoz,44,XX.XXX.XXX-K,2026-02-13 19:31:05,125,Flu complications
+41,31,Sebastián González,45,XX.XXX.XXX-K,2024-07-29 19:31:05,683,Post-surgical recovery
+42,31,Sebastián González,46,XX.XXX.XXX-K,2025-10-20 19:31:05,236,Cardiac monitoring
+43,32,Matías Rojas,33,XX.XXX.XXX-K,2025-02-08 19:31:05,493,Cardiac monitoring
+44,32,Matías Rojas,33,XX.XXX.XXX-K,2025-02-14 19:31:05,482,Trauma care
+45,33,Javier Castro,52,XX.XXX.XXX-K,2025-06-16 19:31:05,361,Cardiac monitoring
+46,33,Javier Castro,51,XX.XXX.XXX-K,2024-08-22 19:31:05,664,Trauma care
+47,34,Camila Fernández,55,XX.XXX.XXX-K,2026-02-17 19:31:05,121,Cardiac monitoring
+48,34,Camila Fernández,54,XX.XXX.XXX-K,2025-09-05 19:31:05,283,Respiratory infection
+49,35,Fernanda López,16,XX.XXX.XXX-K,2024-12-29 19:31:05,533,Trauma care
+50,35,Fernanda López,17,XX.XXX.XXX-K,2025-02-15 19:31:05,484,Post-surgical recovery
+51,36,Isidora López,26,XX.XXX.XXX-K,2024-09-28 19:31:05,624,Cardiac monitoring
+52,36,Isidora López,27,XX.XXX.XXX-K,2025-08-19 19:31:05,294,Trauma care
+53,37,Matías Silva,13,XX.XXX.XXX-K,2024-12-05 19:31:05,551,Post-surgical recovery
+54,37,Matías Silva,15,XX.XXX.XXX-K,2026-01-17 19:31:05,146,Cardiac monitoring
+55,38,Matías López,36,XX.XXX.XXX-K,2025-06-08 19:31:05,375,Trauma care
+56,38,Matías López,36,XX.XXX.XXX-K,2025-12-01 19:31:05,194,Trauma care
+57,39,Isidora González,12,XX.XXX.XXX-K,2025-01-25 19:31:05,503,Post-surgical recovery
+58,39,Isidora González,12,XX.XXX.XXX-K,2025-06-09 19:31:05,374,Flu complications
+59,40,Fernanda López,16,XX.XXX.XXX-K,2025-07-12 19:31:05,336,Flu complications
+60,40,Fernanda López,16,XX.XXX.XXX-K,2025-02-11 19:31:05,483,Respiratory infection
+61,41,Fernanda Herrera,51,XX.XXX.XXX-K,2025-02-08 19:31:05,490,Premature birth monitoring
+62,41,Fernanda Herrera,51,XX.XXX.XXX-K,2025-04-05 19:31:05,439,Respiratory infection
+63,42,Valentina Torres,50,XX.XXX.XXX-K,2026-02-26 19:31:05,109,Post-surgical recovery
+64,42,Valentina Torres,48,XX.XXX.XXX-K,2024-10-03 19:31:05,622,Premature birth monitoring
+65,43,Diego Araya,36,XX.XXX.XXX-K,2025-02-16 19:31:05,481,Post-surgical recovery
+66,43,Diego Araya,36,XX.XXX.XXX-K,2025-08-24 19:31:05,291,Respiratory infection
+67,44,Francisca Herrera,15,XX.XXX.XXX-K,2025-08-08 19:31:05,314,Flu complications
+68,44,Francisca Herrera,15,XX.XXX.XXX-K,2025-10-19 19:31:05,241,Trauma care
+69,45,Tomás Araya,11,XX.XXX.XXX-K,2024-08-30 19:31:05,653,Cardiac monitoring
+70,45,Tomás Araya,12,XX.XXX.XXX-K,2025-05-10 19:31:05,404,Premature birth monitoring
+71,46,Diego Torres,25,XX.XXX.XXX-K,2024-06-23 19:31:05,721,Trauma care
+72,46,Diego Torres,26,XX.XXX.XXX-K,2025-10-27 19:31:05,227,Trauma care
+73,47,Valentina Muñoz,42,XX.XXX.XXX-K,2026-04-11 19:31:05,62,Flu complications
+74,47,Valentina Muñoz,40,XX.XXX.XXX-K,2024-10-05 19:31:05,620,Flu complications
+75,48,Francisca Castro,18,XX.XXX.XXX-K,2025-07-10 19:31:05,338,Post-surgical recovery
+76,48,Francisca Castro,19,XX.XXX.XXX-K,2026-01-07 19:31:05,159,Premature birth monitoring
+77,49,Francisca Fernández,18,XX.XXX.XXX-K,2024-06-24 19:31:05,723,Premature birth monitoring
+78,49,Francisca Fernández,18,XX.XXX.XXX-K,2024-08-02 19:31:05,677,Flu complications
+79,50,Tomás Fernández,46,XX.XXX.XXX-K,2026-04-18 19:31:05,61,Trauma care
+80,50,Tomás Fernández,44,XX.XXX.XXX-K,2024-09-05 19:31:05,642,Premature birth monitoring
+81,51,Isidora Fernández,48,XX.XXX.XXX-K,2025-02-09 19:31:05,486,Cardiac monitoring
+82,51,Isidora Fernández,47,XX.XXX.XXX-K,2024-08-18 19:31:05,668,Respiratory infection
+83,52,Francisca Castro,34,XX.XXX.XXX-K,2024-12-06 19:31:05,554,Respiratory infection
+84,52,Francisca Castro,34,XX.XXX.XXX-K,2024-11-11 19:31:05,575,Post-surgical recovery
+85,53,Sebastián Muñoz,36,XX.XXX.XXX-K,2026-03-21 19:31:05,82,Premature birth monitoring
+86,53,Sebastián Muñoz,35,XX.XXX.XXX-K,2025-06-30 19:31:05,353,Post-surgical recovery
+87,54,Fernanda Silva,52,XX.XXX.XXX-K,2024-12-22 19:31:05,538,Post-surgical recovery
+88,54,Fernanda Silva,53,XX.XXX.XXX-K,2025-07-12 19:31:05,336,Cardiac monitoring
+89,55,Fernanda González,30,XX.XXX.XXX-K,2024-08-30 19:31:05,655,Premature birth monitoring
+90,55,Fernanda González,31,XX.XXX.XXX-K,2025-01-26 19:31:05,508,Post-surgical recovery
+91,56,Matías Fernández,30,XX.XXX.XXX-K,2026-02-15 19:31:05,118,Premature birth monitoring
+92,56,Matías Fernández,29,XX.XXX.XXX-K,2025-09-22 19:31:05,269,Trauma care
+93,57,Diego Rojas,34,XX.XXX.XXX-K,2025-12-05 19:31:05,192,Premature birth monitoring
+94,57,Diego Rojas,34,XX.XXX.XXX-K,2025-07-23 19:31:05,327,Flu complications
+95,58,Javier Araya,36,XX.XXX.XXX-K,2026-01-05 19:31:05,156,Trauma care
+96,58,Javier Araya,35,XX.XXX.XXX-K,2025-12-01 19:31:05,195,Cardiac monitoring
+97,59,Javier Silva,15,XX.XXX.XXX-K,2025-07-01 19:31:05,345,Trauma care
+98,59,Javier Silva,15,XX.XXX.XXX-K,2025-03-30 19:31:05,440,Cardiac monitoring
+99,60,Sebastián Araya,36,XX.XXX.XXX-K,2025-01-15 19:31:05,514,Cardiac monitoring
+100,60,Sebastián Araya,35,XX.XXX.XXX-K,2024-06-20 19:31:05,727,Premature birth monitoring
+101,61,Francisca Muñoz,53,XX.XXX.XXX-K,2025-02-18 19:31:05,477,Premature birth monitoring
+102,61,Francisca Muñoz,52,XX.XXX.XXX-K,2024-10-04 19:31:05,621,Premature birth monitoring
+103,62,Valentina Torres,12,XX.XXX.XXX-K,2025-05-26 19:31:05,384,Flu complications
+104,62,Valentina Torres,13,XX.XXX.XXX-K,2026-03-17 19:31:05,87,Cardiac monitoring
+105,63,Javier Silva,16,XX.XXX.XXX-K,2024-08-10 19:31:05,673,Flu complications
+106,63,Javier Silva,16,XX.XXX.XXX-K,2024-10-16 19:31:05,606,Trauma care
+107,64,Tomás Silva,10,XX.XXX.XXX-K,2024-10-16 19:31:05,601,Trauma care
+108,64,Tomás Silva,12,XX.XXX.XXX-K,2026-06-05 19:31:05,8,Cardiac monitoring
+109,65,Javier Rojas,47,XX.XXX.XXX-K,2026-03-22 19:31:05,87,Trauma care
+110,65,Javier Rojas,47,XX.XXX.XXX-K,2026-02-10 19:31:05,123,Respiratory infection
+111,66,Camila González,41,XX.XXX.XXX-K,2025-05-24 19:31:05,383,Premature birth monitoring
+112,66,Camila González,42,XX.XXX.XXX-K,2026-05-21 19:31:05,23,Respiratory infection
+113,67,Camila Herrera,29,XX.XXX.XXX-K,2024-08-30 19:31:05,657,Trauma care
+114,67,Camila Herrera,29,XX.XXX.XXX-K,2024-12-15 19:31:05,546,Premature birth monitoring
+115,68,Francisca Fernández,24,XX.XXX.XXX-K,2026-02-15 19:31:05,122,Premature birth monitoring
+116,68,Francisca Fernández,22,XX.XXX.XXX-K,2024-08-09 19:31:05,674,Flu complications
+117,69,Francisca González,19,XX.XXX.XXX-K,2025-01-08 19:31:05,522,Post-surgical recovery
+118,69,Francisca González,19,XX.XXX.XXX-K,2025-03-30 19:31:05,441,Flu complications
+119,70,Fernanda Muñoz,13,XX.XXX.XXX-K,2025-12-02 19:31:05,198,Respiratory infection
+120,70,Fernanda Muñoz,12,XX.XXX.XXX-K,2024-12-10 19:31:05,550,Trauma care
+121,71,Isidora López,31,XX.XXX.XXX-K,2024-09-17 19:31:05,639,Trauma care
+122,71,Isidora López,33,XX.XXX.XXX-K,2026-02-26 19:31:05,111,Respiratory infection
+123,72,Matías Castro,39,XX.XXX.XXX-K,2026-03-13 19:31:05,96,Flu complications
+124,72,Matías Castro,37,XX.XXX.XXX-K,2024-08-17 19:31:05,662,Cardiac monitoring
+125,73,Camila Herrera,22,XX.XXX.XXX-K,2025-06-23 19:31:05,359,Cardiac monitoring
+126,73,Camila Herrera,22,XX.XXX.XXX-K,2025-06-03 19:31:05,375,Respiratory infection
+127,74,Javier Castro,11,XX.XXX.XXX-K,2025-04-22 19:31:05,416,Flu complications
+128,74,Javier Castro,12,XX.XXX.XXX-K,2026-05-24 19:31:05,21,Cardiac monitoring
+129,75,Diego Torres,25,XX.XXX.XXX-K,2025-01-11 19:31:05,523,Post-surgical recovery
+130,75,Diego Torres,25,XX.XXX.XXX-K,2025-03-29 19:31:05,439,Respiratory infection
+131,76,Sebastián Muñoz,23,XX.XXX.XXX-K,2025-08-07 19:31:05,314,Cardiac monitoring
+132,76,Sebastián Muñoz,24,XX.XXX.XXX-K,2026-05-29 19:31:05,20,Post-surgical recovery
+133,77,Camila Rojas,39,XX.XXX.XXX-K,2024-10-14 19:31:05,607,Post-surgical recovery
+134,77,Camila Rojas,40,XX.XXX.XXX-K,2025-06-01 19:31:05,381,Cardiac monitoring
+135,78,Diego Torres,19,XX.XXX.XXX-K,2025-01-12 19:31:05,517,Cardiac monitoring
+136,78,Diego Torres,19,XX.XXX.XXX-K,2025-10-24 19:31:05,229,Cardiac monitoring
+137,79,Francisca Torres,35,XX.XXX.XXX-K,2025-11-02 19:31:05,223,Premature birth monitoring
+138,79,Francisca Torres,35,XX.XXX.XXX-K,2025-08-23 19:31:05,293,Trauma care
+139,80,Sebastián Castro,13,XX.XXX.XXX-K,2025-06-18 19:31:05,365,Cardiac monitoring
+140,80,Sebastián Castro,14,XX.XXX.XXX-K,2026-06-13 19:31:05,5,Post-surgical recovery
+141,81,Sebastián López,31,XX.XXX.XXX-K,2026-02-11 19:31:05,119,Post-surgical recovery
+142,81,Sebastián López,30,XX.XXX.XXX-K,2025-07-15 19:31:05,338,Premature birth monitoring
+143,82,Sebastián López,35,XX.XXX.XXX-K,2025-12-14 19:31:05,180,Post-surgical recovery
+144,82,Sebastián López,36,XX.XXX.XXX-K,2026-04-03 19:31:05,76,Flu complications
+145,83,Isidora Torres,37,XX.XXX.XXX-K,2025-02-14 19:31:05,480,Premature birth monitoring
+146,83,Isidora Torres,38,XX.XXX.XXX-K,2026-05-21 19:31:05,19,Flu complications
+147,84,Francisca López,15,XX.XXX.XXX-K,2025-08-21 19:31:05,300,Post-surgical recovery
+148,84,Francisca López,14,XX.XXX.XXX-K,2024-11-28 19:31:05,562,Respiratory infection
+149,85,Camila Fernández,20,XX.XXX.XXX-K,2025-07-13 19:31:05,340,Cardiac monitoring
+150,85,Camila Fernández,20,XX.XXX.XXX-K,2025-06-09 19:31:05,372,Cardiac monitoring
+151,86,Francisca González,24,XX.XXX.XXX-K,2025-09-13 19:31:05,275,Trauma care
+152,86,Francisca González,24,XX.XXX.XXX-K,2025-02-23 19:31:05,475,Flu complications
+153,87,Javier Castro,53,XX.XXX.XXX-K,2026-05-14 19:31:05,32,Trauma care
+154,87,Javier Castro,52,XX.XXX.XXX-K,2025-09-04 19:31:05,283,Trauma care
+155,88,Francisca Herrera,48,XX.XXX.XXX-K,2026-04-10 19:31:05,62,Premature birth monitoring
+156,88,Francisca Herrera,47,XX.XXX.XXX-K,2025-09-21 19:31:05,262,Trauma care
+157,89,Matías Fernández,26,XX.XXX.XXX-K,2025-12-18 19:31:05,182,Trauma care
+158,89,Matías Fernández,26,XX.XXX.XXX-K,2025-01-02 19:31:05,526,Trauma care
+159,90,Valentina López,50,XX.XXX.XXX-K,2024-11-01 19:31:05,594,Cardiac monitoring
+160,90,Valentina López,51,XX.XXX.XXX-K,2025-03-23 19:31:05,446,Post-surgical recovery
+161,91,Valentina López,41,XX.XXX.XXX-K,2025-04-02 19:31:05,436,Flu complications
+162,91,Valentina López,40,XX.XXX.XXX-K,2024-09-03 19:31:05,646,Premature birth monitoring
+163,92,Francisca Torres,23,XX.XXX.XXX-K,2024-11-19 19:31:05,570,Trauma care
+164,92,Francisca Torres,25,XX.XXX.XXX-K,2026-06-05 19:31:05,10,Post-surgical recovery
+165,93,Javier Fernández,51,XX.XXX.XXX-K,2024-07-20 19:31:05,698,Post-surgical recovery
+166,93,Javier Fernández,52,XX.XXX.XXX-K,2025-05-01 19:31:05,405,Post-surgical recovery
+167,94,Tomás Torres,44,XX.XXX.XXX-K,2025-12-02 19:31:05,191,Premature birth monitoring
+168,94,Tomás Torres,45,XX.XXX.XXX-K,2026-02-12 19:31:05,125,Flu complications
+169,95,Javier Castro,51,XX.XXX.XXX-K,2024-07-27 19:31:05,684,Flu complications
+170,95,Javier Castro,52,XX.XXX.XXX-K,2025-02-15 19:31:05,479,Post-surgical recovery
+171,96,Tomás Torres,43,XX.XXX.XXX-K,2025-10-21 19:31:05,234,Flu complications
+172,96,Tomás Torres,42,XX.XXX.XXX-K,2024-09-12 19:31:05,642,Trauma care
+173,97,Camila López,39,XX.XXX.XXX-K,2025-02-27 19:31:05,476,Premature birth monitoring
+174,97,Camila López,39,XX.XXX.XXX-K,2025-10-14 19:31:05,247,Premature birth monitoring
+175,98,Camila Torres,50,XX.XXX.XXX-K,2026-01-27 19:31:05,136,Trauma care
+176,98,Camila Torres,49,XX.XXX.XXX-K,2025-12-03 19:31:05,197,Respiratory infection
+177,99,Sebastián Torres,18,XX.XXX.XXX-K,2025-01-17 19:31:05,516,Post-surgical recovery
+178,99,Sebastián Torres,18,XX.XXX.XXX-K,2025-05-30 19:31:05,380,Post-surgical recovery
+179,100,Camila López,31,XX.XXX.XXX-K,2026-05-22 19:31:05,18,Flu complications
+180,100,Camila López,30,XX.XXX.XXX-K,2025-06-26 19:31:05,350,Flu complications
+181,101,Diego González,19,XX.XXX.XXX-K,2025-07-03 19:31:05,350,Cardiac monitoring
+182,101,Diego González,20,XX.XXX.XXX-K,2026-03-26 19:31:05,81,Post-surgical recovery
+183,102,Camila Torres,47,XX.XXX.XXX-K,2026-03-03 19:31:05,99,Cardiac monitoring
+184,102,Camila Torres,46,XX.XXX.XXX-K,2025-02-13 19:31:05,490,Respiratory infection
+185,103,Diego Rojas,21,XX.XXX.XXX-K,2025-12-27 19:31:05,167,Trauma care
+186,103,Diego Rojas,20,XX.XXX.XXX-K,2024-07-05 19:31:05,705,Flu complications
+187,104,Diego Araya,37,XX.XXX.XXX-K,2026-03-23 19:31:05,80,Trauma care
+188,104,Diego Araya,36,XX.XXX.XXX-K,2025-01-08 19:31:05,520,Flu complications
+189,105,Isidora Rojas,42,XX.XXX.XXX-K,2025-03-25 19:31:05,449,Cardiac monitoring
+190,105,Isidora Rojas,43,XX.XXX.XXX-K,2026-03-25 19:31:05,85,Cardiac monitoring
+191,106,Javier González,17,XX.XXX.XXX-K,2025-07-23 19:31:05,329,Respiratory infection
+192,106,Javier González,18,XX.XXX.XXX-K,2026-03-07 19:31:05,103,Cardiac monitoring
+193,107,Francisca Herrera,35,XX.XXX.XXX-K,2025-09-03 19:31:05,288,Cardiac monitoring
+194,107,Francisca Herrera,36,XX.XXX.XXX-K,2026-02-03 19:31:05,132,Premature birth monitoring
+195,108,Javier López,10,XX.XXX.XXX-K,2025-11-03 19:31:05,222,Cardiac monitoring
+196,108,Javier López,9,XX.XXX.XXX-K,2024-07-14 19:31:05,695,Trauma care
+197,109,Diego Herrera,39,XX.XXX.XXX-K,2025-07-19 19:31:05,333,Premature birth monitoring
+198,109,Diego Herrera,38,XX.XXX.XXX-K,2024-09-30 19:31:05,625,Post-surgical recovery
+199,110,Tomás López,46,XX.XXX.XXX-K,2024-11-11 19:31:05,580,Flu complications
+200,110,Tomás López,46,XX.XXX.XXX-K,2024-12-25 19:31:05,537,Post-surgical recovery
+201,111,Diego Torres,21,XX.XXX.XXX-K,2025-05-30 19:31:05,381,Respiratory infection
+202,111,Diego Torres,21,XX.XXX.XXX-K,2025-07-03 19:31:05,343,Flu complications
+203,112,Camila Rojas,19,XX.XXX.XXX-K,2024-08-26 19:31:05,655,Respiratory infection
+204,112,Camila Rojas,19,XX.XXX.XXX-K,2024-07-26 19:31:05,692,Post-surgical recovery
+205,113,Tomás González,31,XX.XXX.XXX-K,2025-11-13 19:31:05,215,Cardiac monitoring
+206,113,Tomás González,31,XX.XXX.XXX-K,2025-10-28 19:31:05,233,Cardiac monitoring
+207,114,Isidora Fernández,50,XX.XXX.XXX-K,2025-11-06 19:31:05,218,Post-surgical recovery
+208,114,Isidora Fernández,50,XX.XXX.XXX-K,2025-02-13 19:31:05,489,Post-surgical recovery
+209,115,Valentina Rojas,18,XX.XXX.XXX-K,2025-04-23 19:31:05,421,Cardiac monitoring
+210,115,Valentina Rojas,17,XX.XXX.XXX-K,2024-11-05 19:31:05,588,Cardiac monitoring
+211,116,Matías Fernández,30,XX.XXX.XXX-K,2024-07-15 19:31:05,701,Trauma care
+212,116,Matías Fernández,30,XX.XXX.XXX-K,2024-09-07 19:31:05,641,Post-surgical recovery
+213,117,Isidora López,23,XX.XXX.XXX-K,2024-10-31 19:31:05,595,Respiratory infection
+214,117,Isidora López,24,XX.XXX.XXX-K,2025-07-21 19:31:05,326,Cardiac monitoring
+215,118,Tomás Araya,23,XX.XXX.XXX-K,2025-06-27 19:31:05,348,Post-surgical recovery
+216,118,Tomás Araya,23,XX.XXX.XXX-K,2025-10-04 19:31:05,257,Post-surgical recovery
+217,119,Fernanda Fernández,38,XX.XXX.XXX-K,2025-02-11 19:31:05,484,Trauma care
+218,119,Fernanda Fernández,37,XX.XXX.XXX-K,2024-07-15 19:31:05,695,Flu complications
+219,120,Matías González,28,XX.XXX.XXX-K,2025-05-13 19:31:05,397,Trauma care
+220,120,Matías González,28,XX.XXX.XXX-K,2025-01-12 19:31:05,517,Post-surgical recovery
+221,121,Tomás Torres,28,XX.XXX.XXX-K,2026-05-31 19:31:05,18,Trauma care
+222,121,Tomás Torres,27,XX.XXX.XXX-K,2025-09-07 19:31:05,281,Premature birth monitoring
+223,122,Francisca Rojas,21,XX.XXX.XXX-K,2025-12-30 19:31:05,164,Premature birth monitoring
+224,122,Francisca Rojas,20,XX.XXX.XXX-K,2024-09-21 19:31:05,629,Flu complications
+225,123,Matías Muñoz,17,XX.XXX.XXX-K,2024-11-13 19:31:05,576,Flu complications
+226,123,Matías Muñoz,19,XX.XXX.XXX-K,2026-04-07 19:31:05,72,Premature birth monitoring
+227,124,Isidora Herrera,29,XX.XXX.XXX-K,2026-02-11 19:31:05,119,Respiratory infection
+228,124,Isidora Herrera,27,XX.XXX.XXX-K,2024-08-09 19:31:05,672,Post-surgical recovery
+229,125,Javier Rojas,53,XX.XXX.XXX-K,2026-06-10 19:31:05,6,Trauma care
+230,125,Javier Rojas,52,XX.XXX.XXX-K,2025-02-05 19:31:05,496,Trauma care
+231,126,Fernanda Silva,15,XX.XXX.XXX-K,2024-08-05 19:31:05,675,Cardiac monitoring
+232,126,Fernanda Silva,17,XX.XXX.XXX-K,2026-04-04 19:31:05,66,Post-surgical recovery
+233,127,Valentina Rojas,23,XX.XXX.XXX-K,2025-03-27 19:31:05,444,Respiratory infection
+234,127,Valentina Rojas,22,XX.XXX.XXX-K,2024-09-25 19:31:05,624,Post-surgical recovery
+235,128,Isidora López,19,XX.XXX.XXX-K,2026-05-17 19:31:05,32,Respiratory infection
+236,128,Isidora López,19,XX.XXX.XXX-K,2026-03-28 19:31:05,82,Respiratory infection
+237,129,Camila López,19,XX.XXX.XXX-K,2025-06-22 19:31:05,355,Post-surgical recovery
+238,129,Camila López,19,XX.XXX.XXX-K,2025-07-04 19:31:05,348,Trauma care
+239,130,Camila González,52,XX.XXX.XXX-K,2024-07-12 19:31:05,702,Premature birth monitoring
+240,130,Camila González,54,XX.XXX.XXX-K,2026-05-15 19:31:05,27,Trauma care
+241,131,Tomás Herrera,53,XX.XXX.XXX-K,2024-12-20 19:31:05,542,Premature birth monitoring
+242,131,Tomás Herrera,55,XX.XXX.XXX-K,2026-01-31 19:31:05,133,Respiratory infection
+243,132,Tomás González,35,XX.XXX.XXX-K,2025-03-30 19:31:05,445,Respiratory infection
+244,132,Tomás González,35,XX.XXX.XXX-K,2025-12-06 19:31:05,187,Premature birth monitoring
+245,133,Tomás Muñoz,12,XX.XXX.XXX-K,2026-03-22 19:31:05,87,Trauma care
+246,133,Tomás Muñoz,10,XX.XXX.XXX-K,2024-07-05 19:31:05,705,Trauma care
+247,134,Isidora López,24,XX.XXX.XXX-K,2026-01-09 19:31:05,152,Trauma care
+248,134,Isidora López,24,XX.XXX.XXX-K,2026-05-23 19:31:05,18,Flu complications
+249,135,Javier González,39,XX.XXX.XXX-K,2025-05-30 19:31:05,383,Respiratory infection
+250,135,Javier González,39,XX.XXX.XXX-K,2025-08-26 19:31:05,292,Cardiac monitoring
+251,136,Fernanda Muñoz,22,XX.XXX.XXX-K,2025-03-02 19:31:05,471,Cardiac monitoring
+252,136,Fernanda Muñoz,21,XX.XXX.XXX-K,2024-08-24 19:31:05,654,Respiratory infection
+253,137,Sebastián Fernández,14,XX.XXX.XXX-K,2025-09-29 19:31:05,257,Trauma care
+254,137,Sebastián Fernández,14,XX.XXX.XXX-K,2025-08-08 19:31:05,314,Premature birth monitoring
+255,138,Isidora Muñoz,56,XX.XXX.XXX-K,2026-05-31 19:31:05,17,Trauma care
+256,138,Isidora Muñoz,54,XX.XXX.XXX-K,2024-08-12 19:31:05,675,Post-surgical recovery
+257,139,Matías Muñoz,45,XX.XXX.XXX-K,2026-03-03 19:31:05,101,Flu complications
+258,139,Matías Muñoz,45,XX.XXX.XXX-K,2026-02-06 19:31:05,131,Post-surgical recovery
+259,140,Camila Rojas,53,XX.XXX.XXX-K,2025-10-06 19:31:05,255,Flu complications
+260,140,Camila Rojas,54,XX.XXX.XXX-K,2026-03-11 19:31:05,90,Flu complications
+261,141,Diego Araya,43,XX.XXX.XXX-K,2025-06-01 19:31:05,373,Respiratory infection
+262,141,Diego Araya,42,XX.XXX.XXX-K,2024-11-12 19:31:05,583,Flu complications
+263,142,Matías López,11,XX.XXX.XXX-K,2024-07-30 19:31:05,680,Flu complications
+264,142,Matías López,12,XX.XXX.XXX-K,2025-02-05 19:31:05,496,Cardiac monitoring
+265,143,Matías Araya,52,XX.XXX.XXX-K,2024-10-17 19:31:05,605,Premature birth monitoring
+266,143,Matías Araya,53,XX.XXX.XXX-K,2025-11-07 19:31:05,214,Post-surgical recovery
+267,144,Isidora López,18,XX.XXX.XXX-K,2025-02-04 19:31:05,494,Cardiac monitoring
+268,144,Isidora López,19,XX.XXX.XXX-K,2026-06-11 19:31:05,-2,Premature birth monitoring
+269,145,Fernanda Castro,46,XX.XXX.XXX-K,2025-09-08 19:31:05,278,Trauma care
+270,145,Fernanda Castro,45,XX.XXX.XXX-K,2024-09-12 19:31:05,638,Cardiac monitoring
+271,146,Javier Herrera,16,XX.XXX.XXX-K,2024-12-17 19:31:05,548,Post-surgical recovery
+272,146,Javier Herrera,17,XX.XXX.XXX-K,2025-08-09 19:31:05,312,Cardiac monitoring
+273,147,Camila Silva,31,XX.XXX.XXX-K,2025-06-25 19:31:05,355,Cardiac monitoring
+274,147,Camila Silva,31,XX.XXX.XXX-K,2025-02-14 19:31:05,488,Cardiac monitoring
+275,148,Francisca Silva,12,XX.XXX.XXX-K,2024-10-14 19:31:05,607,Flu complications
+276,148,Francisca Silva,13,XX.XXX.XXX-K,2025-12-06 19:31:05,188,Post-surgical recovery
+277,149,Sebastián Fernández,55,XX.XXX.XXX-K,2026-01-08 19:31:05,157,Trauma care
+278,149,Sebastián Fernández,54,XX.XXX.XXX-K,2025-12-21 19:31:05,176,Respiratory infection
+279,150,Sebastián Muñoz,33,XX.XXX.XXX-K,2024-06-29 19:31:05,714,Trauma care
+280,150,Sebastián Muñoz,34,XX.XXX.XXX-K,2025-09-24 19:31:05,267,Premature birth monitoring
+281,151,Valentina Muñoz,39,XX.XXX.XXX-K,2026-02-13 19:31:05,118,Premature birth monitoring
+282,151,Valentina Muñoz,39,XX.XXX.XXX-K,2026-03-02 19:31:05,102,Cardiac monitoring
+283,152,Tomás Fernández,26,XX.XXX.XXX-K,2025-02-25 19:31:05,475,Flu complications
+284,152,Tomás Fernández,26,XX.XXX.XXX-K,2025-12-17 19:31:05,179,Flu complications
+285,153,Diego Muñoz,39,XX.XXX.XXX-K,2025-12-12 19:31:05,181,Trauma care
+286,153,Diego Muñoz,39,XX.XXX.XXX-K,2025-12-14 19:31:05,183,Post-surgical recovery
+287,154,Javier Herrera,20,XX.XXX.XXX-K,2025-12-13 19:31:05,185,Premature birth monitoring
+288,154,Javier Herrera,20,XX.XXX.XXX-K,2025-01-28 19:31:05,498,Premature birth monitoring
+289,155,Sebastián López,37,XX.XXX.XXX-K,2024-07-14 19:31:05,702,Trauma care
+290,155,Sebastián López,38,XX.XXX.XXX-K,2025-02-15 19:31:05,481,Trauma care
+291,156,Tomás López,12,XX.XXX.XXX-K,2025-07-19 19:31:05,326,Trauma care
+292,156,Tomás López,12,XX.XXX.XXX-K,2025-01-06 19:31:05,528,Post-surgical recovery
+293,157,Sebastián Silva,43,XX.XXX.XXX-K,2026-03-10 19:31:05,92,Premature birth monitoring
+294,157,Sebastián Silva,42,XX.XXX.XXX-K,2025-09-04 19:31:05,285,Cardiac monitoring
+295,158,Camila González,35,XX.XXX.XXX-K,2024-06-27 19:31:05,717,Cardiac monitoring
+296,158,Camila González,36,XX.XXX.XXX-K,2025-12-20 19:31:05,180,Post-surgical recovery
+297,159,Diego Herrera,50,XX.XXX.XXX-K,2024-12-25 19:31:05,540,Post-surgical recovery
+298,159,Diego Herrera,52,XX.XXX.XXX-K,2026-04-12 19:31:05,62,Flu complications
+299,160,Matías López,16,XX.XXX.XXX-K,2025-10-20 19:31:05,236,Cardiac monitoring
+300,160,Matías López,16,XX.XXX.XXX-K,2025-01-04 19:31:05,526,Post-surgical recovery
+301,161,Javier González,41,XX.XXX.XXX-K,2025-07-17 19:31:05,335,Trauma care
+302,161,Javier González,41,XX.XXX.XXX-K,2025-03-22 19:31:05,451,Trauma care
+303,162,Javier Silva,36,XX.XXX.XXX-K,2024-07-06 19:31:05,712,Respiratory infection
+304,162,Javier Silva,37,XX.XXX.XXX-K,2025-01-21 19:31:05,505,Flu complications
+305,163,Javier Silva,15,XX.XXX.XXX-K,2025-07-30 19:31:05,323,Premature birth monitoring
+306,163,Javier Silva,14,XX.XXX.XXX-K,2024-11-30 19:31:05,557,Cardiac monitoring
+307,164,Tomás Fernández,28,XX.XXX.XXX-K,2024-08-29 19:31:05,649,Post-surgical recovery
+308,164,Tomás Fernández,28,XX.XXX.XXX-K,2024-10-08 19:31:05,616,Respiratory infection
+309,165,Francisca Torres,18,XX.XXX.XXX-K,2024-07-13 19:31:05,698,Respiratory infection
+310,165,Francisca Torres,19,XX.XXX.XXX-K,2025-04-02 19:31:05,439,Post-surgical recovery
+311,166,Isidora López,15,XX.XXX.XXX-K,2025-02-09 19:31:05,487,Premature birth monitoring
+312,166,Isidora López,16,XX.XXX.XXX-K,2026-02-22 19:31:05,112,Trauma care
+313,167,Sebastián López,24,XX.XXX.XXX-K,2025-01-19 19:31:05,508,Respiratory infection
+314,167,Sebastián López,25,XX.XXX.XXX-K,2026-04-21 19:31:05,58,Flu complications
+315,168,Isidora Muñoz,30,XX.XXX.XXX-K,2024-11-08 19:31:05,585,Post-surgical recovery
+316,168,Isidora Muñoz,30,XX.XXX.XXX-K,2024-10-19 19:31:05,601,Cardiac monitoring
+317,169,Javier Torres,34,XX.XXX.XXX-K,2024-07-31 19:31:05,685,Cardiac monitoring
+318,169,Javier Torres,35,XX.XXX.XXX-K,2025-04-13 19:31:05,430,Respiratory infection
+319,170,Sebastián Torres,26,XX.XXX.XXX-K,2026-06-16 19:31:05,-5,Respiratory infection
+320,170,Sebastián Torres,24,XX.XXX.XXX-K,2024-12-11 19:31:05,551,Respiratory infection
+321,171,Sebastián González,45,XX.XXX.XXX-K,2024-08-10 19:31:05,674,Premature birth monitoring
+322,171,Sebastián González,45,XX.XXX.XXX-K,2024-07-12 19:31:05,704,Flu complications
+323,172,Diego Muñoz,29,XX.XXX.XXX-K,2024-07-25 19:31:05,691,Trauma care
+324,172,Diego Muñoz,31,XX.XXX.XXX-K,2026-04-17 19:31:05,53,Cardiac monitoring
+325,173,Isidora Fernández,11,XX.XXX.XXX-K,2025-01-14 19:31:05,520,Trauma care
+326,173,Isidora Fernández,11,XX.XXX.XXX-K,2025-03-19 19:31:05,454,Premature birth monitoring
+327,174,Javier López,17,XX.XXX.XXX-K,2025-01-23 19:31:05,511,Premature birth monitoring
+328,174,Javier López,17,XX.XXX.XXX-K,2025-07-09 19:31:05,343,Trauma care
+329,175,Tomás Muñoz,15,XX.XXX.XXX-K,2025-06-13 19:31:05,362,Trauma care
+330,175,Tomás Muñoz,16,XX.XXX.XXX-K,2026-04-15 19:31:05,60,Respiratory infection
+331,176,Isidora Herrera,52,XX.XXX.XXX-K,2025-05-15 19:31:05,399,Cardiac monitoring
+332,176,Isidora Herrera,53,XX.XXX.XXX-K,2026-03-01 19:31:05,108,Flu complications
+333,177,Sebastián Torres,45,XX.XXX.XXX-K,2026-05-12 19:31:05,33,Premature birth monitoring
+334,177,Sebastián Torres,45,XX.XXX.XXX-K,2026-03-07 19:31:05,99,Flu complications
+335,178,Javier Silva,19,XX.XXX.XXX-K,2025-10-15 19:31:05,239,Post-surgical recovery
+336,178,Javier Silva,19,XX.XXX.XXX-K,2025-11-01 19:31:05,228,Flu complications
+337,179,Sebastián Silva,39,XX.XXX.XXX-K,2025-05-17 19:31:05,397,Trauma care
+338,179,Sebastián Silva,39,XX.XXX.XXX-K,2025-09-02 19:31:05,281,Post-surgical recovery
+339,180,Camila López,21,XX.XXX.XXX-K,2024-10-29 19:31:05,594,Post-surgical recovery
+340,180,Camila López,22,XX.XXX.XXX-K,2025-09-28 19:31:05,261,Cardiac monitoring
+341,181,Diego López,46,XX.XXX.XXX-K,2025-03-11 19:31:05,459,Flu complications
+342,181,Diego López,46,XX.XXX.XXX-K,2025-08-07 19:31:05,309,Post-surgical recovery
+343,182,Isidora Castro,42,XX.XXX.XXX-K,2025-07-10 19:31:05,335,Respiratory infection
+344,182,Isidora Castro,41,XX.XXX.XXX-K,2024-06-19 19:31:05,727,Post-surgical recovery
+345,183,Francisca González,27,XX.XXX.XXX-K,2024-06-25 19:31:05,718,Flu complications
+346,183,Francisca González,28,XX.XXX.XXX-K,2025-07-09 19:31:05,342,Flu complications
+347,184,Matías González,22,XX.XXX.XXX-K,2026-03-09 19:31:05,101,Premature birth monitoring
+348,184,Matías González,21,XX.XXX.XXX-K,2025-11-22 19:31:05,206,Cardiac monitoring
+349,185,Sebastián Araya,28,XX.XXX.XXX-K,2025-12-27 19:31:05,168,Respiratory infection
+350,185,Sebastián Araya,27,XX.XXX.XXX-K,2024-11-15 19:31:05,575,Respiratory infection
+351,186,Matías Fernández,28,XX.XXX.XXX-K,2024-10-31 19:31:05,594,Flu complications
+352,186,Matías Fernández,29,XX.XXX.XXX-K,2025-11-15 19:31:05,209,Cardiac monitoring
+353,187,Javier Fernández,39,XX.XXX.XXX-K,2025-04-28 19:31:05,415,Premature birth monitoring
+354,187,Javier Fernández,40,XX.XXX.XXX-K,2026-03-29 19:31:05,72,Flu complications
+355,188,Isidora Castro,33,XX.XXX.XXX-K,2024-12-01 19:31:05,564,Cardiac monitoring
+356,188,Isidora Castro,34,XX.XXX.XXX-K,2025-07-23 19:31:05,327,Trauma care
+357,189,Valentina Muñoz,49,XX.XXX.XXX-K,2024-12-08 19:31:05,549,Flu complications
+358,189,Valentina Muñoz,50,XX.XXX.XXX-K,2025-04-15 19:31:05,424,Flu complications
+359,190,Tomás Araya,46,XX.XXX.XXX-K,2025-10-16 19:31:05,239,Cardiac monitoring
+360,190,Tomás Araya,45,XX.XXX.XXX-K,2024-10-27 19:31:05,593,Respiratory infection
+361,191,Tomás Torres,39,XX.XXX.XXX-K,2025-12-09 19:31:05,184,Flu complications
+362,191,Tomás Torres,39,XX.XXX.XXX-K,2025-03-31 19:31:05,441,Flu complications
+363,192,Sebastián González,17,XX.XXX.XXX-K,2025-10-17 19:31:05,238,Respiratory infection
+364,192,Sebastián González,16,XX.XXX.XXX-K,2024-10-24 19:31:05,596,Cardiac monitoring
+365,193,Francisca Fernández,21,XX.XXX.XXX-K,2024-10-07 19:31:05,616,Respiratory infection
+366,193,Francisca Fernández,23,XX.XXX.XXX-K,2026-01-06 19:31:05,155,Premature birth monitoring
+367,194,Francisca Herrera,54,XX.XXX.XXX-K,2026-04-02 19:31:05,68,Premature birth monitoring
+368,194,Francisca Herrera,53,XX.XXX.XXX-K,2025-06-27 19:31:05,352,Cardiac monitoring
+369,195,Fernanda Herrera,12,XX.XXX.XXX-K,2025-09-26 19:31:05,264,Flu complications
+370,195,Fernanda Herrera,12,XX.XXX.XXX-K,2025-10-31 19:31:05,229,Premature birth monitoring
+371,196,Isidora Araya,27,XX.XXX.XXX-K,2024-11-15 19:31:05,576,Respiratory infection
+372,196,Isidora Araya,29,XX.XXX.XXX-K,2026-03-16 19:31:05,89,Flu complications
+373,197,Valentina López,37,XX.XXX.XXX-K,2024-11-25 19:31:05,561,Premature birth monitoring
+374,197,Valentina López,39,XX.XXX.XXX-K,2026-05-16 19:31:05,28,Premature birth monitoring
+375,198,Sebastián Fernández,54,XX.XXX.XXX-K,2024-07-02 19:31:05,713,Trauma care
+376,198,Sebastián Fernández,54,XX.XXX.XXX-K,2024-10-05 19:31:05,615,Cardiac monitoring
+377,199,Fernanda González,34,XX.XXX.XXX-K,2025-12-29 19:31:05,167,Trauma care
+378,199,Fernanda González,35,XX.XXX.XXX-K,2026-04-14 19:31:05,63,Flu complications
+379,200,Fernanda López,45,XX.XXX.XXX-K,2024-11-15 19:31:05,573,Flu complications
+380,200,Fernanda López,46,XX.XXX.XXX-K,2025-05-15 19:31:05,399,Trauma care
+381,201,Camila Muñoz,18,XX.XXX.XXX-K,2026-05-08 19:31:05,41,Flu complications
+382,201,Camila Muñoz,18,XX.XXX.XXX-K,2026-02-08 19:31:05,126,Premature birth monitoring
+383,202,Isidora Silva,29,XX.XXX.XXX-K,2025-04-11 19:31:05,425,Post-surgical recovery
+384,202,Isidora Silva,28,XX.XXX.XXX-K,2024-09-08 19:31:05,646,Respiratory infection
+385,203,Javier Araya,19,XX.XXX.XXX-K,2025-07-09 19:31:05,336,Post-surgical recovery
+386,203,Javier Araya,19,XX.XXX.XXX-K,2025-11-17 19:31:05,212,Trauma care
+387,204,Camila Herrera,19,XX.XXX.XXX-K,2025-04-01 19:31:05,438,Trauma care
+388,204,Camila Herrera,19,XX.XXX.XXX-K,2025-05-02 19:31:05,405,Cardiac monitoring
+389,205,Javier Muñoz,22,XX.XXX.XXX-K,2025-08-10 19:31:05,306,Cardiac monitoring
+390,205,Javier Muñoz,23,XX.XXX.XXX-K,2026-02-21 19:31:05,112,Premature birth monitoring
+391,206,Diego Rojas,15,XX.XXX.XXX-K,2026-05-18 19:31:05,24,Flu complications
+392,206,Diego Rojas,15,XX.XXX.XXX-K,2026-05-28 19:31:05,21,Premature birth monitoring
+393,207,Matías Muñoz,11,XX.XXX.XXX-K,2025-09-16 19:31:05,272,Post-surgical recovery
+394,207,Matías Muñoz,10,XX.XXX.XXX-K,2024-10-07 19:31:05,617,Trauma care
+395,208,Valentina Araya,36,XX.XXX.XXX-K,2026-04-18 19:31:05,58,Flu complications
+396,208,Valentina Araya,35,XX.XXX.XXX-K,2025-07-03 19:31:05,349,Trauma care
+397,209,Francisca González,38,XX.XXX.XXX-K,2025-12-13 19:31:05,187,Respiratory infection
+398,209,Francisca González,37,XX.XXX.XXX-K,2024-11-08 19:31:05,578,Premature birth monitoring
+399,210,Valentina Silva,36,XX.XXX.XXX-K,2025-03-19 19:31:05,456,Respiratory infection
+400,210,Valentina Silva,37,XX.XXX.XXX-K,2026-05-24 19:31:05,20,Trauma care
+401,211,Camila Herrera,26,XX.XXX.XXX-K,2026-04-10 19:31:05,64,Cardiac monitoring
+402,211,Camila Herrera,26,XX.XXX.XXX-K,2026-01-18 19:31:05,151,Trauma care
+403,212,Isidora Fernández,39,XX.XXX.XXX-K,2025-03-12 19:31:05,463,Flu complications
+404,212,Isidora Fernández,38,XX.XXX.XXX-K,2024-07-22 19:31:05,695,Cardiac monitoring
+405,213,Camila Fernández,54,XX.XXX.XXX-K,2026-05-14 19:31:05,31,Cardiac monitoring
+406,213,Camila Fernández,54,XX.XXX.XXX-K,2026-04-29 19:31:05,49,Trauma care
+407,214,Camila Rojas,53,XX.XXX.XXX-K,2024-07-13 19:31:05,699,Flu complications
+408,214,Camila Rojas,53,XX.XXX.XXX-K,2024-12-17 19:31:05,543,Cardiac monitoring
+409,215,Francisca Muñoz,46,XX.XXX.XXX-K,2026-04-17 19:31:05,61,Flu complications
+410,215,Francisca Muñoz,46,XX.XXX.XXX-K,2026-02-10 19:31:05,124,Post-surgical recovery
+411,216,Tomás Fernández,39,XX.XXX.XXX-K,2025-06-02 19:31:05,379,Premature birth monitoring
+412,216,Tomás Fernández,38,XX.XXX.XXX-K,2024-06-27 19:31:05,718,Premature birth monitoring
+413,217,Fernanda Torres,19,XX.XXX.XXX-K,2026-04-13 19:31:05,61,Cardiac monitoring
+414,217,Fernanda Torres,19,XX.XXX.XXX-K,2026-03-09 19:31:05,95,Cardiac monitoring
+415,218,Tomás López,49,XX.XXX.XXX-K,2024-07-16 19:31:05,702,Respiratory infection
+416,218,Tomás López,50,XX.XXX.XXX-K,2025-09-28 19:31:05,256,Cardiac monitoring
+417,219,Camila Fernández,47,XX.XXX.XXX-K,2025-08-12 19:31:05,305,Respiratory infection
+418,219,Camila Fernández,48,XX.XXX.XXX-K,2026-03-19 19:31:05,89,Trauma care
+419,220,Sebastián Silva,47,XX.XXX.XXX-K,2025-12-22 19:31:05,174,Respiratory infection
+420,220,Sebastián Silva,47,XX.XXX.XXX-K,2025-01-10 19:31:05,518,Trauma care
+421,221,Valentina Rojas,50,XX.XXX.XXX-K,2024-11-21 19:31:05,573,Post-surgical recovery
+422,221,Valentina Rojas,51,XX.XXX.XXX-K,2025-12-10 19:31:05,187,Premature birth monitoring
+423,222,Diego Rojas,22,XX.XXX.XXX-K,2025-03-03 19:31:05,463,Respiratory infection
+424,222,Diego Rojas,22,XX.XXX.XXX-K,2025-12-09 19:31:05,186,Flu complications
+425,223,Javier González,47,XX.XXX.XXX-K,2024-11-20 19:31:05,566,Respiratory infection
+426,223,Javier González,47,XX.XXX.XXX-K,2024-11-02 19:31:05,591,Post-surgical recovery
+427,224,Francisca González,39,XX.XXX.XXX-K,2025-07-20 19:31:05,326,Cardiac monitoring
+428,224,Francisca González,40,XX.XXX.XXX-K,2026-01-25 19:31:05,142,Trauma care
+429,225,Tomás Herrera,11,XX.XXX.XXX-K,2025-07-15 19:31:05,331,Post-surgical recovery
+430,225,Tomás Herrera,12,XX.XXX.XXX-K,2026-02-22 19:31:05,116,Trauma care
+431,226,Valentina Herrera,43,XX.XXX.XXX-K,2024-08-05 19:31:05,674,Trauma care
+432,226,Valentina Herrera,44,XX.XXX.XXX-K,2025-12-21 19:31:05,179,Respiratory infection
+433,227,Fernanda González,19,XX.XXX.XXX-K,2024-10-21 19:31:05,601,Post-surgical recovery
+434,227,Fernanda González,20,XX.XXX.XXX-K,2025-11-26 19:31:05,199,Trauma care
+435,228,Diego Silva,32,XX.XXX.XXX-K,2024-08-05 19:31:05,682,Premature birth monitoring
+436,228,Diego Silva,34,XX.XXX.XXX-K,2026-01-28 19:31:05,132,Trauma care
+437,229,Fernanda González,37,XX.XXX.XXX-K,2024-08-30 19:31:05,653,Flu complications
+438,229,Fernanda González,39,XX.XXX.XXX-K,2026-04-11 19:31:05,68,Cardiac monitoring
+439,230,Diego Castro,19,XX.XXX.XXX-K,2025-11-01 19:31:05,227,Premature birth monitoring
+440,230,Diego Castro,19,XX.XXX.XXX-K,2025-11-14 19:31:05,212,Respiratory infection
+441,231,Valentina Silva,30,XX.XXX.XXX-K,2026-02-28 19:31:05,101,Cardiac monitoring
+442,231,Valentina Silva,28,XX.XXX.XXX-K,2024-09-16 19:31:05,635,Flu complications
+443,232,Matías González,28,XX.XXX.XXX-K,2025-07-20 19:31:05,325,Premature birth monitoring
+444,232,Matías González,28,XX.XXX.XXX-K,2025-09-02 19:31:05,281,Flu complications
+445,233,Valentina Torres,21,XX.XXX.XXX-K,2025-03-19 19:31:05,453,Premature birth monitoring
+446,233,Valentina Torres,21,XX.XXX.XXX-K,2025-06-09 19:31:05,371,Respiratory infection
+447,234,Isidora González,30,XX.XXX.XXX-K,2025-09-27 19:31:05,264,Premature birth monitoring
+448,234,Isidora González,31,XX.XXX.XXX-K,2026-03-25 19:31:05,80,Respiratory infection
+449,235,Javier Castro,51,XX.XXX.XXX-K,2024-09-06 19:31:05,643,Premature birth monitoring
+450,235,Javier Castro,52,XX.XXX.XXX-K,2025-04-29 19:31:05,406,Respiratory infection
+451,236,Tomás Torres,51,XX.XXX.XXX-K,2026-04-08 19:31:05,71,Cardiac monitoring
+452,236,Tomás Torres,49,XX.XXX.XXX-K,2024-10-21 19:31:05,598,Premature birth monitoring
+453,237,Fernanda Silva,16,XX.XXX.XXX-K,2025-05-13 19:31:05,399,Respiratory infection
+454,237,Fernanda Silva,16,XX.XXX.XXX-K,2025-04-08 19:31:05,430,Trauma care
+455,238,Valentina Herrera,40,XX.XXX.XXX-K,2025-10-22 19:31:05,236,Post-surgical recovery
+456,238,Valentina Herrera,40,XX.XXX.XXX-K,2025-11-07 19:31:05,220,Post-surgical recovery
+457,239,Valentina Torres,12,XX.XXX.XXX-K,2025-11-24 19:31:05,206,Trauma care
+458,239,Valentina Torres,12,XX.XXX.XXX-K,2025-05-02 19:31:05,403,Post-surgical recovery
+459,240,Isidora López,55,XX.XXX.XXX-K,2025-04-21 19:31:05,419,Cardiac monitoring
+460,240,Isidora López,55,XX.XXX.XXX-K,2025-07-25 19:31:05,324,Post-surgical recovery
+461,241,Sebastián Castro,17,XX.XXX.XXX-K,2025-01-24 19:31:05,503,Flu complications
+462,241,Sebastián Castro,17,XX.XXX.XXX-K,2025-01-17 19:31:05,512,Cardiac monitoring
+463,242,Diego López,52,XX.XXX.XXX-K,2025-01-07 19:31:05,525,Respiratory infection
+464,242,Diego López,53,XX.XXX.XXX-K,2026-02-24 19:31:05,106,Respiratory infection
+465,243,Camila Castro,48,XX.XXX.XXX-K,2025-10-12 19:31:05,241,Cardiac monitoring
+466,243,Camila Castro,47,XX.XXX.XXX-K,2024-10-18 19:31:05,604,Flu complications
+467,244,Javier Muñoz,26,XX.XXX.XXX-K,2025-07-22 19:31:05,322,Premature birth monitoring
+468,244,Javier Muñoz,26,XX.XXX.XXX-K,2025-03-12 19:31:05,459,Cardiac monitoring
+469,245,Isidora Silva,14,XX.XXX.XXX-K,2024-08-31 19:31:05,648,Cardiac monitoring
+470,245,Isidora Silva,15,XX.XXX.XXX-K,2025-11-10 19:31:05,217,Premature birth monitoring
+471,246,Matías Silva,47,XX.XXX.XXX-K,2025-02-28 19:31:05,473,Cardiac monitoring
+472,246,Matías Silva,48,XX.XXX.XXX-K,2026-04-29 19:31:05,47,Respiratory infection
+473,247,Matías González,23,XX.XXX.XXX-K,2025-10-22 19:31:05,232,Post-surgical recovery
+474,247,Matías González,23,XX.XXX.XXX-K,2025-08-26 19:31:05,295,Premature birth monitoring
+475,248,Francisca Castro,27,XX.XXX.XXX-K,2024-11-19 19:31:05,569,Premature birth monitoring
+476,248,Francisca Castro,29,XX.XXX.XXX-K,2026-05-01 19:31:05,41,Post-surgical recovery
+477,249,Tomás Castro,22,XX.XXX.XXX-K,2025-02-08 19:31:05,488,Cardiac monitoring
+478,249,Tomás Castro,21,XX.XXX.XXX-K,2024-06-23 19:31:05,718,Premature birth monitoring
+479,250,Tomás Araya,13,XX.XXX.XXX-K,2025-02-11 19:31:05,485,Premature birth monitoring
+480,250,Tomás Araya,13,XX.XXX.XXX-K,2025-12-28 19:31:05,165,Flu complications
+481,251,Francisca Torres,33,XX.XXX.XXX-K,2024-12-09 19:31:05,554,Respiratory infection
+482,251,Francisca Torres,34,XX.XXX.XXX-K,2025-11-06 19:31:05,216,Respiratory infection
+483,252,Camila Castro,49,XX.XXX.XXX-K,2025-09-29 19:31:05,257,Flu complications
+484,252,Camila Castro,48,XX.XXX.XXX-K,2024-11-20 19:31:05,571,Respiratory infection
+485,253,Isidora López,11,XX.XXX.XXX-K,2025-02-06 19:31:05,490,Cardiac monitoring
+486,253,Isidora López,10,XX.XXX.XXX-K,2024-11-18 19:31:05,577,Premature birth monitoring
+487,254,Tomás Rojas,37,XX.XXX.XXX-K,2026-03-11 19:31:05,95,Cardiac monitoring
+488,254,Tomás Rojas,36,XX.XXX.XXX-K,2025-01-11 19:31:05,520,Cardiac monitoring
+489,255,Francisca González,28,XX.XXX.XXX-K,2025-12-08 19:31:05,186,Trauma care
+490,255,Francisca González,27,XX.XXX.XXX-K,2024-12-02 19:31:05,559,Respiratory infection
+491,256,Sebastián Araya,41,XX.XXX.XXX-K,2026-01-03 19:31:05,157,Cardiac monitoring
+492,256,Sebastián Araya,39,XX.XXX.XXX-K,2024-09-04 19:31:05,651,Trauma care
+493,257,Camila López,30,XX.XXX.XXX-K,2025-08-28 19:31:05,285,Trauma care
+494,257,Camila López,31,XX.XXX.XXX-K,2026-05-08 19:31:05,38,Respiratory infection
+495,258,Camila López,14,XX.XXX.XXX-K,2026-02-27 19:31:05,106,Trauma care
+496,258,Camila López,13,XX.XXX.XXX-K,2025-11-06 19:31:05,216,Respiratory infection
+497,259,Sebastián Rojas,18,XX.XXX.XXX-K,2026-06-16 19:31:05,2,Post-surgical recovery
+498,259,Sebastián Rojas,18,XX.XXX.XXX-K,2026-04-19 19:31:05,54,Flu complications
+499,260,Javier Muñoz,15,XX.XXX.XXX-K,2025-01-18 19:31:05,510,Premature birth monitoring
+500,260,Javier Muñoz,15,XX.XXX.XXX-K,2025-12-23 19:31:05,176,Cardiac monitoring
+501,261,Francisca Torres,12,XX.XXX.XXX-K,2024-08-17 19:31:05,670,Respiratory infection
+502,261,Francisca Torres,13,XX.XXX.XXX-K,2025-01-25 19:31:05,503,Trauma care
+503,262,Fernanda Araya,11,XX.XXX.XXX-K,2024-10-14 19:31:05,609,Premature birth monitoring
+504,262,Fernanda Araya,12,XX.XXX.XXX-K,2025-10-22 19:31:05,231,Post-surgical recovery
+505,263,Sebastián Rojas,12,XX.XXX.XXX-K,2026-05-28 19:31:05,21,Trauma care
+506,263,Sebastián Rojas,12,XX.XXX.XXX-K,2026-05-24 19:31:05,23,Respiratory infection
+507,264,Javier Muñoz,34,XX.XXX.XXX-K,2026-04-28 19:31:05,48,Flu complications
+508,264,Javier Muñoz,33,XX.XXX.XXX-K,2025-01-23 19:31:05,503,Cardiac monitoring
+509,265,Matías Herrera,41,XX.XXX.XXX-K,2026-05-02 19:31:05,42,Premature birth monitoring
+510,265,Matías Herrera,39,XX.XXX.XXX-K,2024-12-17 19:31:05,548,Flu complications
+511,266,Tomás González,41,XX.XXX.XXX-K,2025-05-26 19:31:05,384,Respiratory infection
+512,266,Tomás González,41,XX.XXX.XXX-K,2025-11-23 19:31:05,207,Post-surgical recovery
+513,267,Isidora Fernández,46,XX.XXX.XXX-K,2025-05-28 19:31:05,385,Flu complications
+514,267,Isidora Fernández,47,XX.XXX.XXX-K,2026-05-18 19:31:05,23,Premature birth monitoring
+515,268,Sebastián Fernández,53,XX.XXX.XXX-K,2025-05-30 19:31:05,384,Flu complications
+516,268,Sebastián Fernández,53,XX.XXX.XXX-K,2025-06-25 19:31:05,355,Premature birth monitoring
+517,269,Francisca Torres,13,XX.XXX.XXX-K,2025-01-25 19:31:05,502,Trauma care
+518,269,Francisca Torres,14,XX.XXX.XXX-K,2026-04-03 19:31:05,71,Respiratory infection
+519,270,Isidora López,33,XX.XXX.XXX-K,2025-03-31 19:31:05,438,Trauma care
+520,270,Isidora López,33,XX.XXX.XXX-K,2025-01-17 19:31:05,509,Cardiac monitoring
+521,271,Javier Fernández,35,XX.XXX.XXX-K,2025-06-16 19:31:05,365,Respiratory infection
+522,271,Javier Fernández,35,XX.XXX.XXX-K,2025-08-28 19:31:05,294,Post-surgical recovery
+523,272,Tomás Rojas,50,XX.XXX.XXX-K,2025-08-31 19:31:05,286,Flu complications
+524,272,Tomás Rojas,51,XX.XXX.XXX-K,2026-02-05 19:31:05,128,Post-surgical recovery
+525,273,Isidora Silva,18,XX.XXX.XXX-K,2025-07-31 19:31:05,315,Post-surgical recovery
+526,273,Isidora Silva,19,XX.XXX.XXX-K,2026-03-30 19:31:05,79,Flu complications
+527,274,Diego Torres,19,XX.XXX.XXX-K,2026-01-19 19:31:05,141,Post-surgical recovery
+528,274,Diego Torres,19,XX.XXX.XXX-K,2026-03-09 19:31:05,99,Respiratory infection
+529,275,Diego López,35,XX.XXX.XXX-K,2025-07-03 19:31:05,350,Flu complications
+530,275,Diego López,35,XX.XXX.XXX-K,2025-07-01 19:31:05,350,Flu complications
+531,276,Valentina Torres,52,XX.XXX.XXX-K,2025-03-05 19:31:05,470,Trauma care
+532,276,Valentina Torres,52,XX.XXX.XXX-K,2025-03-31 19:31:05,436,Flu complications
+533,277,Matías Araya,42,XX.XXX.XXX-K,2026-04-26 19:31:05,48,Post-surgical recovery
+534,277,Matías Araya,40,XX.XXX.XXX-K,2024-09-27 19:31:05,629,Flu complications
+535,278,Fernanda Araya,27,XX.XXX.XXX-K,2026-02-24 19:31:05,105,Flu complications
+536,278,Fernanda Araya,27,XX.XXX.XXX-K,2026-03-09 19:31:05,99,Post-surgical recovery
+537,279,Isidora Herrera,12,XX.XXX.XXX-K,2024-07-22 19:31:05,693,Post-surgical recovery
+538,279,Isidora Herrera,14,XX.XXX.XXX-K,2026-05-07 19:31:05,40,Respiratory infection
+539,280,Sebastián Torres,48,XX.XXX.XXX-K,2024-07-03 19:31:05,711,Respiratory infection
+540,280,Sebastián Torres,49,XX.XXX.XXX-K,2025-06-05 19:31:05,370,Respiratory infection
+541,281,Valentina Rojas,18,XX.XXX.XXX-K,2025-01-12 19:31:05,514,Flu complications
+542,281,Valentina Rojas,17,XX.XXX.XXX-K,2024-08-24 19:31:05,658,Post-surgical recovery
+543,282,Tomás Fernández,47,XX.XXX.XXX-K,2026-02-28 19:31:05,106,Flu complications
+544,282,Tomás Fernández,46,XX.XXX.XXX-K,2025-01-13 19:31:05,521,Premature birth monitoring
+545,283,Fernanda Torres,14,XX.XXX.XXX-K,2024-07-17 19:31:05,701,Flu complications
+546,283,Fernanda Torres,16,XX.XXX.XXX-K,2026-06-04 19:31:05,6,Flu complications
+547,284,Camila González,36,XX.XXX.XXX-K,2024-11-22 19:31:05,565,Premature birth monitoring
+548,284,Camila González,38,XX.XXX.XXX-K,2026-05-06 19:31:05,35,Flu complications
+549,285,Francisca Silva,33,XX.XXX.XXX-K,2026-06-17 19:31:05,0,Post-surgical recovery
+550,285,Francisca Silva,32,XX.XXX.XXX-K,2025-07-04 19:31:05,341,Premature birth monitoring
+551,286,Valentina Muñoz,38,XX.XXX.XXX-K,2024-06-25 19:31:05,723,Post-surgical recovery
+552,286,Valentina Muñoz,40,XX.XXX.XXX-K,2026-03-20 19:31:05,90,Flu complications
+553,287,Sebastián Araya,35,XX.XXX.XXX-K,2025-07-20 19:31:05,325,Trauma care
+554,287,Sebastián Araya,35,XX.XXX.XXX-K,2025-10-28 19:31:05,227,Premature birth monitoring
+555,288,Matías Herrera,54,XX.XXX.XXX-K,2026-03-30 19:31:05,79,Respiratory infection
+556,288,Matías Herrera,53,XX.XXX.XXX-K,2025-03-09 19:31:05,464,Premature birth monitoring
+557,289,Sebastián López,31,XX.XXX.XXX-K,2025-12-29 19:31:05,168,Cardiac monitoring
+558,289,Sebastián López,31,XX.XXX.XXX-K,2025-12-24 19:31:05,172,Cardiac monitoring
+559,290,Sebastián Fernández,17,XX.XXX.XXX-K,2024-12-29 19:31:05,531,Respiratory infection
+560,290,Sebastián Fernández,18,XX.XXX.XXX-K,2025-03-30 19:31:05,443,Trauma care
+561,291,Isidora Silva,53,XX.XXX.XXX-K,2026-01-19 19:31:05,150,Cardiac monitoring
+562,291,Isidora Silva,53,XX.XXX.XXX-K,2026-03-25 19:31:05,84,Post-surgical recovery
+563,292,Fernanda González,36,XX.XXX.XXX-K,2024-12-20 19:31:05,539,Post-surgical recovery
+564,292,Fernanda González,36,XX.XXX.XXX-K,2024-12-13 19:31:05,549,Respiratory infection
+565,293,Isidora Silva,33,XX.XXX.XXX-K,2024-12-16 19:31:05,549,Post-surgical recovery
+566,293,Isidora Silva,35,XX.XXX.XXX-K,2026-04-03 19:31:05,75,Flu complications
+567,294,Isidora Herrera,11,XX.XXX.XXX-K,2024-10-26 19:31:05,597,Respiratory infection
+568,294,Isidora Herrera,12,XX.XXX.XXX-K,2025-10-10 19:31:05,245,Post-surgical recovery
+569,295,Matías Rojas,30,XX.XXX.XXX-K,2024-09-11 19:31:05,636,Cardiac monitoring
+570,295,Matías Rojas,31,XX.XXX.XXX-K,2025-01-30 19:31:05,504,Respiratory infection
+571,296,Isidora Rojas,31,XX.XXX.XXX-K,2024-09-30 19:31:05,617,Post-surgical recovery
+572,296,Isidora Rojas,31,XX.XXX.XXX-K,2024-11-26 19:31:05,569,Cardiac monitoring
+573,297,Matías Torres,20,XX.XXX.XXX-K,2025-04-05 19:31:05,434,Trauma care
+574,297,Matías Torres,20,XX.XXX.XXX-K,2025-03-30 19:31:05,445,Cardiac monitoring
+575,298,Tomás Silva,23,XX.XXX.XXX-K,2025-04-18 19:31:05,421,Premature birth monitoring
+576,298,Tomás Silva,22,XX.XXX.XXX-K,2024-09-24 19:31:05,630,Trauma care
+577,299,Fernanda Rojas,33,XX.XXX.XXX-K,2026-04-30 19:31:05,41,Trauma care
+578,299,Fernanda Rojas,31,XX.XXX.XXX-K,2024-06-30 19:31:05,718,Respiratory infection
+579,300,Camila López,30,XX.XXX.XXX-K,2024-09-12 19:31:05,641,Trauma care
+580,300,Camila López,31,XX.XXX.XXX-K,2025-12-15 19:31:05,185,Trauma care
+581,301,Fernanda López,42,XX.XXX.XXX-K,2026-05-28 19:31:05,18,Flu complications
+582,301,Fernanda López,42,XX.XXX.XXX-K,2026-05-22 19:31:05,21,Cardiac monitoring
+583,302,Camila Herrera,22,XX.XXX.XXX-K,2025-05-08 19:31:05,405,Post-surgical recovery
+584,302,Camila Herrera,23,XX.XXX.XXX-K,2026-05-28 19:31:05,17,Respiratory infection
+585,303,Javier Torres,45,XX.XXX.XXX-K,2026-03-07 19:31:05,103,Cardiac monitoring
+586,303,Javier Torres,44,XX.XXX.XXX-K,2025-02-25 19:31:05,475,Post-surgical recovery
+587,304,Tomás Castro,41,XX.XXX.XXX-K,2025-12-27 19:31:05,167,Trauma care
+588,304,Tomás Castro,41,XX.XXX.XXX-K,2025-11-30 19:31:05,200,Respiratory infection
+589,305,Tomás Rojas,30,XX.XXX.XXX-K,2026-06-05 19:31:05,10,Flu complications
+590,305,Tomás Rojas,29,XX.XXX.XXX-K,2025-08-28 19:31:05,294,Cardiac monitoring
+591,306,Sebastián López,36,XX.XXX.XXX-K,2026-01-09 19:31:05,151,Respiratory infection
+592,306,Sebastián López,35,XX.XXX.XXX-K,2025-07-03 19:31:05,347,Cardiac monitoring
+593,307,Javier González,30,XX.XXX.XXX-K,2024-09-26 19:31:05,628,Flu complications
+594,307,Javier González,32,XX.XXX.XXX-K,2026-01-27 19:31:05,136,Post-surgical recovery
+595,308,Francisca Silva,43,XX.XXX.XXX-K,2024-11-30 19:31:05,565,Premature birth monitoring
+596,308,Francisca Silva,45,XX.XXX.XXX-K,2026-06-09 19:31:05,2,Premature birth monitoring
+597,309,Sebastián Herrera,35,XX.XXX.XXX-K,2025-07-22 19:31:05,331,Flu complications
+598,309,Sebastián Herrera,35,XX.XXX.XXX-K,2025-07-13 19:31:05,331,Cardiac monitoring
+599,310,Valentina Muñoz,41,XX.XXX.XXX-K,2024-08-21 19:31:05,661,Trauma care
+600,310,Valentina Muñoz,43,XX.XXX.XXX-K,2026-01-18 19:31:05,151,Cardiac monitoring
+601,311,Tomás Rojas,24,XX.XXX.XXX-K,2024-06-23 19:31:05,725,Post-surgical recovery
+602,311,Tomás Rojas,25,XX.XXX.XXX-K,2025-10-09 19:31:05,252,Flu complications
+603,312,Sebastián Rojas,44,XX.XXX.XXX-K,2025-05-08 19:31:05,398,Premature birth monitoring
+604,312,Sebastián Rojas,44,XX.XXX.XXX-K,2025-06-11 19:31:05,372,Respiratory infection
+605,313,Javier Castro,43,XX.XXX.XXX-K,2025-07-22 19:31:05,328,Respiratory infection
+606,313,Javier Castro,44,XX.XXX.XXX-K,2026-05-06 19:31:05,42,Post-surgical recovery
+607,314,Francisca González,36,XX.XXX.XXX-K,2026-01-02 19:31:05,167,Cardiac monitoring
+608,314,Francisca González,34,XX.XXX.XXX-K,2024-07-14 19:31:05,702,Trauma care
+609,315,Sebastián Castro,19,XX.XXX.XXX-K,2025-10-31 19:31:05,226,Respiratory infection
+610,315,Sebastián Castro,18,XX.XXX.XXX-K,2024-07-14 19:31:05,701,Cardiac monitoring
+611,316,Sebastián Rojas,16,XX.XXX.XXX-K,2025-05-27 19:31:05,387,Trauma care
+612,316,Sebastián Rojas,16,XX.XXX.XXX-K,2025-05-30 19:31:05,383,Cardiac monitoring
+613,317,Javier Rojas,48,XX.XXX.XXX-K,2025-06-25 19:31:05,349,Trauma care
+614,317,Javier Rojas,48,XX.XXX.XXX-K,2025-02-21 19:31:05,473,Post-surgical recovery
+615,318,Valentina Araya,38,XX.XXX.XXX-K,2025-12-02 19:31:05,197,Respiratory infection
+616,318,Valentina Araya,38,XX.XXX.XXX-K,2025-01-01 19:31:05,532,Premature birth monitoring
+617,319,Matías Torres,23,XX.XXX.XXX-K,2025-11-28 19:31:05,202,Post-surgical recovery
+618,319,Matías Torres,22,XX.XXX.XXX-K,2024-12-14 19:31:05,543,Flu complications
+619,320,Francisca Torres,13,XX.XXX.XXX-K,2026-01-18 19:31:05,151,Premature birth monitoring
+620,320,Francisca Torres,12,XX.XXX.XXX-K,2025-05-16 19:31:05,390,Post-surgical recovery
+621,321,Camila Herrera,19,XX.XXX.XXX-K,2025-08-15 19:31:05,307,Trauma care
+622,321,Camila Herrera,20,XX.XXX.XXX-K,2026-01-16 19:31:05,153,Post-surgical recovery
+623,322,Diego Silva,33,XX.XXX.XXX-K,2026-04-07 19:31:05,72,Cardiac monitoring
+624,322,Diego Silva,31,XX.XXX.XXX-K,2024-08-07 19:31:05,680,Cardiac monitoring
+625,323,Matías López,13,XX.XXX.XXX-K,2024-08-18 19:31:05,668,Trauma care
+626,323,Matías López,13,XX.XXX.XXX-K,2024-09-15 19:31:05,634,Premature birth monitoring
+627,324,Valentina Rojas,15,XX.XXX.XXX-K,2024-12-20 19:31:05,543,Cardiac monitoring
+628,324,Valentina Rojas,15,XX.XXX.XXX-K,2024-11-16 19:31:05,571,Respiratory infection
+629,325,Sebastián Araya,19,XX.XXX.XXX-K,2026-05-20 19:31:05,21,Cardiac monitoring
+630,325,Sebastián Araya,18,XX.XXX.XXX-K,2025-10-06 19:31:05,251,Post-surgical recovery
+631,326,Diego Fernández,30,XX.XXX.XXX-K,2025-01-10 19:31:05,522,Trauma care
+632,326,Diego Fernández,31,XX.XXX.XXX-K,2026-03-09 19:31:05,92,Post-surgical recovery
+633,327,Diego Araya,45,XX.XXX.XXX-K,2025-09-16 19:31:05,271,Respiratory infection
+634,327,Diego Araya,45,XX.XXX.XXX-K,2025-09-13 19:31:05,270,Flu complications
+635,328,Fernanda Muñoz,15,XX.XXX.XXX-K,2025-01-03 19:31:05,531,Premature birth monitoring
+636,328,Fernanda Muñoz,15,XX.XXX.XXX-K,2025-09-02 19:31:05,288,Flu complications
+637,329,Diego Silva,39,XX.XXX.XXX-K,2026-04-21 19:31:05,51,Cardiac monitoring
+638,329,Diego Silva,38,XX.XXX.XXX-K,2025-10-04 19:31:05,255,Cardiac monitoring
+639,330,Matías Fernández,23,XX.XXX.XXX-K,2025-12-09 19:31:05,188,Cardiac monitoring
+640,330,Matías Fernández,22,XX.XXX.XXX-K,2024-09-20 19:31:05,634,Trauma care
+641,331,Javier González,38,XX.XXX.XXX-K,2024-09-06 19:31:05,645,Post-surgical recovery
+642,331,Javier González,38,XX.XXX.XXX-K,2024-12-09 19:31:05,556,Cardiac monitoring
+643,332,Francisca Silva,56,XX.XXX.XXX-K,2026-06-12 19:31:05,5,Respiratory infection
+644,332,Francisca Silva,55,XX.XXX.XXX-K,2025-11-12 19:31:05,218,Post-surgical recovery
+645,333,Valentina Rojas,11,XX.XXX.XXX-K,2024-11-11 19:31:05,584,Trauma care
+646,333,Valentina Rojas,12,XX.XXX.XXX-K,2025-12-02 19:31:05,191,Cardiac monitoring
+647,334,Francisca Araya,51,XX.XXX.XXX-K,2024-09-22 19:31:05,634,Flu complications
+648,334,Francisca Araya,52,XX.XXX.XXX-K,2025-11-25 19:31:05,200,Premature birth monitoring
+649,335,Isidora Castro,55,XX.XXX.XXX-K,2025-05-01 19:31:05,413,Cardiac monitoring
+650,335,Isidora Castro,56,XX.XXX.XXX-K,2026-01-26 19:31:05,139,Cardiac monitoring
+651,336,Fernanda Silva,14,XX.XXX.XXX-K,2025-01-20 19:31:05,505,Premature birth monitoring
+652,336,Fernanda Silva,14,XX.XXX.XXX-K,2025-03-31 19:31:05,444,Premature birth monitoring
+653,337,Diego Herrera,40,XX.XXX.XXX-K,2024-12-11 19:31:05,552,Trauma care
+654,337,Diego Herrera,41,XX.XXX.XXX-K,2025-04-28 19:31:05,409,Cardiac monitoring
+655,338,Camila Castro,50,XX.XXX.XXX-K,2025-04-02 19:31:05,438,Post-surgical recovery
+656,338,Camila Castro,49,XX.XXX.XXX-K,2024-08-23 19:31:05,659,Post-surgical recovery
+657,339,Isidora Rojas,31,XX.XXX.XXX-K,2025-10-11 19:31:05,246,Trauma care
+658,339,Isidora Rojas,31,XX.XXX.XXX-K,2025-04-07 19:31:05,429,Premature birth monitoring
+659,340,Camila Torres,44,XX.XXX.XXX-K,2025-02-17 19:31:05,477,Respiratory infection
+660,340,Camila Torres,43,XX.XXX.XXX-K,2024-11-12 19:31:05,583,Cardiac monitoring
+661,341,Isidora Castro,53,XX.XXX.XXX-K,2024-11-08 19:31:05,586,Respiratory infection
+662,341,Isidora Castro,54,XX.XXX.XXX-K,2025-08-31 19:31:05,291,Post-surgical recovery
+663,342,Diego Castro,31,XX.XXX.XXX-K,2026-06-04 19:31:05,13,Post-surgical recovery
+664,342,Diego Castro,31,XX.XXX.XXX-K,2026-05-07 19:31:05,37,Cardiac monitoring
+665,343,Javier Fernández,46,XX.XXX.XXX-K,2024-10-11 19:31:05,607,Cardiac monitoring
+666,343,Javier Fernández,48,XX.XXX.XXX-K,2026-01-30 19:31:05,139,Respiratory infection
+667,344,Camila López,23,XX.XXX.XXX-K,2024-10-24 19:31:05,596,Flu complications
+668,344,Camila López,25,XX.XXX.XXX-K,2026-01-20 19:31:05,146,Flu complications
+669,345,Sebastián López,28,XX.XXX.XXX-K,2025-03-15 19:31:05,460,Respiratory infection
+670,345,Sebastián López,28,XX.XXX.XXX-K,2025-08-06 19:31:05,307,Cardiac monitoring
+671,346,Javier Herrera,20,XX.XXX.XXX-K,2024-09-06 19:31:05,641,Respiratory infection
+672,346,Javier Herrera,22,XX.XXX.XXX-K,2026-03-29 19:31:05,76,Respiratory infection
+673,347,Valentina González,49,XX.XXX.XXX-K,2025-06-13 19:31:05,365,Post-surgical recovery
+674,347,Valentina González,50,XX.XXX.XXX-K,2026-02-22 19:31:05,116,Trauma care
+675,348,Diego Castro,17,XX.XXX.XXX-K,2025-02-13 19:31:05,485,Respiratory infection
+676,348,Diego Castro,18,XX.XXX.XXX-K,2026-03-15 19:31:05,91,Trauma care
+677,349,Fernanda Herrera,18,XX.XXX.XXX-K,2024-10-23 19:31:05,603,Respiratory infection
+678,349,Fernanda Herrera,19,XX.XXX.XXX-K,2025-08-24 19:31:05,291,Cardiac monitoring
+679,350,Camila Silva,23,XX.XXX.XXX-K,2025-11-05 19:31:05,221,Post-surgical recovery
+680,350,Camila Silva,22,XX.XXX.XXX-K,2024-08-25 19:31:05,662,Respiratory infection
+681,351,Fernanda Herrera,55,XX.XXX.XXX-K,2025-08-21 19:31:05,299,Post-surgical recovery
+682,351,Fernanda Herrera,55,XX.XXX.XXX-K,2025-03-03 19:31:05,470,Premature birth monitoring
+683,352,Isidora Castro,41,XX.XXX.XXX-K,2025-06-05 19:31:05,372,Trauma care
+684,352,Isidora Castro,42,XX.XXX.XXX-K,2026-03-23 19:31:05,84,Flu complications
+685,353,Camila González,50,XX.XXX.XXX-K,2026-02-12 19:31:05,126,Post-surgical recovery
+686,353,Camila González,50,XX.XXX.XXX-K,2026-02-19 19:31:05,115,Trauma care
+687,354,Valentina González,53,XX.XXX.XXX-K,2024-07-06 19:31:05,707,Cardiac monitoring
+688,354,Valentina González,54,XX.XXX.XXX-K,2025-11-19 19:31:05,202,Premature birth monitoring
+689,355,Isidora Silva,22,XX.XXX.XXX-K,2024-12-28 19:31:05,528,Premature birth monitoring
+690,355,Isidora Silva,22,XX.XXX.XXX-K,2024-12-07 19:31:05,557,Flu complications
+691,356,Isidora López,17,XX.XXX.XXX-K,2025-02-01 19:31:05,499,Trauma care
+692,356,Isidora López,18,XX.XXX.XXX-K,2026-02-14 19:31:05,118,Flu complications
+693,357,Fernanda Fernández,35,XX.XXX.XXX-K,2025-09-08 19:31:05,283,Flu complications
+694,357,Fernanda Fernández,35,XX.XXX.XXX-K,2025-12-28 19:31:05,172,Trauma care
+695,358,Javier López,13,XX.XXX.XXX-K,2025-10-01 19:31:05,252,Premature birth monitoring
+696,358,Javier López,14,XX.XXX.XXX-K,2026-05-12 19:31:05,31,Premature birth monitoring
+697,359,Camila Torres,48,XX.XXX.XXX-K,2026-02-04 19:31:05,126,Cardiac monitoring
+698,359,Camila Torres,46,XX.XXX.XXX-K,2024-09-19 19:31:05,637,Respiratory infection
+699,360,Isidora Rojas,48,XX.XXX.XXX-K,2024-12-17 19:31:05,542,Premature birth monitoring
+700,360,Isidora Rojas,50,XX.XXX.XXX-K,2026-05-13 19:31:05,28,Cardiac monitoring
+701,361,Sebastián Castro,11,XX.XXX.XXX-K,2025-09-06 19:31:05,283,Respiratory infection
+702,361,Sebastián Castro,10,XX.XXX.XXX-K,2024-10-16 19:31:05,603,Flu complications
+703,362,Sebastián Castro,52,XX.XXX.XXX-K,2026-03-19 19:31:05,85,Flu complications
+704,362,Sebastián Castro,52,XX.XXX.XXX-K,2026-02-25 19:31:05,113,Cardiac monitoring
+705,363,Isidora Rojas,37,XX.XXX.XXX-K,2025-03-31 19:31:05,444,Respiratory infection
+706,363,Isidora Rojas,37,XX.XXX.XXX-K,2025-07-30 19:31:05,317,Premature birth monitoring
+707,364,Javier Fernández,43,XX.XXX.XXX-K,2026-05-26 19:31:05,23,Respiratory infection
+708,364,Javier Fernández,41,XX.XXX.XXX-K,2024-09-13 19:31:05,640,Flu complications
+709,365,Javier Torres,54,XX.XXX.XXX-K,2026-04-15 19:31:05,60,Flu complications
+710,365,Javier Torres,53,XX.XXX.XXX-K,2025-09-04 19:31:05,287,Flu complications
+711,366,Francisca Muñoz,51,XX.XXX.XXX-K,2024-12-25 19:31:05,532,Cardiac monitoring
+712,366,Francisca Muñoz,52,XX.XXX.XXX-K,2025-10-11 19:31:05,250,Post-surgical recovery
+713,367,Camila Herrera,17,XX.XXX.XXX-K,2026-03-01 19:31:05,101,Trauma care
+714,367,Camila Herrera,15,XX.XXX.XXX-K,2024-12-20 19:31:05,538,Post-surgical recovery
+715,368,Matías Silva,56,XX.XXX.XXX-K,2026-01-08 19:31:05,158,Premature birth monitoring
+716,368,Matías Silva,54,XX.XXX.XXX-K,2024-12-13 19:31:05,552,Post-surgical recovery
+717,369,Valentina Araya,27,XX.XXX.XXX-K,2025-10-07 19:31:05,245,Trauma care
+718,369,Valentina Araya,28,XX.XXX.XXX-K,2026-03-11 19:31:05,95,Premature birth monitoring
+719,370,Diego Torres,24,XX.XXX.XXX-K,2025-11-14 19:31:05,216,Trauma care
+720,370,Diego Torres,24,XX.XXX.XXX-K,2025-04-22 19:31:05,421,Premature birth monitoring
+721,371,Sebastián González,19,XX.XXX.XXX-K,2024-10-25 19:31:05,595,Flu complications
+722,371,Sebastián González,19,XX.XXX.XXX-K,2024-11-10 19:31:05,581,Trauma care
+723,372,Javier Fernández,36,XX.XXX.XXX-K,2025-10-03 19:31:05,257,Flu complications
+724,372,Javier Fernández,35,XX.XXX.XXX-K,2024-07-27 19:31:05,682,Trauma care
+725,373,Fernanda Araya,47,XX.XXX.XXX-K,2025-02-19 19:31:05,475,Respiratory infection
+726,373,Fernanda Araya,48,XX.XXX.XXX-K,2026-05-29 19:31:05,20,Post-surgical recovery
+727,374,Valentina López,51,XX.XXX.XXX-K,2026-05-11 19:31:05,34,Cardiac monitoring
+728,374,Valentina López,50,XX.XXX.XXX-K,2025-05-17 19:31:05,388,Cardiac monitoring
+729,375,Javier Muñoz,24,XX.XXX.XXX-K,2024-09-16 19:31:05,638,Respiratory infection
+730,375,Javier Muñoz,25,XX.XXX.XXX-K,2025-11-04 19:31:05,223,Cardiac monitoring
+731,376,Camila Rojas,54,XX.XXX.XXX-K,2024-10-04 19:31:05,622,Cardiac monitoring
+732,376,Camila Rojas,55,XX.XXX.XXX-K,2025-09-23 19:31:05,265,Flu complications
+733,377,Javier López,29,XX.XXX.XXX-K,2025-06-08 19:31:05,374,Cardiac monitoring
+734,377,Javier López,29,XX.XXX.XXX-K,2025-12-06 19:31:05,194,Trauma care
+735,378,Tomás Fernández,30,XX.XXX.XXX-K,2024-12-17 19:31:05,543,Cardiac monitoring
+736,378,Tomás Fernández,31,XX.XXX.XXX-K,2025-03-24 19:31:05,451,Respiratory infection
+737,379,Sebastián López,22,XX.XXX.XXX-K,2025-10-31 19:31:05,221,Flu complications
+738,379,Sebastián López,21,XX.XXX.XXX-K,2024-10-27 19:31:05,599,Trauma care
+739,380,Isidora Torres,56,XX.XXX.XXX-K,2026-01-23 19:31:05,139,Flu complications
+740,380,Isidora Torres,54,XX.XXX.XXX-K,2024-09-20 19:31:05,636,Trauma care
+741,381,Camila Araya,20,XX.XXX.XXX-K,2026-04-06 19:31:05,71,Post-surgical recovery
+742,381,Camila Araya,20,XX.XXX.XXX-K,2026-01-14 19:31:05,155,Respiratory infection
+743,382,Sebastián Rojas,24,XX.XXX.XXX-K,2025-07-26 19:31:05,325,Post-surgical recovery
+744,382,Sebastián Rojas,25,XX.XXX.XXX-K,2026-05-03 19:31:05,41,Premature birth monitoring
+745,383,Camila Muñoz,37,XX.XXX.XXX-K,2025-12-25 19:31:05,170,Post-surgical recovery
+746,383,Camila Muñoz,37,XX.XXX.XXX-K,2025-05-28 19:31:05,382,Premature birth monitoring
+747,384,Camila González,52,XX.XXX.XXX-K,2024-11-28 19:31:05,564,Premature birth monitoring
+748,384,Camila González,54,XX.XXX.XXX-K,2026-01-14 19:31:05,148,Post-surgical recovery
+749,385,Matías Rojas,31,XX.XXX.XXX-K,2026-06-12 19:31:05,5,Respiratory infection
+750,385,Matías Rojas,29,XX.XXX.XXX-K,2024-07-12 19:31:05,704,Cardiac monitoring
+751,386,Diego Torres,26,XX.XXX.XXX-K,2024-11-26 19:31:05,567,Trauma care
+752,386,Diego Torres,26,XX.XXX.XXX-K,2024-12-21 19:31:05,542,Cardiac monitoring
+753,387,Sebastián Rojas,12,XX.XXX.XXX-K,2026-04-30 19:31:05,40,Post-surgical recovery
+754,387,Sebastián Rojas,12,XX.XXX.XXX-K,2026-04-25 19:31:05,48,Post-surgical recovery
+755,388,Francisca Rojas,21,XX.XXX.XXX-K,2025-07-23 19:31:05,324,Post-surgical recovery
+756,388,Francisca Rojas,21,XX.XXX.XXX-K,2025-12-04 19:31:05,192,Flu complications
+757,389,Matías Rojas,21,XX.XXX.XXX-K,2025-03-12 19:31:05,457,Respiratory infection
+758,389,Matías Rojas,21,XX.XXX.XXX-K,2025-02-26 19:31:05,474,Flu complications
+759,390,Matías González,36,XX.XXX.XXX-K,2025-03-16 19:31:05,454,Flu complications
+760,390,Matías González,37,XX.XXX.XXX-K,2026-02-22 19:31:05,114,Cardiac monitoring
+761,391,Tomás Silva,14,XX.XXX.XXX-K,2025-05-27 19:31:05,387,Flu complications
+762,391,Tomás Silva,14,XX.XXX.XXX-K,2025-01-31 19:31:05,497,Post-surgical recovery
+763,392,Tomás Muñoz,52,XX.XXX.XXX-K,2025-04-07 19:31:05,432,Flu complications
+764,392,Tomás Muñoz,53,XX.XXX.XXX-K,2026-04-22 19:31:05,52,Respiratory infection
+765,393,Sebastián Silva,32,XX.XXX.XXX-K,2026-05-27 19:31:05,22,Flu complications
+766,393,Sebastián Silva,32,XX.XXX.XXX-K,2026-04-10 19:31:05,66,Respiratory infection
+767,394,Javier Muñoz,32,XX.XXX.XXX-K,2024-09-20 19:31:05,636,Respiratory infection
+768,394,Javier Muñoz,33,XX.XXX.XXX-K,2025-09-10 19:31:05,281,Post-surgical recovery
+769,395,Francisca Muñoz,51,XX.XXX.XXX-K,2025-01-01 19:31:05,524,Flu complications
+770,395,Francisca Muñoz,50,XX.XXX.XXX-K,2024-09-16 19:31:05,632,Respiratory infection
+771,396,Diego Torres,21,XX.XXX.XXX-K,2025-06-11 19:31:05,366,Trauma care
+772,396,Diego Torres,21,XX.XXX.XXX-K,2025-06-28 19:31:05,353,Post-surgical recovery
+773,397,Fernanda Araya,54,XX.XXX.XXX-K,2025-01-28 19:31:05,499,Cardiac monitoring
+774,397,Fernanda Araya,54,XX.XXX.XXX-K,2025-07-02 19:31:05,350,Post-surgical recovery
+775,398,Valentina Fernández,17,XX.XXX.XXX-K,2025-06-22 19:31:05,354,Cardiac monitoring
+776,398,Valentina Fernández,17,XX.XXX.XXX-K,2025-09-14 19:31:05,277,Post-surgical recovery
+777,399,Tomás Fernández,22,XX.XXX.XXX-K,2024-07-21 19:31:05,688,Trauma care
+778,399,Tomás Fernández,23,XX.XXX.XXX-K,2025-03-10 19:31:05,461,Trauma care
+779,400,Fernanda Fernández,26,XX.XXX.XXX-K,2024-07-19 19:31:05,697,Cardiac monitoring
+780,400,Fernanda Fernández,27,XX.XXX.XXX-K,2025-02-03 19:31:05,497,Post-surgical recovery
+781,401,Fernanda Fernández,46,XX.XXX.XXX-K,2025-03-13 19:31:05,456,Respiratory infection
+782,401,Fernanda Fernández,46,XX.XXX.XXX-K,2025-08-14 19:31:05,302,Post-surgical recovery
+783,402,Francisca González,29,XX.XXX.XXX-K,2024-07-04 19:31:05,711,Premature birth monitoring
+784,402,Francisca González,29,XX.XXX.XXX-K,2024-06-24 19:31:05,719,Cardiac monitoring
+785,403,Javier Rojas,39,XX.XXX.XXX-K,2025-05-23 19:31:05,382,Post-surgical recovery
+786,403,Javier Rojas,38,XX.XXX.XXX-K,2024-09-08 19:31:05,641,Post-surgical recovery
+787,404,Tomás Araya,19,XX.XXX.XXX-K,2026-06-07 19:31:05,9,Respiratory infection
+788,404,Tomás Araya,17,XX.XXX.XXX-K,2024-12-21 19:31:05,541,Post-surgical recovery
+789,405,Valentina Torres,22,XX.XXX.XXX-K,2025-10-24 19:31:05,235,Trauma care
+790,405,Valentina Torres,21,XX.XXX.XXX-K,2024-10-15 19:31:05,608,Premature birth monitoring
+791,406,Sebastián Fernández,13,XX.XXX.XXX-K,2024-08-18 19:31:05,662,Flu complications
+792,406,Sebastián Fernández,13,XX.XXX.XXX-K,2024-07-07 19:31:05,710,Post-surgical recovery
+793,407,Javier Herrera,23,XX.XXX.XXX-K,2025-01-05 19:31:05,521,Trauma care
+794,407,Javier Herrera,22,XX.XXX.XXX-K,2024-10-27 19:31:05,592,Premature birth monitoring
+795,408,Valentina Herrera,32,XX.XXX.XXX-K,2025-12-20 19:31:05,180,Respiratory infection
+796,408,Valentina Herrera,33,XX.XXX.XXX-K,2026-03-25 19:31:05,83,Flu complications
+797,409,Diego López,44,XX.XXX.XXX-K,2025-01-03 19:31:05,529,Respiratory infection
+798,409,Diego López,44,XX.XXX.XXX-K,2025-10-22 19:31:05,230,Cardiac monitoring
+799,410,Isidora Rojas,40,XX.XXX.XXX-K,2024-12-29 19:31:05,530,Trauma care
+800,410,Isidora Rojas,42,XX.XXX.XXX-K,2026-03-02 19:31:05,108,Premature birth monitoring
+801,411,Javier López,26,XX.XXX.XXX-K,2024-11-23 19:31:05,567,Premature birth monitoring
+802,411,Javier López,26,XX.XXX.XXX-K,2024-09-20 19:31:05,636,Flu complications
+803,412,Valentina Castro,25,XX.XXX.XXX-K,2025-01-19 19:31:05,515,Flu complications
+804,412,Valentina Castro,24,XX.XXX.XXX-K,2024-10-05 19:31:05,621,Flu complications
+805,413,Camila González,43,XX.XXX.XXX-K,2025-09-07 19:31:05,284,Flu complications
+806,413,Camila González,43,XX.XXX.XXX-K,2025-02-04 19:31:05,496,Premature birth monitoring
+807,414,Valentina Castro,24,XX.XXX.XXX-K,2026-02-06 19:31:05,132,Trauma care
+808,414,Valentina Castro,22,XX.XXX.XXX-K,2024-11-29 19:31:05,563,Post-surgical recovery
+809,415,Francisca Fernández,22,XX.XXX.XXX-K,2024-12-27 19:31:05,538,Post-surgical recovery
+810,415,Francisca Fernández,23,XX.XXX.XXX-K,2025-11-06 19:31:05,215,Post-surgical recovery
+811,416,Francisca López,42,XX.XXX.XXX-K,2025-08-24 19:31:05,298,Flu complications
+812,416,Francisca López,42,XX.XXX.XXX-K,2025-02-07 19:31:05,490,Trauma care
+813,417,Matías Herrera,23,XX.XXX.XXX-K,2026-02-03 19:31:05,126,Premature birth monitoring
+814,417,Matías Herrera,21,XX.XXX.XXX-K,2024-12-09 19:31:05,555,Cardiac monitoring
+815,418,Francisca Rojas,22,XX.XXX.XXX-K,2025-11-20 19:31:05,206,Respiratory infection
+816,418,Francisca Rojas,23,XX.XXX.XXX-K,2026-01-13 19:31:05,147,Cardiac monitoring
+817,419,Tomás Fernández,33,XX.XXX.XXX-K,2025-03-08 19:31:05,463,Trauma care
+818,419,Tomás Fernández,32,XX.XXX.XXX-K,2024-10-12 19:31:05,610,Post-surgical recovery
+819,420,Fernanda López,48,XX.XXX.XXX-K,2026-01-22 19:31:05,147,Respiratory infection
+820,420,Fernanda López,46,XX.XXX.XXX-K,2024-11-11 19:31:05,584,Trauma care
+821,421,Fernanda Araya,51,XX.XXX.XXX-K,2026-02-09 19:31:05,120,Post-surgical recovery
+822,421,Fernanda Araya,50,XX.XXX.XXX-K,2025-01-17 19:31:05,511,Post-surgical recovery
+823,422,Camila López,25,XX.XXX.XXX-K,2026-03-26 19:31:05,84,Premature birth monitoring
+824,422,Camila López,24,XX.XXX.XXX-K,2025-01-29 19:31:05,497,Cardiac monitoring
+825,423,Matías Araya,18,XX.XXX.XXX-K,2024-10-21 19:31:05,597,Premature birth monitoring
+826,423,Matías Araya,20,XX.XXX.XXX-K,2026-06-04 19:31:05,12,Trauma care
+827,424,Francisca Araya,50,XX.XXX.XXX-K,2024-11-16 19:31:05,579,Trauma care
+828,424,Francisca Araya,50,XX.XXX.XXX-K,2024-12-15 19:31:05,544,Post-surgical recovery
+829,425,Camila Fernández,15,XX.XXX.XXX-K,2024-07-30 19:31:05,685,Cardiac monitoring
+830,425,Camila Fernández,17,XX.XXX.XXX-K,2026-01-04 19:31:05,165,Cardiac monitoring
+831,426,Sebastián Torres,13,XX.XXX.XXX-K,2025-06-08 19:31:05,372,Premature birth monitoring
+832,426,Sebastián Torres,13,XX.XXX.XXX-K,2025-10-18 19:31:05,243,Premature birth monitoring
+833,427,Camila Rojas,50,XX.XXX.XXX-K,2026-06-04 19:31:05,14,Trauma care
+834,427,Camila Rojas,50,XX.XXX.XXX-K,2026-03-15 19:31:05,87,Post-surgical recovery
+835,428,Matías Araya,41,XX.XXX.XXX-K,2025-07-09 19:31:05,340,Flu complications
+836,428,Matías Araya,41,XX.XXX.XXX-K,2025-07-06 19:31:05,344,Cardiac monitoring
+837,429,Isidora Rojas,32,XX.XXX.XXX-K,2024-09-02 19:31:05,648,Respiratory infection
+838,429,Isidora Rojas,33,XX.XXX.XXX-K,2025-04-02 19:31:05,439,Post-surgical recovery
+839,430,Diego Castro,12,XX.XXX.XXX-K,2024-09-25 19:31:05,623,Trauma care
+840,430,Diego Castro,13,XX.XXX.XXX-K,2025-10-14 19:31:05,241,Post-surgical recovery
+841,431,Diego Fernández,53,XX.XXX.XXX-K,2025-12-18 19:31:05,178,Post-surgical recovery
+842,431,Diego Fernández,52,XX.XXX.XXX-K,2024-12-15 19:31:05,543,Premature birth monitoring
+843,432,Camila Silva,27,XX.XXX.XXX-K,2026-01-14 19:31:05,146,Premature birth monitoring
+844,432,Camila Silva,25,XX.XXX.XXX-K,2024-12-20 19:31:05,545,Trauma care
+845,433,Matías Fernández,24,XX.XXX.XXX-K,2025-08-31 19:31:05,287,Premature birth monitoring
+846,433,Matías Fernández,25,XX.XXX.XXX-K,2026-05-22 19:31:05,22,Flu complications
+847,434,Sebastián Castro,48,XX.XXX.XXX-K,2026-06-01 19:31:05,14,Premature birth monitoring
+848,434,Sebastián Castro,48,XX.XXX.XXX-K,2026-05-12 19:31:05,32,Post-surgical recovery
+849,435,Camila Silva,32,XX.XXX.XXX-K,2024-08-30 19:31:05,651,Trauma care
+850,435,Camila Silva,32,XX.XXX.XXX-K,2024-08-18 19:31:05,669,Cardiac monitoring
+851,436,Tomás González,33,XX.XXX.XXX-K,2026-05-30 19:31:05,19,Trauma care
+852,436,Tomás González,33,XX.XXX.XXX-K,2026-01-26 19:31:05,136,Premature birth monitoring
+853,437,Valentina Rojas,28,XX.XXX.XXX-K,2024-06-22 19:31:05,724,Trauma care
+854,437,Valentina Rojas,29,XX.XXX.XXX-K,2025-06-28 19:31:05,355,Flu complications
+855,438,Francisca Fernández,30,XX.XXX.XXX-K,2026-06-11 19:31:05,2,Trauma care
+856,438,Francisca Fernández,29,XX.XXX.XXX-K,2025-08-24 19:31:05,297,Cardiac monitoring
+857,439,Diego Fernández,18,XX.XXX.XXX-K,2025-01-05 19:31:05,529,Post-surgical recovery
+858,439,Diego Fernández,19,XX.XXX.XXX-K,2026-02-04 19:31:05,132,Respiratory infection
+859,440,Matías González,29,XX.XXX.XXX-K,2025-02-22 19:31:05,480,Post-surgical recovery
+860,440,Matías González,30,XX.XXX.XXX-K,2026-01-11 19:31:05,158,Cardiac monitoring
+861,441,Tomás Silva,22,XX.XXX.XXX-K,2024-10-04 19:31:05,621,Flu complications
+862,441,Tomás Silva,22,XX.XXX.XXX-K,2024-08-20 19:31:05,665,Premature birth monitoring
+863,442,Diego López,30,XX.XXX.XXX-K,2024-08-17 19:31:05,670,Respiratory infection
+864,442,Diego López,31,XX.XXX.XXX-K,2025-04-15 19:31:05,420,Respiratory infection
+865,443,Fernanda Torres,30,XX.XXX.XXX-K,2026-03-07 19:31:05,98,Premature birth monitoring
+866,443,Fernanda Torres,30,XX.XXX.XXX-K,2026-05-27 19:31:05,20,Respiratory infection
+867,444,Isidora Castro,41,XX.XXX.XXX-K,2025-10-16 19:31:05,243,Cardiac monitoring
+868,444,Isidora Castro,41,XX.XXX.XXX-K,2025-03-30 19:31:05,439,Flu complications
+869,445,Tomás Herrera,54,XX.XXX.XXX-K,2024-12-05 19:31:05,560,Flu complications
+870,445,Tomás Herrera,56,XX.XXX.XXX-K,2026-05-26 19:31:05,18,Trauma care
+871,446,Fernanda Herrera,48,XX.XXX.XXX-K,2024-07-22 19:31:05,696,Post-surgical recovery
+872,446,Fernanda Herrera,48,XX.XXX.XXX-K,2024-08-26 19:31:05,655,Trauma care
+873,447,Matías López,22,XX.XXX.XXX-K,2026-05-31 19:31:05,11,Cardiac monitoring
+874,447,Matías López,21,XX.XXX.XXX-K,2025-12-05 19:31:05,186,Post-surgical recovery
+875,448,Valentina Rojas,12,XX.XXX.XXX-K,2025-11-08 19:31:05,220,Trauma care
+876,448,Valentina Rojas,12,XX.XXX.XXX-K,2025-10-07 19:31:05,248,Respiratory infection
+877,449,Isidora Muñoz,17,XX.XXX.XXX-K,2025-11-07 19:31:05,215,Cardiac monitoring
+878,449,Isidora Muñoz,17,XX.XXX.XXX-K,2025-09-22 19:31:05,269,Respiratory infection
+879,450,Javier López,23,XX.XXX.XXX-K,2024-10-25 19:31:05,597,Cardiac monitoring
+880,450,Javier López,23,XX.XXX.XXX-K,2024-11-12 19:31:05,577,Flu complications
+881,451,Sebastián López,36,XX.XXX.XXX-K,2025-09-17 19:31:05,272,Post-surgical recovery
+882,451,Sebastián López,35,XX.XXX.XXX-K,2024-08-26 19:31:05,658,Cardiac monitoring
+883,452,Diego González,55,XX.XXX.XXX-K,2026-01-20 19:31:05,140,Cardiac monitoring
+884,452,Diego González,54,XX.XXX.XXX-K,2025-06-26 19:31:05,357,Trauma care
+885,453,Valentina Muñoz,26,XX.XXX.XXX-K,2024-07-24 19:31:05,686,Respiratory infection
+886,453,Valentina Muñoz,27,XX.XXX.XXX-K,2025-06-13 19:31:05,368,Respiratory infection
+887,454,Javier López,12,XX.XXX.XXX-K,2026-04-27 19:31:05,51,Cardiac monitoring
+888,454,Javier López,10,XX.XXX.XXX-K,2024-12-25 19:31:05,537,Respiratory infection
+889,455,Camila Fernández,48,XX.XXX.XXX-K,2025-10-11 19:31:05,249,Flu complications
+890,455,Camila Fernández,49,XX.XXX.XXX-K,2026-03-07 19:31:05,96,Post-surgical recovery
+891,456,Isidora Castro,40,XX.XXX.XXX-K,2026-05-18 19:31:05,31,Premature birth monitoring
+892,456,Isidora Castro,40,XX.XXX.XXX-K,2026-03-02 19:31:05,103,Premature birth monitoring
+893,457,Sebastián Silva,32,XX.XXX.XXX-K,2026-01-14 19:31:05,148,Cardiac monitoring
+894,457,Sebastián Silva,32,XX.XXX.XXX-K,2026-05-05 19:31:05,40,Respiratory infection
+895,458,Fernanda Torres,29,XX.XXX.XXX-K,2025-08-29 19:31:05,288,Premature birth monitoring
+896,458,Fernanda Torres,29,XX.XXX.XXX-K,2025-11-02 19:31:05,227,Respiratory infection
+897,459,Fernanda Silva,50,XX.XXX.XXX-K,2025-08-24 19:31:05,293,Trauma care
+898,459,Fernanda Silva,50,XX.XXX.XXX-K,2025-11-04 19:31:05,220,Respiratory infection
+899,460,Diego González,14,XX.XXX.XXX-K,2025-07-09 19:31:05,336,Premature birth monitoring
+900,460,Diego González,14,XX.XXX.XXX-K,2025-10-27 19:31:05,234,Flu complications
+901,461,Camila Araya,14,XX.XXX.XXX-K,2026-02-23 19:31:05,112,Premature birth monitoring
+902,461,Camila Araya,13,XX.XXX.XXX-K,2025-06-12 19:31:05,366,Post-surgical recovery
+903,462,Isidora Torres,45,XX.XXX.XXX-K,2025-07-04 19:31:05,346,Respiratory infection
+904,462,Isidora Torres,46,XX.XXX.XXX-K,2026-03-28 19:31:05,73,Trauma care
+905,463,Matías Rojas,28,XX.XXX.XXX-K,2025-10-23 19:31:05,234,Respiratory infection
+906,463,Matías Rojas,29,XX.XXX.XXX-K,2026-03-20 19:31:05,89,Premature birth monitoring
+907,464,Tomás Rojas,47,XX.XXX.XXX-K,2025-11-24 19:31:05,206,Post-surgical recovery
+908,464,Tomás Rojas,47,XX.XXX.XXX-K,2025-03-01 19:31:05,470,Premature birth monitoring
+909,465,Matías Silva,52,XX.XXX.XXX-K,2024-10-09 19:31:05,611,Trauma care
+910,465,Matías Silva,54,XX.XXX.XXX-K,2026-04-05 19:31:05,74,Trauma care
+911,466,Tomás González,49,XX.XXX.XXX-K,2024-07-04 19:31:05,713,Flu complications
+912,466,Tomás González,50,XX.XXX.XXX-K,2025-10-30 19:31:05,231,Respiratory infection
+913,467,Matías Fernández,30,XX.XXX.XXX-K,2025-12-13 19:31:05,180,Cardiac monitoring
+914,467,Matías Fernández,30,XX.XXX.XXX-K,2025-11-30 19:31:05,199,Flu complications
+915,468,Camila López,38,XX.XXX.XXX-K,2026-01-28 19:31:05,141,Cardiac monitoring
+916,468,Camila López,37,XX.XXX.XXX-K,2025-05-09 19:31:05,405,Cardiac monitoring
+917,469,Camila Rojas,50,XX.XXX.XXX-K,2024-09-30 19:31:05,624,Post-surgical recovery
+918,469,Camila Rojas,51,XX.XXX.XXX-K,2025-07-25 19:31:05,321,Premature birth monitoring
+919,470,Francisca Fernández,21,XX.XXX.XXX-K,2024-09-23 19:31:05,631,Respiratory infection
+920,470,Francisca Fernández,22,XX.XXX.XXX-K,2025-09-09 19:31:05,273,Premature birth monitoring
+921,471,Javier Fernández,51,XX.XXX.XXX-K,2025-03-01 19:31:05,473,Respiratory infection
+922,471,Javier Fernández,51,XX.XXX.XXX-K,2025-04-06 19:31:05,437,Flu complications
+923,472,Valentina Fernández,54,XX.XXX.XXX-K,2025-02-17 19:31:05,485,Premature birth monitoring
+924,472,Valentina Fernández,54,XX.XXX.XXX-K,2025-08-20 19:31:05,297,Cardiac monitoring
+925,473,Javier González,35,XX.XXX.XXX-K,2026-06-10 19:31:05,0,Respiratory infection
+926,473,Javier González,34,XX.XXX.XXX-K,2025-10-18 19:31:05,240,Post-surgical recovery
+927,474,Fernanda Castro,36,XX.XXX.XXX-K,2025-06-01 19:31:05,380,Respiratory infection
+928,474,Fernanda Castro,35,XX.XXX.XXX-K,2024-08-08 19:31:05,679,Respiratory infection
+929,475,Matías Castro,26,XX.XXX.XXX-K,2026-03-19 19:31:05,91,Cardiac monitoring
+930,475,Matías Castro,25,XX.XXX.XXX-K,2025-07-24 19:31:05,327,Premature birth monitoring
+931,476,Diego Muñoz,43,XX.XXX.XXX-K,2024-11-21 19:31:05,572,Trauma care
+932,476,Diego Muñoz,43,XX.XXX.XXX-K,2024-08-06 19:31:05,681,Post-surgical recovery
+933,477,Isidora Torres,42,XX.XXX.XXX-K,2024-12-12 19:31:05,549,Trauma care
+934,477,Isidora Torres,43,XX.XXX.XXX-K,2025-02-11 19:31:05,484,Post-surgical recovery
+935,478,Camila López,18,XX.XXX.XXX-K,2024-12-24 19:31:05,532,Flu complications
+936,478,Camila López,19,XX.XXX.XXX-K,2025-12-29 19:31:05,162,Respiratory infection
+937,479,Javier López,11,XX.XXX.XXX-K,2025-02-04 19:31:05,493,Trauma care
+938,479,Javier López,11,XX.XXX.XXX-K,2025-02-26 19:31:05,473,Post-surgical recovery
+939,480,Isidora Araya,11,XX.XXX.XXX-K,2024-09-05 19:31:05,646,Cardiac monitoring
+940,480,Isidora Araya,12,XX.XXX.XXX-K,2025-09-14 19:31:05,277,Cardiac monitoring
+941,481,Sebastián Herrera,23,XX.XXX.XXX-K,2024-09-30 19:31:05,617,Trauma care
+942,481,Sebastián Herrera,25,XX.XXX.XXX-K,2026-04-08 19:31:05,71,Trauma care
+943,482,Sebastián Muñoz,43,XX.XXX.XXX-K,2026-04-08 19:31:05,68,Respiratory infection
+944,482,Sebastián Muñoz,43,XX.XXX.XXX-K,2026-04-01 19:31:05,72,Respiratory infection
+945,483,Sebastián López,43,XX.XXX.XXX-K,2025-07-15 19:31:05,332,Post-surgical recovery
+946,483,Sebastián López,43,XX.XXX.XXX-K,2025-07-20 19:31:05,330,Premature birth monitoring
+947,484,Camila Araya,17,XX.XXX.XXX-K,2024-08-02 19:31:05,679,Premature birth monitoring
+948,484,Camila Araya,19,XX.XXX.XXX-K,2026-05-24 19:31:05,20,Post-surgical recovery
+949,485,Sebastián Silva,32,XX.XXX.XXX-K,2024-06-26 19:31:05,722,Premature birth monitoring
+950,485,Sebastián Silva,32,XX.XXX.XXX-K,2024-12-15 19:31:05,541,Post-surgical recovery
+951,486,Javier Fernández,45,XX.XXX.XXX-K,2026-01-27 19:31:05,137,Trauma care
+952,486,Javier Fernández,44,XX.XXX.XXX-K,2025-01-02 19:31:05,532,Flu complications
+953,487,Matías Muñoz,55,XX.XXX.XXX-K,2026-06-16 19:31:05,2,Post-surgical recovery
+954,487,Matías Muñoz,53,XX.XXX.XXX-K,2024-09-23 19:31:05,627,Post-surgical recovery
+955,488,Javier López,20,XX.XXX.XXX-K,2024-07-10 19:31:05,707,Respiratory infection
+956,488,Javier López,21,XX.XXX.XXX-K,2025-12-23 19:31:05,177,Flu complications
+957,489,Valentina Herrera,33,XX.XXX.XXX-K,2025-10-04 19:31:05,257,Cardiac monitoring
+958,489,Valentina Herrera,34,XX.XXX.XXX-K,2026-04-05 19:31:05,67,Premature birth monitoring
+959,490,Francisca Rojas,26,XX.XXX.XXX-K,2024-11-22 19:31:05,569,Trauma care
+960,490,Francisca Rojas,28,XX.XXX.XXX-K,2026-03-26 19:31:05,84,Flu complications
+961,491,Francisca Fernández,42,XX.XXX.XXX-K,2026-05-05 19:31:05,41,Post-surgical recovery
+962,491,Francisca Fernández,41,XX.XXX.XXX-K,2025-04-28 19:31:05,416,Premature birth monitoring
+963,492,Fernanda Fernández,25,XX.XXX.XXX-K,2025-06-21 19:31:05,361,Cardiac monitoring
+964,492,Fernanda Fernández,24,XX.XXX.XXX-K,2024-09-24 19:31:05,632,Respiratory infection
+965,493,Isidora Torres,13,XX.XXX.XXX-K,2026-05-17 19:31:05,27,Trauma care
+966,493,Isidora Torres,11,XX.XXX.XXX-K,2024-07-11 19:31:05,705,Cardiac monitoring
+967,494,Diego Castro,11,XX.XXX.XXX-K,2024-09-14 19:31:05,642,Respiratory infection
+968,494,Diego Castro,12,XX.XXX.XXX-K,2025-01-26 19:31:05,502,Trauma care
+969,495,Francisca Araya,34,XX.XXX.XXX-K,2024-10-30 19:31:05,596,Flu complications
+970,495,Francisca Araya,35,XX.XXX.XXX-K,2025-11-02 19:31:05,223,Flu complications
+971,496,Francisca Fernández,13,XX.XXX.XXX-K,2025-03-19 19:31:05,455,Respiratory infection
+972,496,Francisca Fernández,13,XX.XXX.XXX-K,2025-08-20 19:31:05,295,Respiratory infection
+973,497,Fernanda González,30,XX.XXX.XXX-K,2025-05-21 19:31:05,393,Flu complications
+974,497,Fernanda González,29,XX.XXX.XXX-K,2024-07-10 19:31:05,701,Post-surgical recovery
+975,498,Isidora Muñoz,24,XX.XXX.XXX-K,2024-08-05 19:31:05,677,Flu complications
+976,498,Isidora Muñoz,26,XX.XXX.XXX-K,2026-03-29 19:31:05,81,Cardiac monitoring
+977,499,Sebastián Fernández,38,XX.XXX.XXX-K,2025-01-25 19:31:05,507,Cardiac monitoring
+978,499,Sebastián Fernández,38,XX.XXX.XXX-K,2025-10-18 19:31:05,234,Premature birth monitoring
+979,500,Francisca Rojas,30,XX.XXX.XXX-K,2024-12-02 19:31:05,562,Cardiac monitoring
+980,500,Francisca Rojas,31,XX.XXX.XXX-K,2025-03-23 19:31:05,446,Trauma care
+981,501,Fernanda Fernández,33,XX.XXX.XXX-K,2026-01-14 19:31:05,152,Respiratory infection
+982,501,Fernanda Fernández,32,XX.XXX.XXX-K,2025-09-10 19:31:05,276,Post-surgical recovery
+983,502,Javier Rojas,49,XX.XXX.XXX-K,2025-03-20 19:31:05,455,Post-surgical recovery
+984,502,Javier Rojas,49,XX.XXX.XXX-K,2025-06-04 19:31:05,370,Premature birth monitoring
+985,503,Javier Rojas,53,XX.XXX.XXX-K,2025-01-09 19:31:05,524,Premature birth monitoring
+986,503,Javier Rojas,52,XX.XXX.XXX-K,2024-10-30 19:31:05,596,Cardiac monitoring
+987,504,Diego Rojas,24,XX.XXX.XXX-K,2025-03-05 19:31:05,469,Post-surgical recovery
+988,504,Diego Rojas,24,XX.XXX.XXX-K,2025-03-28 19:31:05,439,Flu complications
+989,505,Francisca Castro,15,XX.XXX.XXX-K,2025-01-14 19:31:05,512,Premature birth monitoring
+990,505,Francisca Castro,16,XX.XXX.XXX-K,2026-05-26 19:31:05,21,Post-surgical recovery
+991,506,Camila González,42,XX.XXX.XXX-K,2026-05-06 19:31:05,43,Post-surgical recovery
+992,506,Camila González,41,XX.XXX.XXX-K,2025-07-26 19:31:05,327,Cardiac monitoring
+993,507,Camila Fernández,43,XX.XXX.XXX-K,2024-12-17 19:31:05,542,Post-surgical recovery
+994,507,Camila Fernández,44,XX.XXX.XXX-K,2025-09-20 19:31:05,271,Cardiac monitoring
+995,508,Isidora Silva,24,XX.XXX.XXX-K,2025-10-11 19:31:05,244,Cardiac monitoring
+996,508,Isidora Silva,24,XX.XXX.XXX-K,2025-05-07 19:31:05,401,Trauma care
+997,509,Valentina Herrera,52,XX.XXX.XXX-K,2025-04-04 19:31:05,435,Respiratory infection
+998,509,Valentina Herrera,52,XX.XXX.XXX-K,2025-08-23 19:31:05,293,Flu complications
+999,510,Fernanda Rojas,36,XX.XXX.XXX-K,2026-04-18 19:31:05,52,Trauma care
+1000,510,Fernanda Rojas,34,XX.XXX.XXX-K,2024-09-30 19:31:05,620,Cardiac monitoring
+1001,511,Sebastián Herrera,38,XX.XXX.XXX-K,2026-06-03 19:31:05,11,Flu complications
+1002,511,Sebastián Herrera,37,XX.XXX.XXX-K,2025-05-01 19:31:05,412,Respiratory infection
+1003,512,Matías López,48,XX.XXX.XXX-K,2025-07-09 19:31:05,336,Flu complications
+1004,512,Matías López,48,XX.XXX.XXX-K,2025-05-18 19:31:05,392,Trauma care
+1005,513,Fernanda Herrera,14,XX.XXX.XXX-K,2025-05-27 19:31:05,381,Post-surgical recovery
+1006,513,Fernanda Herrera,14,XX.XXX.XXX-K,2025-05-22 19:31:05,386,Trauma care
+1007,514,Camila Araya,21,XX.XXX.XXX-K,2026-01-14 19:31:05,155,Trauma care
+1008,514,Camila Araya,20,XX.XXX.XXX-K,2025-08-22 19:31:05,296,Trauma care
+1009,515,Sebastián Castro,15,XX.XXX.XXX-K,2024-12-19 19:31:05,539,Flu complications
+1010,515,Sebastián Castro,16,XX.XXX.XXX-K,2025-09-22 19:31:05,264,Respiratory infection
+1011,516,Francisca Araya,11,XX.XXX.XXX-K,2024-08-15 19:31:05,670,Trauma care
+1012,516,Francisca Araya,12,XX.XXX.XXX-K,2025-01-17 19:31:05,511,Cardiac monitoring
+1013,517,Fernanda González,30,XX.XXX.XXX-K,2025-11-23 19:31:05,207,Trauma care
+1014,517,Fernanda González,30,XX.XXX.XXX-K,2025-03-06 19:31:05,462,Flu complications
+1015,518,Tomás González,39,XX.XXX.XXX-K,2025-12-14 19:31:05,183,Respiratory infection
+1016,518,Tomás González,38,XX.XXX.XXX-K,2024-09-24 19:31:05,629,Cardiac monitoring
+1017,519,Francisca López,40,XX.XXX.XXX-K,2025-04-16 19:31:05,421,Flu complications
+1018,519,Francisca López,40,XX.XXX.XXX-K,2025-12-03 19:31:05,197,Trauma care
+1019,520,Tomás Araya,12,XX.XXX.XXX-K,2026-05-12 19:31:05,32,Flu complications
+1020,520,Tomás Araya,11,XX.XXX.XXX-K,2025-11-27 19:31:05,203,Respiratory infection
+1021,521,Camila Fernández,15,XX.XXX.XXX-K,2025-09-15 19:31:05,267,Post-surgical recovery
+1022,521,Camila Fernández,16,XX.XXX.XXX-K,2026-01-19 19:31:05,143,Premature birth monitoring
+1023,522,Camila López,19,XX.XXX.XXX-K,2025-11-26 19:31:05,196,Flu complications
+1024,522,Camila López,18,XX.XXX.XXX-K,2024-11-19 19:31:05,569,Premature birth monitoring
+1025,523,Francisca Fernández,36,XX.XXX.XXX-K,2025-06-16 19:31:05,363,Post-surgical recovery
+1026,523,Francisca Fernández,37,XX.XXX.XXX-K,2026-05-10 19:31:05,36,Trauma care
+1027,524,Fernanda Silva,53,XX.XXX.XXX-K,2025-12-17 19:31:05,181,Trauma care
+1028,524,Fernanda Silva,54,XX.XXX.XXX-K,2026-06-10 19:31:05,6,Trauma care
+1029,525,Isidora Fernández,44,XX.XXX.XXX-K,2024-10-11 19:31:05,608,Premature birth monitoring
+1030,525,Isidora Fernández,45,XX.XXX.XXX-K,2025-03-16 19:31:05,456,Cardiac monitoring
+1031,526,Tomás Araya,22,XX.XXX.XXX-K,2025-05-29 19:31:05,378,Cardiac monitoring
+1032,526,Tomás Araya,22,XX.XXX.XXX-K,2025-11-22 19:31:05,202,Trauma care
+1033,527,Francisca Silva,52,XX.XXX.XXX-K,2024-12-13 19:31:05,545,Respiratory infection
+1034,527,Francisca Silva,53,XX.XXX.XXX-K,2025-12-22 19:31:05,174,Cardiac monitoring
+1035,528,Matías Castro,25,XX.XXX.XXX-K,2026-02-02 19:31:05,136,Flu complications
+1036,528,Matías Castro,23,XX.XXX.XXX-K,2024-09-11 19:31:05,643,Premature birth monitoring
+1037,529,Diego Rojas,54,XX.XXX.XXX-K,2024-12-27 19:31:05,532,Respiratory infection
+1038,529,Diego Rojas,55,XX.XXX.XXX-K,2025-12-08 19:31:05,192,Premature birth monitoring
+1039,530,Camila Araya,31,XX.XXX.XXX-K,2025-01-08 19:31:05,526,Post-surgical recovery
+1040,530,Camila Araya,30,XX.XXX.XXX-K,2024-08-16 19:31:05,668,Respiratory infection
+1041,531,Diego Rojas,19,XX.XXX.XXX-K,2024-08-17 19:31:05,661,Cardiac monitoring
+1042,531,Diego Rojas,20,XX.XXX.XXX-K,2025-12-09 19:31:05,183,Respiratory infection
+1043,532,Matías González,30,XX.XXX.XXX-K,2026-05-05 19:31:05,43,Cardiac monitoring
+1044,532,Matías González,28,XX.XXX.XXX-K,2024-12-25 19:31:05,540,Flu complications
+1045,533,Matías Rojas,21,XX.XXX.XXX-K,2024-11-26 19:31:05,561,Respiratory infection
+1046,533,Matías Rojas,22,XX.XXX.XXX-K,2025-02-10 19:31:05,485,Respiratory infection
+1047,534,Sebastián López,41,XX.XXX.XXX-K,2025-03-23 19:31:05,446,Flu complications
+1048,534,Sebastián López,41,XX.XXX.XXX-K,2025-08-20 19:31:05,302,Trauma care
+1049,535,Isidora Herrera,25,XX.XXX.XXX-K,2024-07-09 19:31:05,700,Cardiac monitoring
+1050,535,Isidora Herrera,26,XX.XXX.XXX-K,2025-03-19 19:31:05,451,Trauma care
+1051,536,Valentina Fernández,55,XX.XXX.XXX-K,2026-02-13 19:31:05,118,Trauma care
+1052,536,Valentina Fernández,55,XX.XXX.XXX-K,2026-03-15 19:31:05,87,Post-surgical recovery
+1053,537,Francisca Araya,40,XX.XXX.XXX-K,2025-06-13 19:31:05,364,Premature birth monitoring
+1054,537,Francisca Araya,39,XX.XXX.XXX-K,2024-10-22 19:31:05,599,Premature birth monitoring
+1055,538,Matías Araya,48,XX.XXX.XXX-K,2024-10-07 19:31:05,615,Premature birth monitoring
+1056,538,Matías Araya,49,XX.XXX.XXX-K,2025-06-04 19:31:05,379,Flu complications
+1057,539,Sebastián Silva,23,XX.XXX.XXX-K,2024-09-08 19:31:05,648,Cardiac monitoring
+1058,539,Sebastián Silva,24,XX.XXX.XXX-K,2025-12-19 19:31:05,178,Post-surgical recovery
+1059,540,Isidora Muñoz,10,XX.XXX.XXX-K,2024-11-13 19:31:05,581,Flu complications
+1060,540,Isidora Muñoz,11,XX.XXX.XXX-K,2025-09-04 19:31:05,278,Premature birth monitoring
+1061,541,Sebastián Castro,55,XX.XXX.XXX-K,2025-09-24 19:31:05,259,Post-surgical recovery
+1062,541,Sebastián Castro,56,XX.XXX.XXX-K,2026-01-03 19:31:05,166,Cardiac monitoring
+1063,542,Fernanda Araya,12,XX.XXX.XXX-K,2025-09-19 19:31:05,270,Respiratory infection
+1064,542,Fernanda Araya,11,XX.XXX.XXX-K,2024-11-15 19:31:05,580,Cardiac monitoring
+1065,543,Fernanda González,37,XX.XXX.XXX-K,2025-08-30 19:31:05,291,Trauma care
+1066,543,Fernanda González,36,XX.XXX.XXX-K,2024-07-12 19:31:05,701,Premature birth monitoring
+1067,544,Camila Fernández,41,XX.XXX.XXX-K,2024-11-19 19:31:05,572,Flu complications
+1068,544,Camila Fernández,41,XX.XXX.XXX-K,2024-10-08 19:31:05,615,Respiratory infection
+1069,545,Matías Muñoz,42,XX.XXX.XXX-K,2025-07-05 19:31:05,342,Cardiac monitoring
+1070,545,Matías Muñoz,42,XX.XXX.XXX-K,2025-05-02 19:31:05,409,Flu complications
+1071,546,Sebastián Muñoz,42,XX.XXX.XXX-K,2024-08-26 19:31:05,658,Flu complications
+1072,546,Sebastián Muñoz,43,XX.XXX.XXX-K,2025-09-14 19:31:05,275,Premature birth monitoring
+1073,547,Javier Fernández,50,XX.XXX.XXX-K,2025-06-26 19:31:05,352,Post-surgical recovery
+1074,547,Javier Fernández,49,XX.XXX.XXX-K,2024-10-15 19:31:05,605,Trauma care
+1075,548,Diego Araya,46,XX.XXX.XXX-K,2025-08-30 19:31:05,285,Respiratory infection
+1076,548,Diego Araya,47,XX.XXX.XXX-K,2026-06-10 19:31:05,-1,Trauma care
+1077,549,Matías Silva,45,XX.XXX.XXX-K,2025-09-22 19:31:05,260,Cardiac monitoring
+1078,549,Matías Silva,46,XX.XXX.XXX-K,2026-06-14 19:31:05,4,Flu complications
+1079,550,Camila González,43,XX.XXX.XXX-K,2025-05-05 19:31:05,408,Respiratory infection
+1080,550,Camila González,43,XX.XXX.XXX-K,2025-03-21 19:31:05,452,Premature birth monitoring
+1081,551,Fernanda Silva,46,XX.XXX.XXX-K,2025-06-23 19:31:05,358,Flu complications
+1082,551,Fernanda Silva,47,XX.XXX.XXX-K,2026-02-05 19:31:05,127,Respiratory infection
+1083,552,Sebastián Rojas,12,XX.XXX.XXX-K,2024-08-01 19:31:05,681,Flu complications
+1084,552,Sebastián Rojas,14,XX.XXX.XXX-K,2026-02-17 19:31:05,118,Premature birth monitoring
+1085,553,Valentina González,16,XX.XXX.XXX-K,2025-07-14 19:31:05,330,Trauma care
+1086,553,Valentina González,17,XX.XXX.XXX-K,2026-01-31 19:31:05,130,Post-surgical recovery
+1087,554,Sebastián Fernández,11,XX.XXX.XXX-K,2025-07-05 19:31:05,345,Post-surgical recovery
+1088,554,Sebastián Fernández,12,XX.XXX.XXX-K,2026-03-11 19:31:05,95,Cardiac monitoring
+1089,555,Camila Muñoz,21,XX.XXX.XXX-K,2025-02-28 19:31:05,469,Flu complications
+1090,555,Camila Muñoz,20,XX.XXX.XXX-K,2024-12-05 19:31:05,555,Flu complications
+1091,556,Javier Herrera,39,XX.XXX.XXX-K,2025-04-22 19:31:05,418,Post-surgical recovery
+1092,556,Javier Herrera,38,XX.XXX.XXX-K,2024-11-30 19:31:05,559,Respiratory infection
+1093,557,Isidora Araya,22,XX.XXX.XXX-K,2026-04-21 19:31:05,55,Premature birth monitoring
+1094,557,Isidora Araya,21,XX.XXX.XXX-K,2025-02-16 19:31:05,480,Respiratory infection
+1095,558,Francisca González,17,XX.XXX.XXX-K,2025-06-08 19:31:05,375,Trauma care
+1096,558,Francisca González,18,XX.XXX.XXX-K,2026-02-05 19:31:05,125,Post-surgical recovery
+1097,559,Sebastián Torres,53,XX.XXX.XXX-K,2026-03-14 19:31:05,88,Post-surgical recovery
+1098,559,Sebastián Torres,53,XX.XXX.XXX-K,2026-05-09 19:31:05,38,Respiratory infection
+1099,560,Isidora Silva,22,XX.XXX.XXX-K,2026-01-18 19:31:05,144,Respiratory infection
+1100,560,Isidora Silva,21,XX.XXX.XXX-K,2025-06-14 19:31:05,365,Respiratory infection
+1101,561,Sebastián Muñoz,30,XX.XXX.XXX-K,2025-07-04 19:31:05,345,Trauma care
+1102,561,Sebastián Muñoz,31,XX.XXX.XXX-K,2026-03-03 19:31:05,105,Flu complications
+1103,562,Valentina Herrera,28,XX.XXX.XXX-K,2024-10-03 19:31:05,619,Flu complications
+1104,562,Valentina Herrera,29,XX.XXX.XXX-K,2025-09-14 19:31:05,274,Respiratory infection
+1105,563,Francisca Silva,41,XX.XXX.XXX-K,2026-04-18 19:31:05,57,Cardiac monitoring
+1106,563,Francisca Silva,41,XX.XXX.XXX-K,2026-01-15 19:31:05,146,Respiratory infection
+1107,564,Javier Araya,34,XX.XXX.XXX-K,2025-02-11 19:31:05,491,Premature birth monitoring
+1108,564,Javier Araya,34,XX.XXX.XXX-K,2025-07-25 19:31:05,324,Flu complications
+1109,565,Sebastián González,23,XX.XXX.XXX-K,2026-01-27 19:31:05,141,Trauma care
+1110,565,Sebastián González,21,XX.XXX.XXX-K,2024-07-07 19:31:05,702,Post-surgical recovery
+1111,566,Diego López,38,XX.XXX.XXX-K,2025-03-02 19:31:05,465,Flu complications
+1112,566,Diego López,39,XX.XXX.XXX-K,2026-05-29 19:31:05,20,Respiratory infection
+1113,567,Camila Torres,51,XX.XXX.XXX-K,2025-05-03 19:31:05,408,Premature birth monitoring
+1114,567,Camila Torres,50,XX.XXX.XXX-K,2024-11-10 19:31:05,576,Post-surgical recovery
+1115,568,Matías Silva,19,XX.XXX.XXX-K,2025-01-09 19:31:05,517,Premature birth monitoring
+1116,568,Matías Silva,20,XX.XXX.XXX-K,2026-01-14 19:31:05,154,Cardiac monitoring
+1117,569,Valentina Fernández,50,XX.XXX.XXX-K,2025-11-02 19:31:05,228,Respiratory infection
+1118,569,Valentina Fernández,50,XX.XXX.XXX-K,2025-05-08 19:31:05,398,Respiratory infection
+1119,570,Valentina Fernández,15,XX.XXX.XXX-K,2026-04-05 19:31:05,74,Flu complications
+1120,570,Valentina Fernández,15,XX.XXX.XXX-K,2026-01-04 19:31:05,161,Trauma care
+1121,571,Diego Herrera,46,XX.XXX.XXX-K,2026-04-10 19:31:05,63,Post-surgical recovery
+1122,571,Diego Herrera,46,XX.XXX.XXX-K,2026-05-04 19:31:05,36,Respiratory infection
+1123,572,Diego Castro,27,XX.XXX.XXX-K,2025-02-12 19:31:05,491,Respiratory infection
+1124,572,Diego Castro,28,XX.XXX.XXX-K,2026-06-18 19:31:05,-2,Cardiac monitoring
+1125,573,Diego Herrera,43,XX.XXX.XXX-K,2025-05-01 19:31:05,413,Respiratory infection
+1126,573,Diego Herrera,43,XX.XXX.XXX-K,2025-10-02 19:31:05,253,Post-surgical recovery
+1127,574,Sebastián Rojas,55,XX.XXX.XXX-K,2026-03-31 19:31:05,77,Flu complications
+1128,574,Sebastián Rojas,54,XX.XXX.XXX-K,2025-06-29 19:31:05,352,Cardiac monitoring
+1129,575,Javier López,25,XX.XXX.XXX-K,2024-09-24 19:31:05,623,Post-surgical recovery
+1130,575,Javier López,26,XX.XXX.XXX-K,2025-01-21 19:31:05,505,Post-surgical recovery
+1131,576,Camila Silva,26,XX.XXX.XXX-K,2025-10-29 19:31:05,232,Cardiac monitoring
+1132,576,Camila Silva,27,XX.XXX.XXX-K,2026-04-03 19:31:05,69,Post-surgical recovery
+1133,577,Camila López,34,XX.XXX.XXX-K,2025-08-28 19:31:05,290,Respiratory infection
+1134,577,Camila López,34,XX.XXX.XXX-K,2025-03-12 19:31:05,461,Cardiac monitoring
+1135,578,Francisca Fernández,28,XX.XXX.XXX-K,2025-02-05 19:31:05,491,Trauma care
+1136,578,Francisca Fernández,27,XX.XXX.XXX-K,2024-12-02 19:31:05,562,Trauma care
+1137,579,Francisca Herrera,49,XX.XXX.XXX-K,2026-06-18 19:31:05,-7,Trauma care
+1138,579,Francisca Herrera,48,XX.XXX.XXX-K,2025-12-27 19:31:05,167,Cardiac monitoring
+1139,580,Fernanda Torres,39,XX.XXX.XXX-K,2026-04-02 19:31:05,75,Respiratory infection
+1140,580,Fernanda Torres,37,XX.XXX.XXX-K,2024-11-12 19:31:05,580,Cardiac monitoring
+1141,581,Tomás Rojas,51,XX.XXX.XXX-K,2024-11-01 19:31:05,594,Respiratory infection
+1142,581,Tomás Rojas,52,XX.XXX.XXX-K,2025-04-25 19:31:05,412,Flu complications
+1143,582,Francisca Araya,33,XX.XXX.XXX-K,2026-01-11 19:31:05,156,Flu complications
+1144,582,Francisca Araya,33,XX.XXX.XXX-K,2026-01-09 19:31:05,160,Trauma care
+1145,583,Matías Rojas,20,XX.XXX.XXX-K,2026-01-01 19:31:05,168,Trauma care
+1146,583,Matías Rojas,19,XX.XXX.XXX-K,2025-06-27 19:31:05,349,Respiratory infection
+1147,584,Fernanda Herrera,14,XX.XXX.XXX-K,2024-10-18 19:31:05,606,Respiratory infection
+1148,584,Fernanda Herrera,15,XX.XXX.XXX-K,2025-09-26 19:31:05,262,Premature birth monitoring
+1149,585,Fernanda Rojas,34,XX.XXX.XXX-K,2025-11-04 19:31:05,226,Premature birth monitoring
+1150,585,Fernanda Rojas,33,XX.XXX.XXX-K,2024-11-22 19:31:05,573,Cardiac monitoring
+1151,586,Javier Torres,49,XX.XXX.XXX-K,2025-11-15 19:31:05,215,Post-surgical recovery
+1152,586,Javier Torres,48,XX.XXX.XXX-K,2024-11-24 19:31:05,568,Cardiac monitoring
+1153,587,Javier Fernández,38,XX.XXX.XXX-K,2025-11-17 19:31:05,213,Post-surgical recovery
+1154,587,Javier Fernández,39,XX.XXX.XXX-K,2026-03-21 19:31:05,83,Flu complications
+1155,588,Diego Herrera,28,XX.XXX.XXX-K,2024-09-20 19:31:05,633,Flu complications
+1156,588,Diego Herrera,29,XX.XXX.XXX-K,2025-03-21 19:31:05,453,Cardiac monitoring
+1157,589,Diego Araya,43,XX.XXX.XXX-K,2024-06-26 19:31:05,714,Respiratory infection
+1158,589,Diego Araya,45,XX.XXX.XXX-K,2026-02-13 19:31:05,117,Flu complications
+1159,590,Matías Fernández,26,XX.XXX.XXX-K,2025-07-29 19:31:05,324,Premature birth monitoring
+1160,590,Matías Fernández,25,XX.XXX.XXX-K,2024-10-21 19:31:05,602,Respiratory infection
+1161,591,Fernanda Torres,39,XX.XXX.XXX-K,2025-11-14 19:31:05,213,Trauma care
+1162,591,Fernanda Torres,39,XX.XXX.XXX-K,2025-09-03 19:31:05,288,Flu complications
+1163,592,Sebastián Rojas,17,XX.XXX.XXX-K,2025-05-20 19:31:05,385,Cardiac monitoring
+1164,592,Sebastián Rojas,17,XX.XXX.XXX-K,2025-03-04 19:31:05,462,Flu complications
+1165,593,Matías Muñoz,47,XX.XXX.XXX-K,2025-10-21 19:31:05,235,Premature birth monitoring
+1166,593,Matías Muñoz,46,XX.XXX.XXX-K,2024-07-28 19:31:05,683,Premature birth monitoring
+1167,594,Isidora Araya,54,XX.XXX.XXX-K,2025-01-22 19:31:05,504,Trauma care
+1168,594,Isidora Araya,53,XX.XXX.XXX-K,2024-12-09 19:31:05,550,Trauma care
+1169,595,Camila Castro,18,XX.XXX.XXX-K,2026-01-01 19:31:05,164,Flu complications
+1170,595,Camila Castro,17,XX.XXX.XXX-K,2025-11-05 19:31:05,218,Flu complications
+1171,596,Sebastián Rojas,46,XX.XXX.XXX-K,2025-04-23 19:31:05,412,Post-surgical recovery
+1172,596,Sebastián Rojas,47,XX.XXX.XXX-K,2026-02-24 19:31:05,105,Trauma care
+1173,597,Javier González,45,XX.XXX.XXX-K,2025-09-18 19:31:05,267,Flu complications
+1174,597,Javier González,44,XX.XXX.XXX-K,2024-12-25 19:31:05,536,Post-surgical recovery
+1175,598,Valentina Rojas,14,XX.XXX.XXX-K,2025-10-22 19:31:05,239,Respiratory infection
+1176,598,Valentina Rojas,14,XX.XXX.XXX-K,2025-12-12 19:31:05,181,Cardiac monitoring
+1177,599,Fernanda Castro,21,XX.XXX.XXX-K,2025-08-16 19:31:05,298,Trauma care
+1178,599,Fernanda Castro,21,XX.XXX.XXX-K,2025-06-24 19:31:05,352,Respiratory infection
+1179,600,Valentina Castro,11,XX.XXX.XXX-K,2025-10-16 19:31:05,236,Cardiac monitoring
+1180,600,Valentina Castro,11,XX.XXX.XXX-K,2025-01-02 19:31:05,525,Flu complications
+1181,601,Valentina González,12,XX.XXX.XXX-K,2025-03-11 19:31:05,464,Post-surgical recovery
+1182,601,Valentina González,13,XX.XXX.XXX-K,2026-05-10 19:31:05,32,Respiratory infection
+1183,602,Francisca Fernández,29,XX.XXX.XXX-K,2025-10-18 19:31:05,235,Flu complications
+1184,602,Francisca Fernández,29,XX.XXX.XXX-K,2025-12-03 19:31:05,196,Cardiac monitoring
+1185,603,Camila Araya,25,XX.XXX.XXX-K,2025-05-20 19:31:05,390,Post-surgical recovery
+1186,603,Camila Araya,26,XX.XXX.XXX-K,2026-06-14 19:31:05,-1,Premature birth monitoring
+1187,604,Diego Araya,52,XX.XXX.XXX-K,2025-06-23 19:31:05,356,Post-surgical recovery
+1188,604,Diego Araya,52,XX.XXX.XXX-K,2025-10-28 19:31:05,229,Trauma care
+1189,605,Camila Fernández,16,XX.XXX.XXX-K,2024-09-13 19:31:05,642,Post-surgical recovery
+1190,605,Camila Fernández,17,XX.XXX.XXX-K,2025-07-25 19:31:05,328,Cardiac monitoring
+1191,606,Valentina Castro,51,XX.XXX.XXX-K,2025-11-28 19:31:05,198,Cardiac monitoring
+1192,606,Valentina Castro,51,XX.XXX.XXX-K,2025-04-14 19:31:05,430,Cardiac monitoring
+1193,607,Fernanda Torres,38,XX.XXX.XXX-K,2025-07-09 19:31:05,344,Flu complications
+1194,607,Fernanda Torres,38,XX.XXX.XXX-K,2025-05-18 19:31:05,393,Flu complications
+1195,608,Diego Herrera,13,XX.XXX.XXX-K,2026-03-22 19:31:05,82,Cardiac monitoring
+1196,608,Diego Herrera,12,XX.XXX.XXX-K,2025-06-07 19:31:05,367,Flu complications
+1197,609,Francisca Herrera,55,XX.XXX.XXX-K,2025-03-13 19:31:05,459,Post-surgical recovery
+1198,609,Francisca Herrera,56,XX.XXX.XXX-K,2026-03-24 19:31:05,83,Trauma care
+1199,610,Camila Araya,26,XX.XXX.XXX-K,2025-09-02 19:31:05,282,Post-surgical recovery
+1200,610,Camila Araya,27,XX.XXX.XXX-K,2026-02-17 19:31:05,113,Trauma care
+1201,611,Matías Rojas,36,XX.XXX.XXX-K,2024-12-23 19:31:05,536,Trauma care
+1202,611,Matías Rojas,36,XX.XXX.XXX-K,2024-11-17 19:31:05,576,Post-surgical recovery
+1203,612,Tomás López,11,XX.XXX.XXX-K,2024-07-20 19:31:05,696,Trauma care
+1204,612,Tomás López,11,XX.XXX.XXX-K,2024-12-30 19:31:05,535,Post-surgical recovery
+1205,613,Camila Araya,34,XX.XXX.XXX-K,2026-01-06 19:31:05,159,Cardiac monitoring
+1206,613,Camila Araya,32,XX.XXX.XXX-K,2024-08-12 19:31:05,668,Flu complications
+1207,614,Camila Muñoz,31,XX.XXX.XXX-K,2026-06-08 19:31:05,7,Flu complications
+1208,614,Camila Muñoz,30,XX.XXX.XXX-K,2025-08-08 19:31:05,313,Post-surgical recovery
+1209,615,Sebastián González,16,XX.XXX.XXX-K,2026-02-14 19:31:05,117,Premature birth monitoring
+1210,615,Sebastián González,16,XX.XXX.XXX-K,2026-06-06 19:31:05,12,Premature birth monitoring
+1211,616,Diego Fernández,22,XX.XXX.XXX-K,2025-10-25 19:31:05,227,Trauma care
+1212,616,Diego Fernández,21,XX.XXX.XXX-K,2024-07-06 19:31:05,706,Cardiac monitoring
+1213,617,Valentina Herrera,44,XX.XXX.XXX-K,2025-03-09 19:31:05,464,Respiratory infection
+1214,617,Valentina Herrera,44,XX.XXX.XXX-K,2025-03-21 19:31:05,454,Post-surgical recovery
+1215,618,Tomás González,39,XX.XXX.XXX-K,2025-10-16 19:31:05,240,Respiratory infection
+1216,618,Tomás González,38,XX.XXX.XXX-K,2024-09-23 19:31:05,632,Respiratory infection
+1217,619,Camila Herrera,18,XX.XXX.XXX-K,2026-05-24 19:31:05,21,Trauma care
+1218,619,Camila Herrera,17,XX.XXX.XXX-K,2025-10-16 19:31:05,245,Respiratory infection
+1219,620,Camila Muñoz,22,XX.XXX.XXX-K,2024-12-03 19:31:05,553,Respiratory infection
+1220,620,Camila Muñoz,24,XX.XXX.XXX-K,2026-01-19 19:31:05,141,Trauma care
+1221,621,Javier Fernández,56,XX.XXX.XXX-K,2026-02-20 19:31:05,116,Respiratory infection
+1222,621,Javier Fernández,55,XX.XXX.XXX-K,2025-04-29 19:31:05,412,Respiratory infection
+1223,622,Sebastián Silva,30,XX.XXX.XXX-K,2025-09-20 19:31:05,269,Flu complications
+1224,622,Sebastián Silva,29,XX.XXX.XXX-K,2024-07-10 19:31:05,706,Respiratory infection
+1225,623,Francisca Rojas,21,XX.XXX.XXX-K,2026-03-17 19:31:05,86,Post-surgical recovery
+1226,623,Francisca Rojas,19,XX.XXX.XXX-K,2024-10-14 19:31:05,608,Respiratory infection
+1227,624,Valentina Araya,25,XX.XXX.XXX-K,2025-05-22 19:31:05,392,Flu complications
+1228,624,Valentina Araya,25,XX.XXX.XXX-K,2025-07-23 19:31:05,322,Trauma care
+1229,625,Fernanda Herrera,51,XX.XXX.XXX-K,2026-05-28 19:31:05,14,Cardiac monitoring
+1230,625,Fernanda Herrera,51,XX.XXX.XXX-K,2026-03-30 19:31:05,73,Post-surgical recovery
+1231,626,Fernanda González,43,XX.XXX.XXX-K,2025-06-04 19:31:05,379,Flu complications
+1232,626,Fernanda González,42,XX.XXX.XXX-K,2024-12-12 19:31:05,549,Trauma care
+1233,627,Sebastián Torres,51,XX.XXX.XXX-K,2025-10-16 19:31:05,245,Flu complications
+1234,627,Sebastián Torres,50,XX.XXX.XXX-K,2024-08-29 19:31:05,654,Trauma care
+1235,628,Javier González,41,XX.XXX.XXX-K,2024-08-25 19:31:05,662,Respiratory infection
+1236,628,Javier González,42,XX.XXX.XXX-K,2025-08-26 19:31:05,293,Post-surgical recovery
+1237,629,Tomás Torres,34,XX.XXX.XXX-K,2024-09-23 19:31:05,628,Cardiac monitoring
+1238,629,Tomás Torres,34,XX.XXX.XXX-K,2024-11-14 19:31:05,581,Cardiac monitoring
+1239,630,Francisca Castro,33,XX.XXX.XXX-K,2025-06-14 19:31:05,363,Cardiac monitoring
+1240,630,Francisca Castro,33,XX.XXX.XXX-K,2025-04-22 19:31:05,413,Premature birth monitoring
+1241,631,Sebastián Araya,43,XX.XXX.XXX-K,2025-07-07 19:31:05,341,Trauma care
+1242,631,Sebastián Araya,43,XX.XXX.XXX-K,2025-02-15 19:31:05,484,Trauma care
+1243,632,Javier Herrera,18,XX.XXX.XXX-K,2025-08-07 19:31:05,314,Cardiac monitoring
+1244,632,Javier Herrera,17,XX.XXX.XXX-K,2024-11-22 19:31:05,567,Flu complications
+1245,633,Matías González,31,XX.XXX.XXX-K,2024-07-01 19:31:05,709,Premature birth monitoring
+1246,633,Matías González,32,XX.XXX.XXX-K,2025-06-14 19:31:05,366,Trauma care
+1247,634,Sebastián Muñoz,40,XX.XXX.XXX-K,2024-09-29 19:31:05,624,Respiratory infection
+1248,634,Sebastián Muñoz,40,XX.XXX.XXX-K,2024-10-01 19:31:05,619,Cardiac monitoring
+1249,635,Isidora Muñoz,11,XX.XXX.XXX-K,2024-09-25 19:31:05,626,Respiratory infection
+1250,635,Isidora Muñoz,12,XX.XXX.XXX-K,2025-06-23 19:31:05,355,Trauma care
+1251,636,Matías Castro,17,XX.XXX.XXX-K,2025-06-09 19:31:05,374,Flu complications
+1252,636,Matías Castro,17,XX.XXX.XXX-K,2025-04-29 19:31:05,414,Cardiac monitoring
+1253,637,Diego Herrera,39,XX.XXX.XXX-K,2026-05-01 19:31:05,39,Premature birth monitoring
+1254,637,Diego Herrera,37,XX.XXX.XXX-K,2024-07-06 19:31:05,708,Post-surgical recovery
+1255,638,Valentina Rojas,15,XX.XXX.XXX-K,2026-02-14 19:31:05,119,Post-surgical recovery
+1256,638,Valentina Rojas,14,XX.XXX.XXX-K,2025-02-04 19:31:05,496,Cardiac monitoring
+1257,639,Tomás Fernández,26,XX.XXX.XXX-K,2025-10-27 19:31:05,234,Premature birth monitoring
+1258,639,Tomás Fernández,26,XX.XXX.XXX-K,2025-07-27 19:31:05,325,Post-surgical recovery
+1259,640,Francisca Araya,41,XX.XXX.XXX-K,2025-08-14 19:31:05,307,Premature birth monitoring
+1260,640,Francisca Araya,40,XX.XXX.XXX-K,2024-10-26 19:31:05,596,Premature birth monitoring
+1261,641,Valentina Torres,12,XX.XXX.XXX-K,2025-03-14 19:31:05,461,Premature birth monitoring
+1262,641,Valentina Torres,12,XX.XXX.XXX-K,2025-06-21 19:31:05,354,Trauma care
+1263,642,Camila Herrera,30,XX.XXX.XXX-K,2025-06-17 19:31:05,361,Respiratory infection
+1264,642,Camila Herrera,30,XX.XXX.XXX-K,2025-05-23 19:31:05,382,Cardiac monitoring
+1265,643,Matías Araya,14,XX.XXX.XXX-K,2024-08-02 19:31:05,682,Premature birth monitoring
+1266,643,Matías Araya,16,XX.XXX.XXX-K,2026-05-04 19:31:05,44,Cardiac monitoring
+1267,644,Isidora Torres,42,XX.XXX.XXX-K,2025-10-31 19:31:05,230,Premature birth monitoring
+1268,644,Isidora Torres,43,XX.XXX.XXX-K,2026-01-25 19:31:05,142,Cardiac monitoring
+1269,645,Francisca Castro,22,XX.XXX.XXX-K,2025-08-08 19:31:05,314,Respiratory infection
+1270,645,Francisca Castro,22,XX.XXX.XXX-K,2025-05-19 19:31:05,393,Cardiac monitoring
+1271,646,Fernanda Castro,29,XX.XXX.XXX-K,2025-10-19 19:31:05,237,Flu complications
+1272,646,Fernanda Castro,29,XX.XXX.XXX-K,2025-05-08 19:31:05,398,Respiratory infection
+1273,647,Javier Torres,47,XX.XXX.XXX-K,2026-04-27 19:31:05,52,Premature birth monitoring
+1274,647,Javier Torres,46,XX.XXX.XXX-K,2025-05-11 19:31:05,403,Respiratory infection
+1275,648,Francisca González,25,XX.XXX.XXX-K,2026-02-03 19:31:05,134,Cardiac monitoring
+1276,648,Francisca González,23,XX.XXX.XXX-K,2024-09-04 19:31:05,644,Cardiac monitoring
+1277,649,Matías Torres,22,XX.XXX.XXX-K,2026-04-09 19:31:05,62,Respiratory infection
+1278,649,Matías Torres,21,XX.XXX.XXX-K,2025-12-07 19:31:05,186,Trauma care
+1279,650,Isidora Rojas,39,XX.XXX.XXX-K,2026-03-14 19:31:05,94,Post-surgical recovery
+1280,650,Isidora Rojas,39,XX.XXX.XXX-K,2026-06-17 19:31:05,1,Premature birth monitoring
+1281,651,Sebastián Muñoz,18,XX.XXX.XXX-K,2024-08-30 19:31:05,651,Cardiac monitoring
+1282,651,Sebastián Muñoz,18,XX.XXX.XXX-K,2024-10-06 19:31:05,619,Trauma care
+1283,652,Camila Fernández,55,XX.XXX.XXX-K,2026-05-05 19:31:05,44,Cardiac monitoring
+1284,652,Camila Fernández,54,XX.XXX.XXX-K,2025-08-27 19:31:05,289,Premature birth monitoring
+1285,653,Valentina Torres,16,XX.XXX.XXX-K,2025-08-01 19:31:05,315,Cardiac monitoring
+1286,653,Valentina Torres,15,XX.XXX.XXX-K,2024-11-14 19:31:05,579,Trauma care
+1287,654,Javier López,53,XX.XXX.XXX-K,2025-01-05 19:31:05,521,Premature birth monitoring
+1288,654,Javier López,53,XX.XXX.XXX-K,2025-07-11 19:31:05,334,Cardiac monitoring
+1289,655,Diego López,45,XX.XXX.XXX-K,2026-01-27 19:31:05,142,Trauma care
+1290,655,Diego López,44,XX.XXX.XXX-K,2025-05-06 19:31:05,401,Respiratory infection
+1291,656,Francisca Castro,21,XX.XXX.XXX-K,2025-05-17 19:31:05,397,Post-surgical recovery
+1292,656,Francisca Castro,20,XX.XXX.XXX-K,2024-07-13 19:31:05,699,Flu complications
+1293,657,Isidora Fernández,39,XX.XXX.XXX-K,2025-09-08 19:31:05,278,Respiratory infection
+1294,657,Isidora Fernández,40,XX.XXX.XXX-K,2026-01-23 19:31:05,141,Post-surgical recovery
+1295,658,Camila Araya,19,XX.XXX.XXX-K,2025-05-06 19:31:05,400,Premature birth monitoring
+1296,658,Camila Araya,19,XX.XXX.XXX-K,2025-11-26 19:31:05,197,Cardiac monitoring
+1297,659,Francisca González,31,XX.XXX.XXX-K,2026-05-22 19:31:05,21,Respiratory infection
+1298,659,Francisca González,30,XX.XXX.XXX-K,2025-05-15 19:31:05,396,Post-surgical recovery
+1299,660,Diego González,26,XX.XXX.XXX-K,2025-01-06 19:31:05,526,Premature birth monitoring
+1300,660,Diego González,25,XX.XXX.XXX-K,2024-08-15 19:31:05,672,Trauma care
+1301,661,Diego Castro,19,XX.XXX.XXX-K,2025-01-27 19:31:05,503,Premature birth monitoring
+1302,661,Diego Castro,18,XX.XXX.XXX-K,2024-07-27 19:31:05,691,Trauma care
+1303,662,Tomás Torres,47,XX.XXX.XXX-K,2026-01-17 19:31:05,152,Premature birth monitoring
+1304,662,Tomás Torres,47,XX.XXX.XXX-K,2026-03-25 19:31:05,78,Trauma care
+1305,663,Fernanda Herrera,15,XX.XXX.XXX-K,2026-02-27 19:31:05,110,Cardiac monitoring
+1306,663,Fernanda Herrera,14,XX.XXX.XXX-K,2025-08-24 19:31:05,292,Respiratory infection
+1307,664,Tomás Araya,25,XX.XXX.XXX-K,2026-02-24 19:31:05,113,Respiratory infection
+1308,664,Tomás Araya,23,XX.XXX.XXX-K,2024-12-27 19:31:05,534,Trauma care
+1309,665,Diego Muñoz,39,XX.XXX.XXX-K,2025-05-29 19:31:05,379,Respiratory infection
+1310,665,Diego Muñoz,40,XX.XXX.XXX-K,2026-04-04 19:31:05,68,Cardiac monitoring
+1311,666,Fernanda Silva,53,XX.XXX.XXX-K,2025-08-16 19:31:05,302,Trauma care
+1312,666,Fernanda Silva,52,XX.XXX.XXX-K,2024-11-03 19:31:05,584,Trauma care
+1313,667,Diego Araya,38,XX.XXX.XXX-K,2025-10-03 19:31:05,257,Premature birth monitoring
+1314,667,Diego Araya,39,XX.XXX.XXX-K,2026-01-29 19:31:05,137,Flu complications
+1315,668,Javier Castro,55,XX.XXX.XXX-K,2026-03-28 19:31:05,77,Post-surgical recovery
+1316,668,Javier Castro,54,XX.XXX.XXX-K,2025-09-29 19:31:05,253,Post-surgical recovery
+1317,669,Tomás Rojas,47,XX.XXX.XXX-K,2025-11-16 19:31:05,213,Flu complications
+1318,669,Tomás Rojas,46,XX.XXX.XXX-K,2024-10-27 19:31:05,592,Trauma care
+1319,670,Francisca Torres,17,XX.XXX.XXX-K,2024-11-27 19:31:05,562,Premature birth monitoring
+1320,670,Francisca Torres,18,XX.XXX.XXX-K,2025-06-07 19:31:05,368,Respiratory infection
+1321,671,Javier López,35,XX.XXX.XXX-K,2024-08-28 19:31:05,655,Trauma care
+1322,671,Javier López,37,XX.XXX.XXX-K,2026-05-27 19:31:05,18,Flu complications
+1323,672,Sebastián Rojas,21,XX.XXX.XXX-K,2026-03-03 19:31:05,106,Respiratory infection
+1324,672,Sebastián Rojas,19,XX.XXX.XXX-K,2024-07-18 19:31:05,695,Respiratory infection
+1325,673,Diego Rojas,21,XX.XXX.XXX-K,2025-07-15 19:31:05,332,Post-surgical recovery
+1326,673,Diego Rojas,21,XX.XXX.XXX-K,2025-04-17 19:31:05,425,Trauma care
+1327,674,Javier Torres,51,XX.XXX.XXX-K,2026-03-01 19:31:05,103,Cardiac monitoring
+1328,674,Javier Torres,49,XX.XXX.XXX-K,2024-12-04 19:31:05,561,Premature birth monitoring
+1329,675,Javier Araya,32,XX.XXX.XXX-K,2025-03-02 19:31:05,468,Cardiac monitoring
+1330,675,Javier Araya,32,XX.XXX.XXX-K,2025-05-10 19:31:05,395,Flu complications
+1331,676,Francisca Herrera,46,XX.XXX.XXX-K,2025-05-05 19:31:05,402,Premature birth monitoring
+1332,676,Francisca Herrera,45,XX.XXX.XXX-K,2024-10-09 19:31:05,617,Trauma care
+1333,677,Francisca Castro,16,XX.XXX.XXX-K,2025-06-02 19:31:05,373,Premature birth monitoring
+1334,677,Francisca Castro,17,XX.XXX.XXX-K,2026-05-10 19:31:05,30,Trauma care
+1335,678,Camila Herrera,26,XX.XXX.XXX-K,2025-06-12 19:31:05,371,Cardiac monitoring
+1336,678,Camila Herrera,25,XX.XXX.XXX-K,2024-08-11 19:31:05,669,Trauma care
+1337,679,Fernanda Herrera,17,XX.XXX.XXX-K,2025-07-05 19:31:05,344,Premature birth monitoring
+1338,679,Fernanda Herrera,17,XX.XXX.XXX-K,2025-01-21 19:31:05,513,Respiratory infection
+1339,680,Diego Herrera,31,XX.XXX.XXX-K,2026-04-16 19:31:05,55,Respiratory infection
+1340,680,Diego Herrera,29,XX.XXX.XXX-K,2024-09-24 19:31:05,625,Respiratory infection
+1341,681,Valentina Castro,12,XX.XXX.XXX-K,2024-10-03 19:31:05,615,Flu complications
+1342,681,Valentina Castro,13,XX.XXX.XXX-K,2025-01-19 19:31:05,512,Flu complications
+1343,682,Matías Torres,19,XX.XXX.XXX-K,2026-01-07 19:31:05,162,Post-surgical recovery
+1344,682,Matías Torres,19,XX.XXX.XXX-K,2026-06-11 19:31:05,5,Flu complications
+1345,683,Camila Herrera,30,XX.XXX.XXX-K,2025-11-19 19:31:05,203,Respiratory infection
+1346,683,Camila Herrera,30,XX.XXX.XXX-K,2025-01-21 19:31:05,507,Post-surgical recovery
+1347,684,Isidora Rojas,36,XX.XXX.XXX-K,2026-06-08 19:31:05,3,Cardiac monitoring
+1348,684,Isidora Rojas,35,XX.XXX.XXX-K,2025-07-09 19:31:05,340,Post-surgical recovery
+1349,685,Sebastián López,27,XX.XXX.XXX-K,2024-09-16 19:31:05,639,Cardiac monitoring
+1350,685,Sebastián López,28,XX.XXX.XXX-K,2025-02-26 19:31:05,470,Premature birth monitoring
+1351,686,Camila Rojas,49,XX.XXX.XXX-K,2024-08-27 19:31:05,658,Respiratory infection
+1352,686,Camila Rojas,50,XX.XXX.XXX-K,2025-07-05 19:31:05,348,Cardiac monitoring
+1353,687,Camila Fernández,53,XX.XXX.XXX-K,2024-08-26 19:31:05,657,Trauma care
+1354,687,Camila Fernández,54,XX.XXX.XXX-K,2025-02-02 19:31:05,500,Trauma care
+1355,688,Valentina Muñoz,21,XX.XXX.XXX-K,2024-10-07 19:31:05,619,Cardiac monitoring
+1356,688,Valentina Muñoz,23,XX.XXX.XXX-K,2026-05-09 19:31:05,40,Post-surgical recovery
+1357,689,Diego López,47,XX.XXX.XXX-K,2025-04-03 19:31:05,432,Post-surgical recovery
+1358,689,Diego López,47,XX.XXX.XXX-K,2025-06-21 19:31:05,356,Premature birth monitoring
+1359,690,Javier Torres,34,XX.XXX.XXX-K,2025-11-30 19:31:05,199,Premature birth monitoring
+1360,690,Javier Torres,33,XX.XXX.XXX-K,2024-12-05 19:31:05,557,Trauma care
+1361,691,Tomás Rojas,40,XX.XXX.XXX-K,2025-12-23 19:31:05,171,Flu complications
+1362,691,Tomás Rojas,40,XX.XXX.XXX-K,2025-04-04 19:31:05,431,Trauma care
+1363,692,Fernanda Torres,35,XX.XXX.XXX-K,2026-04-19 19:31:05,53,Post-surgical recovery
+1364,692,Fernanda Torres,35,XX.XXX.XXX-K,2026-06-11 19:31:05,-1,Flu complications
+1365,693,Diego González,31,XX.XXX.XXX-K,2025-02-10 19:31:05,487,Flu complications
+1366,693,Diego González,32,XX.XXX.XXX-K,2026-06-15 19:31:05,-4,Trauma care
+1367,694,Isidora Rojas,33,XX.XXX.XXX-K,2025-06-02 19:31:05,381,Post-surgical recovery
+1368,694,Isidora Rojas,32,XX.XXX.XXX-K,2024-09-22 19:31:05,632,Post-surgical recovery
+1369,695,Valentina Herrera,55,XX.XXX.XXX-K,2025-08-30 19:31:05,285,Respiratory infection
+1370,695,Valentina Herrera,55,XX.XXX.XXX-K,2025-07-09 19:31:05,338,Cardiac monitoring
+1371,696,Isidora Silva,19,XX.XXX.XXX-K,2025-08-14 19:31:05,301,Premature birth monitoring
+1372,696,Isidora Silva,19,XX.XXX.XXX-K,2025-09-30 19:31:05,254,Post-surgical recovery
+1373,697,Javier Herrera,30,XX.XXX.XXX-K,2025-04-23 19:31:05,421,Post-surgical recovery
+1374,697,Javier Herrera,30,XX.XXX.XXX-K,2025-09-24 19:31:05,265,Flu complications
+1375,698,Javier Fernández,38,XX.XXX.XXX-K,2025-05-16 19:31:05,389,Respiratory infection
+1376,698,Javier Fernández,38,XX.XXX.XXX-K,2025-08-21 19:31:05,293,Cardiac monitoring
+1377,699,Matías Fernández,12,XX.XXX.XXX-K,2025-08-06 19:31:05,316,Flu complications
+1378,699,Matías Fernández,11,XX.XXX.XXX-K,2024-06-30 19:31:05,718,Trauma care
+1379,700,Isidora Herrera,14,XX.XXX.XXX-K,2025-12-21 19:31:05,170,Respiratory infection
+1380,700,Isidora Herrera,14,XX.XXX.XXX-K,2025-09-08 19:31:05,276,Flu complications
+1381,701,Tomás Torres,30,XX.XXX.XXX-K,2025-08-17 19:31:05,305,Premature birth monitoring
+1382,701,Tomás Torres,30,XX.XXX.XXX-K,2025-06-19 19:31:05,360,Flu complications
+1383,702,Valentina Rojas,20,XX.XXX.XXX-K,2026-02-03 19:31:05,129,Premature birth monitoring
+1384,702,Valentina Rojas,18,XX.XXX.XXX-K,2024-06-20 19:31:05,719,Cardiac monitoring
+1385,703,Tomás Rojas,25,XX.XXX.XXX-K,2024-11-20 19:31:05,570,Post-surgical recovery
+1386,703,Tomás Rojas,25,XX.XXX.XXX-K,2024-08-25 19:31:05,657,Cardiac monitoring
+1387,704,Francisca Torres,26,XX.XXX.XXX-K,2025-06-19 19:31:05,363,Flu complications
+1388,704,Francisca Torres,26,XX.XXX.XXX-K,2025-10-17 19:31:05,238,Respiratory infection
+1389,705,Valentina López,28,XX.XXX.XXX-K,2024-12-11 19:31:05,554,Premature birth monitoring
+1390,705,Valentina López,29,XX.XXX.XXX-K,2025-04-23 19:31:05,421,Trauma care
+1391,706,Javier Castro,34,XX.XXX.XXX-K,2025-05-27 19:31:05,378,Flu complications
+1392,706,Javier Castro,34,XX.XXX.XXX-K,2025-09-16 19:31:05,269,Post-surgical recovery
+1393,707,Diego Torres,14,XX.XXX.XXX-K,2025-02-04 19:31:05,498,Respiratory infection
+1394,707,Diego Torres,13,XX.XXX.XXX-K,2024-09-20 19:31:05,636,Cardiac monitoring
+1395,708,Isidora Silva,26,XX.XXX.XXX-K,2024-08-23 19:31:05,663,Respiratory infection
+1396,708,Isidora Silva,26,XX.XXX.XXX-K,2024-11-30 19:31:05,561,Flu complications
+1397,709,Fernanda Fernández,31,XX.XXX.XXX-K,2025-09-02 19:31:05,289,Flu complications
+1398,709,Fernanda Fernández,31,XX.XXX.XXX-K,2025-09-27 19:31:05,256,Trauma care
+1399,710,Tomás Torres,38,XX.XXX.XXX-K,2024-09-06 19:31:05,644,Cardiac monitoring
+1400,710,Tomás Torres,40,XX.XXX.XXX-K,2026-03-29 19:31:05,73,Post-surgical recovery
+1401,711,Francisca Fernández,29,XX.XXX.XXX-K,2025-09-21 19:31:05,269,Cardiac monitoring
+1402,711,Francisca Fernández,29,XX.XXX.XXX-K,2025-01-16 19:31:05,512,Flu complications
+1403,712,Diego Fernández,20,XX.XXX.XXX-K,2026-01-16 19:31:05,150,Trauma care
+1404,712,Diego Fernández,19,XX.XXX.XXX-K,2025-06-18 19:31:05,365,Trauma care
+1405,713,Fernanda Araya,14,XX.XXX.XXX-K,2024-07-06 19:31:05,712,Premature birth monitoring
+1406,713,Fernanda Araya,16,XX.XXX.XXX-K,2026-05-23 19:31:05,18,Cardiac monitoring
+1407,714,Tomás Araya,49,XX.XXX.XXX-K,2025-09-24 19:31:05,266,Premature birth monitoring
+1408,714,Tomás Araya,48,XX.XXX.XXX-K,2024-08-25 19:31:05,657,Post-surgical recovery
+1409,715,Tomás Muñoz,23,XX.XXX.XXX-K,2025-05-01 19:31:05,413,Premature birth monitoring
+1410,715,Tomás Muñoz,22,XX.XXX.XXX-K,2024-09-10 19:31:05,646,Trauma care
+1411,716,Isidora Fernández,44,XX.XXX.XXX-K,2025-03-02 19:31:05,470,Premature birth monitoring
+1412,716,Isidora Fernández,43,XX.XXX.XXX-K,2024-08-06 19:31:05,677,Respiratory infection
+1413,717,Javier López,22,XX.XXX.XXX-K,2024-07-31 19:31:05,680,Post-surgical recovery
+1414,717,Javier López,22,XX.XXX.XXX-K,2024-11-08 19:31:05,582,Respiratory infection
+1415,718,Valentina López,40,XX.XXX.XXX-K,2026-04-19 19:31:05,55,Trauma care
+1416,718,Valentina López,40,XX.XXX.XXX-K,2026-05-18 19:31:05,22,Respiratory infection
+1417,719,Sebastián González,51,XX.XXX.XXX-K,2026-03-31 19:31:05,79,Post-surgical recovery
+1418,719,Sebastián González,49,XX.XXX.XXX-K,2024-11-21 19:31:05,573,Cardiac monitoring
+1419,720,Javier López,23,XX.XXX.XXX-K,2026-04-29 19:31:05,42,Post-surgical recovery
+1420,720,Javier López,21,XX.XXX.XXX-K,2024-09-13 19:31:05,637,Cardiac monitoring
+1421,721,Sebastián Herrera,41,XX.XXX.XXX-K,2025-04-25 19:31:05,412,Premature birth monitoring
+1422,721,Sebastián Herrera,42,XX.XXX.XXX-K,2026-01-08 19:31:05,160,Premature birth monitoring
+1423,722,Tomás González,30,XX.XXX.XXX-K,2025-08-31 19:31:05,289,Trauma care
+1424,722,Tomás González,30,XX.XXX.XXX-K,2025-10-21 19:31:05,237,Flu complications
+1425,723,Isidora Muñoz,30,XX.XXX.XXX-K,2025-11-04 19:31:05,226,Premature birth monitoring
+1426,723,Isidora Muñoz,29,XX.XXX.XXX-K,2024-12-22 19:31:05,534,Post-surgical recovery
+1427,724,Francisca Fernández,26,XX.XXX.XXX-K,2024-07-29 19:31:05,681,Flu complications
+1428,724,Francisca Fernández,27,XX.XXX.XXX-K,2025-11-12 19:31:05,216,Trauma care
+1429,725,Valentina López,47,XX.XXX.XXX-K,2025-05-25 19:31:05,385,Cardiac monitoring
+1430,725,Valentina López,46,XX.XXX.XXX-K,2024-06-29 19:31:05,718,Premature birth monitoring
+1431,726,Matías González,15,XX.XXX.XXX-K,2026-06-14 19:31:05,-2,Trauma care
+1432,726,Matías González,14,XX.XXX.XXX-K,2025-05-31 19:31:05,377,Flu complications
+1433,727,Tomás Fernández,46,XX.XXX.XXX-K,2026-06-14 19:31:05,-1,Respiratory infection
+1434,727,Tomás Fernández,45,XX.XXX.XXX-K,2025-08-31 19:31:05,291,Premature birth monitoring
+1435,728,Matías Castro,29,XX.XXX.XXX-K,2025-03-17 19:31:05,455,Cardiac monitoring
+1436,728,Matías Castro,29,XX.XXX.XXX-K,2025-10-21 19:31:05,240,Premature birth monitoring
+1437,729,Valentina Araya,28,XX.XXX.XXX-K,2025-08-18 19:31:05,299,Cardiac monitoring
+1438,729,Valentina Araya,27,XX.XXX.XXX-K,2024-08-27 19:31:05,651,Respiratory infection
+1439,730,Tomás López,12,XX.XXX.XXX-K,2025-12-20 19:31:05,179,Flu complications
+1440,730,Tomás López,12,XX.XXX.XXX-K,2025-01-28 19:31:05,498,Flu complications
+1441,731,Javier Fernández,53,XX.XXX.XXX-K,2026-02-24 19:31:05,110,Cardiac monitoring
+1442,731,Javier Fernández,52,XX.XXX.XXX-K,2025-07-15 19:31:05,332,Premature birth monitoring
+1443,732,Fernanda Araya,51,XX.XXX.XXX-K,2025-08-26 19:31:05,291,Post-surgical recovery
+1444,732,Fernanda Araya,51,XX.XXX.XXX-K,2025-08-19 19:31:05,302,Flu complications
+1445,733,Francisca Torres,13,XX.XXX.XXX-K,2025-02-14 19:31:05,480,Respiratory infection
+1446,733,Francisca Torres,13,XX.XXX.XXX-K,2025-11-12 19:31:05,212,Flu complications
+1447,734,Valentina Torres,13,XX.XXX.XXX-K,2024-06-21 19:31:05,727,Premature birth monitoring
+1448,734,Valentina Torres,13,XX.XXX.XXX-K,2024-06-30 19:31:05,716,Respiratory infection
+1449,735,Valentina Silva,30,XX.XXX.XXX-K,2026-01-21 19:31:05,144,Cardiac monitoring
+1450,735,Valentina Silva,29,XX.XXX.XXX-K,2025-09-22 19:31:05,264,Flu complications
+1451,736,Matías Herrera,45,XX.XXX.XXX-K,2025-04-19 19:31:05,420,Flu complications
+1452,736,Matías Herrera,45,XX.XXX.XXX-K,2025-01-23 19:31:05,507,Trauma care
+1453,737,Tomás Fernández,32,XX.XXX.XXX-K,2025-04-16 19:31:05,425,Premature birth monitoring
+1454,737,Tomás Fernández,32,XX.XXX.XXX-K,2025-08-11 19:31:05,311,Flu complications
+1455,738,Valentina López,44,XX.XXX.XXX-K,2026-03-27 19:31:05,79,Premature birth monitoring
+1456,738,Valentina López,42,XX.XXX.XXX-K,2024-08-07 19:31:05,672,Cardiac monitoring
+1457,739,Diego Silva,40,XX.XXX.XXX-K,2024-08-16 19:31:05,667,Trauma care
+1458,739,Diego Silva,41,XX.XXX.XXX-K,2025-12-11 19:31:05,185,Premature birth monitoring
+1459,740,Francisca López,49,XX.XXX.XXX-K,2025-09-27 19:31:05,257,Respiratory infection
+1460,740,Francisca López,49,XX.XXX.XXX-K,2025-05-30 19:31:05,384,Flu complications
+1461,741,Diego Silva,37,XX.XXX.XXX-K,2025-04-13 19:31:05,426,Flu complications
+1462,741,Diego Silva,37,XX.XXX.XXX-K,2025-03-20 19:31:05,454,Post-surgical recovery
+1463,742,Isidora Silva,21,XX.XXX.XXX-K,2025-09-29 19:31:05,254,Post-surgical recovery
+1464,742,Isidora Silva,20,XX.XXX.XXX-K,2024-09-10 19:31:05,646,Trauma care
+1465,743,Sebastián González,48,XX.XXX.XXX-K,2026-03-25 19:31:05,79,Respiratory infection
+1466,743,Sebastián González,47,XX.XXX.XXX-K,2025-02-06 19:31:05,491,Cardiac monitoring
+1467,744,Camila Herrera,39,XX.XXX.XXX-K,2026-01-20 19:31:05,149,Post-surgical recovery
+1468,744,Camila Herrera,39,XX.XXX.XXX-K,2026-06-12 19:31:05,3,Flu complications
+1469,745,Tomás Herrera,19,XX.XXX.XXX-K,2026-05-21 19:31:05,21,Respiratory infection
+1470,745,Tomás Herrera,17,XX.XXX.XXX-K,2024-11-05 19:31:05,587,Premature birth monitoring
+1471,746,Valentina Herrera,39,XX.XXX.XXX-K,2026-03-04 19:31:05,99,Premature birth monitoring
+1472,746,Valentina Herrera,38,XX.XXX.XXX-K,2025-05-03 19:31:05,411,Respiratory infection
+1473,747,Sebastián Muñoz,25,XX.XXX.XXX-K,2024-08-31 19:31:05,656,Cardiac monitoring
+1474,747,Sebastián Muñoz,25,XX.XXX.XXX-K,2024-08-30 19:31:05,657,Respiratory infection
+1475,748,Matías Araya,48,XX.XXX.XXX-K,2024-09-01 19:31:05,652,Trauma care
+1476,748,Matías Araya,50,XX.XXX.XXX-K,2026-01-20 19:31:05,147,Post-surgical recovery
+1477,749,Valentina Rojas,12,XX.XXX.XXX-K,2026-02-08 19:31:05,130,Flu complications
+1478,749,Valentina Rojas,10,XX.XXX.XXX-K,2024-12-30 19:31:05,535,Cardiac monitoring
+1479,750,Sebastián López,37,XX.XXX.XXX-K,2024-09-07 19:31:05,646,Cardiac monitoring
+1480,750,Sebastián López,38,XX.XXX.XXX-K,2025-09-27 19:31:05,260,Post-surgical recovery
+1481,751,Isidora González,47,XX.XXX.XXX-K,2024-12-30 19:31:05,535,Cardiac monitoring
+1482,751,Isidora González,49,XX.XXX.XXX-K,2026-05-21 19:31:05,25,Flu complications
+1483,752,Camila Castro,55,XX.XXX.XXX-K,2026-01-17 19:31:05,149,Flu complications
+1484,752,Camila Castro,54,XX.XXX.XXX-K,2025-12-27 19:31:05,172,Cardiac monitoring
+1485,753,Javier Fernández,55,XX.XXX.XXX-K,2026-02-20 19:31:05,112,Cardiac monitoring
+1486,753,Javier Fernández,54,XX.XXX.XXX-K,2025-12-01 19:31:05,196,Premature birth monitoring
+1487,754,Sebastián Fernández,11,XX.XXX.XXX-K,2025-08-16 19:31:05,299,Trauma care
+1488,754,Sebastián Fernández,12,XX.XXX.XXX-K,2026-02-13 19:31:05,124,Post-surgical recovery
+1489,755,Diego Torres,56,XX.XXX.XXX-K,2026-06-16 19:31:05,1,Respiratory infection
+1490,755,Diego Torres,54,XX.XXX.XXX-K,2024-08-12 19:31:05,667,Post-surgical recovery
+1491,756,Javier Fernández,49,XX.XXX.XXX-K,2025-05-24 19:31:05,383,Trauma care
+1492,756,Javier Fernández,48,XX.XXX.XXX-K,2024-09-16 19:31:05,640,Trauma care
+1493,757,Isidora Castro,53,XX.XXX.XXX-K,2025-10-29 19:31:05,230,Premature birth monitoring
+1494,757,Isidora Castro,53,XX.XXX.XXX-K,2025-05-11 19:31:05,403,Cardiac monitoring
+1495,758,Javier Muñoz,26,XX.XXX.XXX-K,2025-11-14 19:31:05,208,Respiratory infection
+1496,758,Javier Muñoz,26,XX.XXX.XXX-K,2025-10-04 19:31:05,253,Flu complications
+1497,759,Francisca Castro,23,XX.XXX.XXX-K,2025-05-14 19:31:05,393,Premature birth monitoring
+1498,759,Francisca Castro,24,XX.XXX.XXX-K,2026-04-25 19:31:05,48,Trauma care
+1499,760,Diego Araya,48,XX.XXX.XXX-K,2025-01-15 19:31:05,512,Flu complications
+1500,760,Diego Araya,49,XX.XXX.XXX-K,2026-02-12 19:31:05,126,Post-surgical recovery
+1501,761,Javier González,16,XX.XXX.XXX-K,2025-05-08 19:31:05,405,Post-surgical recovery
+1502,761,Javier González,15,XX.XXX.XXX-K,2024-10-29 19:31:05,591,Trauma care
+1503,762,Camila Muñoz,26,XX.XXX.XXX-K,2025-05-31 19:31:05,382,Trauma care
+1504,762,Camila Muñoz,27,XX.XXX.XXX-K,2026-01-13 19:31:05,153,Premature birth monitoring
+1505,763,Francisca Araya,35,XX.XXX.XXX-K,2025-05-06 19:31:05,402,Respiratory infection
+1506,763,Francisca Araya,36,XX.XXX.XXX-K,2026-03-25 19:31:05,82,Cardiac monitoring
+1507,764,Diego Muñoz,54,XX.XXX.XXX-K,2025-10-11 19:31:05,249,Premature birth monitoring
+1508,764,Diego Muñoz,54,XX.XXX.XXX-K,2025-01-04 19:31:05,526,Respiratory infection
+1509,765,Javier Rojas,38,XX.XXX.XXX-K,2025-06-20 19:31:05,361,Cardiac monitoring
+1510,765,Javier Rojas,38,XX.XXX.XXX-K,2025-09-10 19:31:05,272,Respiratory infection
+1511,766,Diego Herrera,47,XX.XXX.XXX-K,2024-06-30 19:31:05,712,Premature birth monitoring
+1512,766,Diego Herrera,48,XX.XXX.XXX-K,2025-05-03 19:31:05,403,Post-surgical recovery
+1513,767,Valentina Torres,27,XX.XXX.XXX-K,2026-02-19 19:31:05,115,Premature birth monitoring
+1514,767,Valentina Torres,26,XX.XXX.XXX-K,2025-09-08 19:31:05,274,Respiratory infection
+1515,768,Diego Araya,51,XX.XXX.XXX-K,2024-12-14 19:31:05,542,Trauma care
+1516,768,Diego Araya,53,XX.XXX.XXX-K,2026-03-02 19:31:05,99,Trauma care
+1517,769,Francisca Fernández,30,XX.XXX.XXX-K,2025-01-26 19:31:05,504,Cardiac monitoring
+1518,769,Francisca Fernández,30,XX.XXX.XXX-K,2025-03-27 19:31:05,444,Post-surgical recovery
+1519,770,Tomás Rojas,49,XX.XXX.XXX-K,2026-06-11 19:31:05,4,Premature birth monitoring
+1520,770,Tomás Rojas,48,XX.XXX.XXX-K,2025-10-12 19:31:05,240,Post-surgical recovery
+1521,771,Javier Torres,42,XX.XXX.XXX-K,2024-11-29 19:31:05,566,Flu complications
+1522,771,Javier Torres,43,XX.XXX.XXX-K,2025-11-11 19:31:05,214,Cardiac monitoring
+1523,772,Camila Torres,16,XX.XXX.XXX-K,2025-09-07 19:31:05,277,Post-surgical recovery
+1524,772,Camila Torres,16,XX.XXX.XXX-K,2025-12-18 19:31:05,182,Trauma care
+1525,773,Tomás González,40,XX.XXX.XXX-K,2025-12-15 19:31:05,176,Premature birth monitoring
+1526,773,Tomás González,40,XX.XXX.XXX-K,2025-09-24 19:31:05,258,Cardiac monitoring
+1527,774,Matías González,31,XX.XXX.XXX-K,2024-09-16 19:31:05,632,Trauma care
+1528,774,Matías González,31,XX.XXX.XXX-K,2024-08-17 19:31:05,666,Respiratory infection
+1529,775,Fernanda López,18,XX.XXX.XXX-K,2025-05-22 19:31:05,392,Flu complications
+1530,775,Fernanda López,18,XX.XXX.XXX-K,2025-09-24 19:31:05,261,Trauma care
+1531,776,Camila Castro,19,XX.XXX.XXX-K,2026-01-08 19:31:05,157,Trauma care
+1532,776,Camila Castro,17,XX.XXX.XXX-K,2024-06-27 19:31:05,717,Premature birth monitoring
+1533,777,Diego López,40,XX.XXX.XXX-K,2025-10-20 19:31:05,235,Premature birth monitoring
+1534,777,Diego López,39,XX.XXX.XXX-K,2024-06-23 19:31:05,725,Premature birth monitoring
+1535,778,Fernanda Muñoz,14,XX.XXX.XXX-K,2025-12-19 19:31:05,181,Trauma care
+1536,778,Fernanda Muñoz,14,XX.XXX.XXX-K,2025-08-29 19:31:05,292,Post-surgical recovery
+1537,779,Diego Muñoz,46,XX.XXX.XXX-K,2025-01-24 19:31:05,501,Post-surgical recovery
+1538,779,Diego Muñoz,45,XX.XXX.XXX-K,2024-11-27 19:31:05,559,Trauma care
+1539,780,Tomás Fernández,40,XX.XXX.XXX-K,2026-01-22 19:31:05,146,Respiratory infection
+1540,780,Tomás Fernández,39,XX.XXX.XXX-K,2025-02-20 19:31:05,477,Post-surgical recovery
+1541,781,Fernanda Fernández,29,XX.XXX.XXX-K,2025-04-27 19:31:05,412,Respiratory infection
+1542,781,Fernanda Fernández,29,XX.XXX.XXX-K,2025-02-03 19:31:05,492,Trauma care
+1543,782,Isidora Fernández,37,XX.XXX.XXX-K,2026-03-05 19:31:05,102,Premature birth monitoring
+1544,782,Isidora Fernández,36,XX.XXX.XXX-K,2025-12-04 19:31:05,187,Respiratory infection
+1545,783,Camila Herrera,27,XX.XXX.XXX-K,2025-03-12 19:31:05,456,Premature birth monitoring
+1546,783,Camila Herrera,28,XX.XXX.XXX-K,2026-02-14 19:31:05,120,Trauma care
+1547,784,Tomás Fernández,38,XX.XXX.XXX-K,2025-08-23 19:31:05,299,Post-surgical recovery
+1548,784,Tomás Fernández,38,XX.XXX.XXX-K,2025-10-13 19:31:05,243,Flu complications
+1549,785,Tomás López,18,XX.XXX.XXX-K,2024-08-19 19:31:05,664,Flu complications
+1550,785,Tomás López,20,XX.XXX.XXX-K,2026-04-29 19:31:05,48,Trauma care
+1551,786,Camila Fernández,41,XX.XXX.XXX-K,2025-08-12 19:31:05,309,Cardiac monitoring
+1552,786,Camila Fernández,40,XX.XXX.XXX-K,2024-11-24 19:31:05,564,Flu complications
+1553,787,Sebastián Silva,47,XX.XXX.XXX-K,2026-01-18 19:31:05,151,Cardiac monitoring
+1554,787,Sebastián Silva,45,XX.XXX.XXX-K,2024-12-18 19:31:05,546,Flu complications
+1555,788,Francisca Araya,31,XX.XXX.XXX-K,2024-09-29 19:31:05,621,Respiratory infection
+1556,788,Francisca Araya,32,XX.XXX.XXX-K,2025-08-27 19:31:05,295,Respiratory infection
+1557,789,Valentina Araya,49,XX.XXX.XXX-K,2026-01-19 19:31:05,145,Premature birth monitoring
+1558,789,Valentina Araya,48,XX.XXX.XXX-K,2025-04-30 19:31:05,408,Trauma care
+1559,790,Camila Herrera,16,XX.XXX.XXX-K,2025-11-12 19:31:05,214,Cardiac monitoring
+1560,790,Camila Herrera,16,XX.XXX.XXX-K,2025-03-16 19:31:05,459,Respiratory infection
+1561,791,Javier Fernández,48,XX.XXX.XXX-K,2026-02-19 19:31:05,115,Respiratory infection
+1562,791,Javier Fernández,47,XX.XXX.XXX-K,2025-06-10 19:31:05,369,Premature birth monitoring
+1563,792,Valentina González,21,XX.XXX.XXX-K,2024-07-22 19:31:05,689,Respiratory infection
+1564,792,Valentina González,21,XX.XXX.XXX-K,2024-11-08 19:31:05,578,Cardiac monitoring
+1565,793,Francisca Silva,55,XX.XXX.XXX-K,2026-06-06 19:31:05,8,Cardiac monitoring
+1566,793,Francisca Silva,54,XX.XXX.XXX-K,2025-10-01 19:31:05,252,Premature birth monitoring
+1567,794,Francisca Araya,40,XX.XXX.XXX-K,2025-04-12 19:31:05,428,Post-surgical recovery
+1568,794,Francisca Araya,40,XX.XXX.XXX-K,2025-07-22 19:31:05,330,Respiratory infection
+1569,795,Sebastián Fernández,48,XX.XXX.XXX-K,2024-10-06 19:31:05,616,Premature birth monitoring
+1570,795,Sebastián Fernández,50,XX.XXX.XXX-K,2026-04-27 19:31:05,52,Premature birth monitoring
+1571,796,Tomás López,48,XX.XXX.XXX-K,2025-05-31 19:31:05,382,Respiratory infection
+1572,796,Tomás López,49,XX.XXX.XXX-K,2026-05-24 19:31:05,19,Flu complications
+1573,797,Camila Rojas,14,XX.XXX.XXX-K,2026-06-17 19:31:05,-6,Flu complications
+1574,797,Camila Rojas,13,XX.XXX.XXX-K,2025-02-18 19:31:05,479,Cardiac monitoring
+1575,798,Camila Torres,50,XX.XXX.XXX-K,2025-09-07 19:31:05,284,Flu complications
+1576,798,Camila Torres,50,XX.XXX.XXX-K,2025-05-09 19:31:05,403,Premature birth monitoring
+1577,799,Tomás Rojas,35,XX.XXX.XXX-K,2025-06-25 19:31:05,354,Trauma care
+1578,799,Tomás Rojas,34,XX.XXX.XXX-K,2024-10-25 19:31:05,594,Cardiac monitoring
+1579,800,Francisca Herrera,43,XX.XXX.XXX-K,2025-01-01 19:31:05,528,Flu complications
+1580,800,Francisca Herrera,44,XX.XXX.XXX-K,2026-01-27 19:31:05,142,Trauma care
+1581,801,Tomás Rojas,32,XX.XXX.XXX-K,2026-02-17 19:31:05,116,Premature birth monitoring
+1582,801,Tomás Rojas,31,XX.XXX.XXX-K,2025-02-12 19:31:05,487,Premature birth monitoring
+1583,802,Sebastián González,12,XX.XXX.XXX-K,2026-01-11 19:31:05,154,Flu complications
+1584,802,Sebastián González,11,XX.XXX.XXX-K,2025-05-20 19:31:05,387,Cardiac monitoring
+1585,803,Javier Castro,33,XX.XXX.XXX-K,2024-12-27 19:31:05,535,Flu complications
+1586,803,Javier Castro,33,XX.XXX.XXX-K,2024-11-15 19:31:05,580,Flu complications
+1587,804,Francisca López,16,XX.XXX.XXX-K,2024-07-10 19:31:05,702,Flu complications
+1588,804,Francisca López,17,XX.XXX.XXX-K,2025-02-05 19:31:05,496,Premature birth monitoring
+1589,805,Fernanda Herrera,50,XX.XXX.XXX-K,2025-09-24 19:31:05,267,Flu complications
+1590,805,Fernanda Herrera,51,XX.XXX.XXX-K,2026-04-17 19:31:05,59,Cardiac monitoring
+1591,806,Tomás Araya,10,XX.XXX.XXX-K,2025-05-14 19:31:05,400,Cardiac monitoring
+1592,806,Tomás Araya,11,XX.XXX.XXX-K,2026-03-07 19:31:05,103,Post-surgical recovery
+1593,807,Javier Castro,45,XX.XXX.XXX-K,2026-02-01 19:31:05,135,Respiratory infection
+1594,807,Javier Castro,44,XX.XXX.XXX-K,2025-05-22 19:31:05,383,Premature birth monitoring
+1595,808,Matías López,36,XX.XXX.XXX-K,2025-10-13 19:31:05,241,Premature birth monitoring
+1596,808,Matías López,36,XX.XXX.XXX-K,2025-01-23 19:31:05,508,Flu complications
+1597,809,Matías Torres,21,XX.XXX.XXX-K,2025-06-14 19:31:05,365,Flu complications
+1598,809,Matías Torres,22,XX.XXX.XXX-K,2026-06-17 19:31:05,1,Cardiac monitoring
+1599,810,Tomás Torres,38,XX.XXX.XXX-K,2024-10-21 19:31:05,598,Trauma care
+1600,810,Tomás Torres,39,XX.XXX.XXX-K,2025-12-18 19:31:05,182,Cardiac monitoring
+1601,811,Fernanda Castro,25,XX.XXX.XXX-K,2024-12-11 19:31:05,552,Post-surgical recovery
+1602,811,Fernanda Castro,27,XX.XXX.XXX-K,2026-01-28 19:31:05,138,Post-surgical recovery
+1603,812,Tomás Rojas,42,XX.XXX.XXX-K,2025-07-12 19:31:05,332,Cardiac monitoring
+1604,812,Tomás Rojas,42,XX.XXX.XXX-K,2025-04-26 19:31:05,410,Premature birth monitoring
+1605,813,Tomás Araya,12,XX.XXX.XXX-K,2024-09-05 19:31:05,645,Respiratory infection
+1606,813,Tomás Araya,13,XX.XXX.XXX-K,2025-10-02 19:31:05,252,Cardiac monitoring
+1607,814,Camila Muñoz,35,XX.XXX.XXX-K,2025-08-29 19:31:05,287,Post-surgical recovery
+1608,814,Camila Muñoz,35,XX.XXX.XXX-K,2025-05-12 19:31:05,396,Premature birth monitoring
+1609,815,Camila Torres,38,XX.XXX.XXX-K,2026-01-18 19:31:05,142,Flu complications
+1610,815,Camila Torres,37,XX.XXX.XXX-K,2025-03-09 19:31:05,464,Trauma care
+1611,816,Isidora Fernández,38,XX.XXX.XXX-K,2025-11-27 19:31:05,201,Cardiac monitoring
+1612,816,Isidora Fernández,38,XX.XXX.XXX-K,2025-07-07 19:31:05,337,Flu complications
+1613,817,Diego Rojas,17,XX.XXX.XXX-K,2025-10-26 19:31:05,233,Cardiac monitoring
+1614,817,Diego Rojas,16,XX.XXX.XXX-K,2024-10-04 19:31:05,621,Post-surgical recovery
+1615,818,Fernanda Araya,55,XX.XXX.XXX-K,2026-05-20 19:31:05,20,Flu complications
+1616,818,Fernanda Araya,55,XX.XXX.XXX-K,2026-04-01 19:31:05,78,Trauma care
+1617,819,Javier Muñoz,30,XX.XXX.XXX-K,2025-05-27 19:31:05,385,Flu complications
+1618,819,Javier Muñoz,30,XX.XXX.XXX-K,2025-08-09 19:31:05,310,Trauma care
+1619,820,Javier Fernández,47,XX.XXX.XXX-K,2024-12-02 19:31:05,557,Trauma care
+1620,820,Javier Fernández,49,XX.XXX.XXX-K,2026-01-17 19:31:05,149,Respiratory infection
+1621,821,Sebastián Torres,26,XX.XXX.XXX-K,2024-10-19 19:31:05,599,Flu complications
+1622,821,Sebastián Torres,26,XX.XXX.XXX-K,2024-08-15 19:31:05,669,Respiratory infection
+1623,822,Isidora López,14,XX.XXX.XXX-K,2025-03-25 19:31:05,447,Respiratory infection
+1624,822,Isidora López,13,XX.XXX.XXX-K,2024-08-22 19:31:05,665,Cardiac monitoring
+1625,823,Javier González,51,XX.XXX.XXX-K,2024-07-24 19:31:05,691,Trauma care
+1626,823,Javier González,52,XX.XXX.XXX-K,2025-05-06 19:31:05,408,Cardiac monitoring
+1627,824,Isidora Rojas,39,XX.XXX.XXX-K,2025-08-03 19:31:05,310,Respiratory infection
+1628,824,Isidora Rojas,39,XX.XXX.XXX-K,2025-01-13 19:31:05,521,Post-surgical recovery
+1629,825,Matías González,35,XX.XXX.XXX-K,2025-07-13 19:31:05,336,Respiratory infection
+1630,825,Matías González,35,XX.XXX.XXX-K,2025-11-02 19:31:05,219,Post-surgical recovery
+1631,826,Isidora González,30,XX.XXX.XXX-K,2026-01-21 19:31:05,148,Cardiac monitoring
+1632,826,Isidora González,30,XX.XXX.XXX-K,2026-06-15 19:31:05,-2,Trauma care
+1633,827,Sebastián González,46,XX.XXX.XXX-K,2024-11-22 19:31:05,572,Respiratory infection
+1634,827,Sebastián González,47,XX.XXX.XXX-K,2025-11-11 19:31:05,213,Post-surgical recovery
+1635,828,Camila Araya,20,XX.XXX.XXX-K,2025-09-06 19:31:05,279,Post-surgical recovery
+1636,828,Camila Araya,20,XX.XXX.XXX-K,2025-02-26 19:31:05,474,Trauma care
+1637,829,Isidora Torres,36,XX.XXX.XXX-K,2025-03-26 19:31:05,449,Trauma care
+1638,829,Isidora Torres,35,XX.XXX.XXX-K,2024-11-29 19:31:05,558,Premature birth monitoring
+1639,830,Javier Torres,52,XX.XXX.XXX-K,2026-03-26 19:31:05,83,Flu complications
+1640,830,Javier Torres,51,XX.XXX.XXX-K,2025-10-25 19:31:05,231,Post-surgical recovery
+1641,831,Camila Silva,32,XX.XXX.XXX-K,2026-02-15 19:31:05,122,Respiratory infection
+1642,831,Camila Silva,31,XX.XXX.XXX-K,2025-06-23 19:31:05,359,Flu complications
+1643,832,Fernanda Araya,47,XX.XXX.XXX-K,2025-07-01 19:31:05,352,Trauma care
+1644,832,Fernanda Araya,47,XX.XXX.XXX-K,2025-02-13 19:31:05,485,Trauma care
+1645,833,Matías Araya,51,XX.XXX.XXX-K,2026-05-28 19:31:05,21,Premature birth monitoring
+1646,833,Matías Araya,50,XX.XXX.XXX-K,2025-06-05 19:31:05,373,Post-surgical recovery
+1647,834,Francisca Castro,15,XX.XXX.XXX-K,2026-02-02 19:31:05,133,Respiratory infection
+1648,834,Francisca Castro,14,XX.XXX.XXX-K,2025-11-26 19:31:05,204,Flu complications
+1649,835,Tomás Muñoz,26,XX.XXX.XXX-K,2024-06-24 19:31:05,718,Post-surgical recovery
+1650,835,Tomás Muñoz,28,XX.XXX.XXX-K,2026-04-05 19:31:05,74,Respiratory infection
+1651,836,Camila Araya,15,XX.XXX.XXX-K,2025-11-30 19:31:05,200,Post-surgical recovery
+1652,836,Camila Araya,15,XX.XXX.XXX-K,2025-04-09 19:31:05,431,Respiratory infection
+1653,837,Isidora Muñoz,16,XX.XXX.XXX-K,2024-08-21 19:31:05,658,Post-surgical recovery
+1654,837,Isidora Muñoz,17,XX.XXX.XXX-K,2025-09-04 19:31:05,281,Flu complications
+1655,838,Diego Torres,14,XX.XXX.XXX-K,2025-04-18 19:31:05,418,Respiratory infection
+1656,838,Diego Torres,15,XX.XXX.XXX-K,2026-02-28 19:31:05,110,Flu complications
+1657,839,Fernanda López,45,XX.XXX.XXX-K,2026-05-20 19:31:05,20,Respiratory infection
+1658,839,Fernanda López,44,XX.XXX.XXX-K,2025-08-20 19:31:05,295,Trauma care
+1659,840,Sebastián Muñoz,35,XX.XXX.XXX-K,2026-05-13 19:31:05,29,Cardiac monitoring
+1660,840,Sebastián Muñoz,33,XX.XXX.XXX-K,2024-10-04 19:31:05,615,Flu complications
+1661,841,Sebastián Torres,47,XX.XXX.XXX-K,2024-08-17 19:31:05,666,Respiratory infection
+1662,841,Sebastián Torres,47,XX.XXX.XXX-K,2024-06-25 19:31:05,714,Cardiac monitoring
+1663,842,Isidora Rojas,44,XX.XXX.XXX-K,2025-03-01 19:31:05,473,Premature birth monitoring
+1664,842,Isidora Rojas,43,XX.XXX.XXX-K,2024-06-25 19:31:05,720,Trauma care
+1665,843,Sebastián Fernández,18,XX.XXX.XXX-K,2025-06-01 19:31:05,379,Trauma care
+1666,843,Sebastián Fernández,18,XX.XXX.XXX-K,2025-07-10 19:31:05,341,Trauma care
+1667,844,Valentina Fernández,52,XX.XXX.XXX-K,2026-04-30 19:31:05,43,Flu complications
+1668,844,Valentina Fernández,51,XX.XXX.XXX-K,2025-11-29 19:31:05,194,Flu complications
+1669,845,Francisca Rojas,19,XX.XXX.XXX-K,2024-11-18 19:31:05,577,Flu complications
+1670,845,Francisca Rojas,20,XX.XXX.XXX-K,2025-04-06 19:31:05,433,Premature birth monitoring
+1671,846,Tomás Herrera,22,XX.XXX.XXX-K,2024-12-05 19:31:05,557,Trauma care
+1672,846,Tomás Herrera,23,XX.XXX.XXX-K,2025-04-22 19:31:05,416,Trauma care
+1673,847,Sebastián González,46,XX.XXX.XXX-K,2025-07-14 19:31:05,338,Post-surgical recovery
+1674,847,Sebastián González,45,XX.XXX.XXX-K,2024-07-19 19:31:05,695,Post-surgical recovery
+1675,848,Valentina Torres,54,XX.XXX.XXX-K,2026-03-08 19:31:05,102,Premature birth monitoring
+1676,848,Valentina Torres,53,XX.XXX.XXX-K,2025-07-20 19:31:05,328,Post-surgical recovery
+1677,849,Javier Rojas,50,XX.XXX.XXX-K,2025-03-26 19:31:05,449,Post-surgical recovery
+1678,849,Javier Rojas,51,XX.XXX.XXX-K,2026-06-08 19:31:05,5,Flu complications
+1679,850,Camila Fernández,41,XX.XXX.XXX-K,2025-08-11 19:31:05,303,Trauma care
+1680,850,Camila Fernández,41,XX.XXX.XXX-K,2025-01-19 19:31:05,511,Respiratory infection
+1681,851,Camila Silva,29,XX.XXX.XXX-K,2025-10-16 19:31:05,245,Cardiac monitoring
+1682,851,Camila Silva,29,XX.XXX.XXX-K,2025-11-12 19:31:05,218,Post-surgical recovery
+1683,852,Camila González,49,XX.XXX.XXX-K,2026-05-11 19:31:05,31,Respiratory infection
+1684,852,Camila González,48,XX.XXX.XXX-K,2025-02-24 19:31:05,471,Post-surgical recovery
+1685,853,Sebastián López,22,XX.XXX.XXX-K,2025-09-06 19:31:05,280,Trauma care
+1686,853,Sebastián López,22,XX.XXX.XXX-K,2025-03-08 19:31:05,467,Post-surgical recovery
+1687,854,Fernanda Fernández,36,XX.XXX.XXX-K,2025-09-26 19:31:05,261,Premature birth monitoring
+1688,854,Fernanda Fernández,36,XX.XXX.XXX-K,2025-08-28 19:31:05,285,Premature birth monitoring
+1689,855,Camila González,45,XX.XXX.XXX-K,2025-03-11 19:31:05,457,Cardiac monitoring
+1690,855,Camila González,45,XX.XXX.XXX-K,2025-09-15 19:31:05,276,Post-surgical recovery
+1691,856,Fernanda González,30,XX.XXX.XXX-K,2025-07-14 19:31:05,336,Post-surgical recovery
+1692,856,Fernanda González,30,XX.XXX.XXX-K,2025-03-04 19:31:05,471,Premature birth monitoring
+1693,857,Fernanda González,42,XX.XXX.XXX-K,2025-01-09 19:31:05,516,Trauma care
+1694,857,Fernanda González,41,XX.XXX.XXX-K,2024-10-14 19:31:05,609,Post-surgical recovery
+1695,858,Sebastián Herrera,30,XX.XXX.XXX-K,2026-01-06 19:31:05,158,Premature birth monitoring
+1696,858,Sebastián Herrera,29,XX.XXX.XXX-K,2025-07-06 19:31:05,342,Post-surgical recovery
+1697,859,Diego Herrera,42,XX.XXX.XXX-K,2026-03-25 19:31:05,82,Post-surgical recovery
+1698,859,Diego Herrera,41,XX.XXX.XXX-K,2025-04-06 19:31:05,431,Trauma care
+1699,860,Javier Herrera,37,XX.XXX.XXX-K,2025-04-20 19:31:05,424,Respiratory infection
+1700,860,Javier Herrera,37,XX.XXX.XXX-K,2025-06-19 19:31:05,355,Cardiac monitoring
+1701,861,Javier Araya,19,XX.XXX.XXX-K,2026-05-26 19:31:05,20,Flu complications
+1702,861,Javier Araya,18,XX.XXX.XXX-K,2025-01-13 19:31:05,513,Cardiac monitoring
+1703,862,Isidora Castro,37,XX.XXX.XXX-K,2026-02-02 19:31:05,134,Post-surgical recovery
+1704,862,Isidora Castro,35,XX.XXX.XXX-K,2024-10-21 19:31:05,597,Trauma care
+1705,863,Francisca Muñoz,49,XX.XXX.XXX-K,2025-03-08 19:31:05,460,Trauma care
+1706,863,Francisca Muñoz,49,XX.XXX.XXX-K,2025-07-27 19:31:05,326,Cardiac monitoring
+1707,864,Sebastián Muñoz,36,XX.XXX.XXX-K,2026-03-07 19:31:05,94,Cardiac monitoring
+1708,864,Sebastián Muñoz,35,XX.XXX.XXX-K,2025-05-04 19:31:05,408,Cardiac monitoring
+1709,865,Isidora Araya,25,XX.XXX.XXX-K,2025-01-27 19:31:05,499,Cardiac monitoring
+1710,865,Isidora Araya,24,XX.XXX.XXX-K,2024-11-14 19:31:05,579,Respiratory infection
+1711,866,Valentina Silva,42,XX.XXX.XXX-K,2025-01-16 19:31:05,515,Trauma care
+1712,866,Valentina Silva,41,XX.XXX.XXX-K,2024-08-20 19:31:05,662,Trauma care
+1713,867,Isidora Castro,37,XX.XXX.XXX-K,2024-10-08 19:31:05,615,Premature birth monitoring
+1714,867,Isidora Castro,37,XX.XXX.XXX-K,2024-10-07 19:31:05,619,Respiratory infection
+1715,868,Diego Araya,28,XX.XXX.XXX-K,2025-09-29 19:31:05,258,Post-surgical recovery
+1716,868,Diego Araya,29,XX.XXX.XXX-K,2026-01-06 19:31:05,160,Trauma care
+1717,869,Matías Araya,50,XX.XXX.XXX-K,2025-11-05 19:31:05,222,Post-surgical recovery
+1718,869,Matías Araya,50,XX.XXX.XXX-K,2025-08-31 19:31:05,291,Flu complications
+1719,870,Diego Castro,23,XX.XXX.XXX-K,2024-10-19 19:31:05,607,Cardiac monitoring
+1720,870,Diego Castro,25,XX.XXX.XXX-K,2026-04-02 19:31:05,71,Premature birth monitoring
+1721,871,Sebastián Herrera,30,XX.XXX.XXX-K,2026-01-29 19:31:05,136,Flu complications
+1722,871,Sebastián Herrera,30,XX.XXX.XXX-K,2026-05-02 19:31:05,42,Post-surgical recovery
+1723,872,Camila Silva,25,XX.XXX.XXX-K,2024-10-04 19:31:05,622,Cardiac monitoring
+1724,872,Camila Silva,26,XX.XXX.XXX-K,2025-01-11 19:31:05,515,Trauma care
+1725,873,Francisca Castro,21,XX.XXX.XXX-K,2025-10-24 19:31:05,237,Post-surgical recovery
+1726,873,Francisca Castro,21,XX.XXX.XXX-K,2025-07-22 19:31:05,331,Flu complications
+1727,874,Matías Muñoz,41,XX.XXX.XXX-K,2025-11-03 19:31:05,227,Premature birth monitoring
+1728,874,Matías Muñoz,42,XX.XXX.XXX-K,2026-05-05 19:31:05,42,Respiratory infection
+1729,875,Diego López,45,XX.XXX.XXX-K,2025-07-30 19:31:05,314,Post-surgical recovery
+1730,875,Diego López,46,XX.XXX.XXX-K,2026-04-08 19:31:05,71,Respiratory infection
+1731,876,Valentina Torres,11,XX.XXX.XXX-K,2025-03-04 19:31:05,470,Flu complications
+1732,876,Valentina Torres,12,XX.XXX.XXX-K,2026-01-11 19:31:05,153,Post-surgical recovery
+1733,877,Matías Torres,38,XX.XXX.XXX-K,2024-09-09 19:31:05,640,Premature birth monitoring
+1734,877,Matías Torres,39,XX.XXX.XXX-K,2025-02-16 19:31:05,478,Post-surgical recovery
+1735,878,Isidora Silva,49,XX.XXX.XXX-K,2025-05-01 19:31:05,413,Premature birth monitoring
+1736,878,Isidora Silva,49,XX.XXX.XXX-K,2025-07-09 19:31:05,335,Cardiac monitoring
+1737,879,Javier Rojas,46,XX.XXX.XXX-K,2025-05-25 19:31:05,384,Post-surgical recovery
+1738,879,Javier Rojas,47,XX.XXX.XXX-K,2026-01-22 19:31:05,141,Respiratory infection
+1739,880,Francisca López,38,XX.XXX.XXX-K,2026-02-24 19:31:05,110,Cardiac monitoring
+1740,880,Francisca López,38,XX.XXX.XXX-K,2026-04-26 19:31:05,53,Respiratory infection
+1741,881,Diego Araya,30,XX.XXX.XXX-K,2025-11-09 19:31:05,215,Premature birth monitoring
+1742,881,Diego Araya,30,XX.XXX.XXX-K,2025-08-04 19:31:05,318,Flu complications
+1743,882,Sebastián Torres,17,XX.XXX.XXX-K,2025-11-24 19:31:05,201,Respiratory infection
+1744,882,Sebastián Torres,17,XX.XXX.XXX-K,2025-06-30 19:31:05,349,Post-surgical recovery
+1745,883,Camila López,33,XX.XXX.XXX-K,2024-10-19 19:31:05,605,Post-surgical recovery
+1746,883,Camila López,35,XX.XXX.XXX-K,2026-06-02 19:31:05,12,Post-surgical recovery
+1747,884,Isidora Rojas,14,XX.XXX.XXX-K,2025-04-07 19:31:05,437,Premature birth monitoring
+1748,884,Isidora Rojas,13,XX.XXX.XXX-K,2024-07-29 19:31:05,689,Respiratory infection
+1749,885,Camila López,31,XX.XXX.XXX-K,2025-09-03 19:31:05,286,Trauma care
+1750,885,Camila López,31,XX.XXX.XXX-K,2025-08-10 19:31:05,305,Respiratory infection
+1751,886,Francisca Castro,18,XX.XXX.XXX-K,2024-12-08 19:31:05,552,Respiratory infection
+1752,886,Francisca Castro,18,XX.XXX.XXX-K,2024-09-22 19:31:05,631,Post-surgical recovery
+1753,887,Diego Rojas,12,XX.XXX.XXX-K,2025-05-09 19:31:05,397,Post-surgical recovery
+1754,887,Diego Rojas,13,XX.XXX.XXX-K,2026-01-15 19:31:05,151,Cardiac monitoring
+1755,888,Fernanda González,36,XX.XXX.XXX-K,2025-06-06 19:31:05,373,Post-surgical recovery
+1756,888,Fernanda González,36,XX.XXX.XXX-K,2025-06-24 19:31:05,357,Post-surgical recovery
+1757,889,Fernanda Araya,15,XX.XXX.XXX-K,2024-08-09 19:31:05,678,Respiratory infection
+1758,889,Fernanda Araya,16,XX.XXX.XXX-K,2025-08-09 19:31:05,304,Cardiac monitoring
+1759,890,Valentina López,33,XX.XXX.XXX-K,2025-09-01 19:31:05,282,Respiratory infection
+1760,890,Valentina López,33,XX.XXX.XXX-K,2025-06-05 19:31:05,374,Respiratory infection
+1761,891,Fernanda Muñoz,17,XX.XXX.XXX-K,2026-05-22 19:31:05,26,Post-surgical recovery
+1762,891,Fernanda Muñoz,16,XX.XXX.XXX-K,2025-11-23 19:31:05,201,Respiratory infection
+1763,892,Diego Fernández,52,XX.XXX.XXX-K,2025-10-25 19:31:05,233,Flu complications
+1764,892,Diego Fernández,52,XX.XXX.XXX-K,2025-07-15 19:31:05,338,Flu complications
+1765,893,Isidora Muñoz,24,XX.XXX.XXX-K,2024-12-23 19:31:05,537,Post-surgical recovery
+1766,893,Isidora Muñoz,25,XX.XXX.XXX-K,2025-11-26 19:31:05,202,Cardiac monitoring
+1767,894,Camila González,44,XX.XXX.XXX-K,2024-10-10 19:31:05,607,Post-surgical recovery
+1768,894,Camila González,44,XX.XXX.XXX-K,2024-09-18 19:31:05,638,Premature birth monitoring
+1769,895,Tomás Araya,24,XX.XXX.XXX-K,2026-06-07 19:31:05,11,Respiratory infection
+1770,895,Tomás Araya,24,XX.XXX.XXX-K,2026-04-21 19:31:05,55,Post-surgical recovery
+1771,896,Camila Rojas,14,XX.XXX.XXX-K,2024-10-10 19:31:05,612,Respiratory infection
+1772,896,Camila Rojas,15,XX.XXX.XXX-K,2025-09-30 19:31:05,256,Trauma care
+1773,897,Javier López,17,XX.XXX.XXX-K,2024-07-21 19:31:05,697,Trauma care
+1774,897,Javier López,19,XX.XXX.XXX-K,2026-04-09 19:31:05,63,Respiratory infection
+1775,898,Isidora Rojas,50,XX.XXX.XXX-K,2025-09-08 19:31:05,281,Trauma care
+1776,898,Isidora Rojas,49,XX.XXX.XXX-K,2024-10-13 19:31:05,611,Respiratory infection
+1777,899,Diego Rojas,49,XX.XXX.XXX-K,2025-02-28 19:31:05,472,Post-surgical recovery
+1778,899,Diego Rojas,50,XX.XXX.XXX-K,2026-02-01 19:31:05,132,Trauma care
+1779,900,Matías Fernández,26,XX.XXX.XXX-K,2026-04-10 19:31:05,68,Respiratory infection
+1780,900,Matías Fernández,26,XX.XXX.XXX-K,2026-02-23 19:31:05,109,Flu complications
+1781,901,Isidora Silva,24,XX.XXX.XXX-K,2025-04-25 19:31:05,418,Premature birth monitoring
+1782,901,Isidora Silva,23,XX.XXX.XXX-K,2024-10-23 19:31:05,603,Cardiac monitoring
+1783,902,Fernanda Castro,27,XX.XXX.XXX-K,2025-06-20 19:31:05,355,Cardiac monitoring
+1784,902,Fernanda Castro,26,XX.XXX.XXX-K,2024-07-11 19:31:05,699,Premature birth monitoring
+1785,903,Sebastián González,22,XX.XXX.XXX-K,2026-02-21 19:31:05,111,Trauma care
+1786,903,Sebastián González,20,XX.XXX.XXX-K,2024-10-19 19:31:05,607,Cardiac monitoring
+1787,904,Isidora Fernández,39,XX.XXX.XXX-K,2025-05-23 19:31:05,383,Post-surgical recovery
+1788,904,Isidora Fernández,38,XX.XXX.XXX-K,2024-06-19 19:31:05,729,Respiratory infection
+1789,905,Camila Herrera,34,XX.XXX.XXX-K,2025-03-19 19:31:05,449,Trauma care
+1790,905,Camila Herrera,33,XX.XXX.XXX-K,2024-08-05 19:31:05,682,Respiratory infection
+1791,906,Javier González,47,XX.XXX.XXX-K,2025-02-04 19:31:05,492,Post-surgical recovery
+1792,906,Javier González,48,XX.XXX.XXX-K,2026-05-12 19:31:05,31,Premature birth monitoring
+1793,907,Diego Muñoz,35,XX.XXX.XXX-K,2024-06-30 19:31:05,715,Premature birth monitoring
+1794,907,Diego Muñoz,37,XX.XXX.XXX-K,2026-03-27 19:31:05,81,Premature birth monitoring
+1795,908,Camila Muñoz,21,XX.XXX.XXX-K,2024-09-23 19:31:05,628,Respiratory infection
+1796,908,Camila Muñoz,21,XX.XXX.XXX-K,2024-08-07 19:31:05,680,Trauma care
+1797,909,Tomás Herrera,21,XX.XXX.XXX-K,2025-08-26 19:31:05,296,Cardiac monitoring
+1798,909,Tomás Herrera,22,XX.XXX.XXX-K,2026-01-18 19:31:05,143,Trauma care
+1799,910,Diego López,45,XX.XXX.XXX-K,2025-04-09 19:31:05,427,Respiratory infection
+1800,910,Diego López,45,XX.XXX.XXX-K,2025-06-18 19:31:05,364,Post-surgical recovery
+1801,911,Tomás González,35,XX.XXX.XXX-K,2025-08-24 19:31:05,295,Flu complications
+1802,911,Tomás González,36,XX.XXX.XXX-K,2026-02-18 19:31:05,118,Premature birth monitoring
+1803,912,Isidora Rojas,39,XX.XXX.XXX-K,2026-06-01 19:31:05,17,Flu complications
+1804,912,Isidora Rojas,38,XX.XXX.XXX-K,2025-06-19 19:31:05,364,Flu complications
+1805,913,Javier López,15,XX.XXX.XXX-K,2024-12-31 19:31:05,534,Post-surgical recovery
+1806,913,Javier López,15,XX.XXX.XXX-K,2024-07-24 19:31:05,690,Respiratory infection
+1807,914,Isidora Muñoz,25,XX.XXX.XXX-K,2026-04-25 19:31:05,54,Flu complications
+1808,914,Isidora Muñoz,24,XX.XXX.XXX-K,2025-09-26 19:31:05,262,Post-surgical recovery
+1809,915,Tomás Herrera,50,XX.XXX.XXX-K,2024-11-07 19:31:05,583,Respiratory infection
+1810,915,Tomás Herrera,51,XX.XXX.XXX-K,2025-06-26 19:31:05,357,Trauma care
+1811,916,Matías Herrera,39,XX.XXX.XXX-K,2025-07-23 19:31:05,321,Post-surgical recovery
+1812,916,Matías Herrera,39,XX.XXX.XXX-K,2025-06-03 19:31:05,373,Cardiac monitoring
+1813,917,Tomás Muñoz,56,XX.XXX.XXX-K,2026-05-14 19:31:05,34,Flu complications
+1814,917,Tomás Muñoz,54,XX.XXX.XXX-K,2024-10-17 19:31:05,607,Cardiac monitoring
+1815,918,Francisca Fernández,22,XX.XXX.XXX-K,2025-01-06 19:31:05,522,Post-surgical recovery
+1816,918,Francisca Fernández,22,XX.XXX.XXX-K,2025-12-19 19:31:05,173,Post-surgical recovery
+1817,919,Javier Torres,37,XX.XXX.XXX-K,2025-10-19 19:31:05,242,Trauma care
+1818,919,Javier Torres,36,XX.XXX.XXX-K,2024-11-15 19:31:05,576,Respiratory infection
+1819,920,Sebastián Rojas,54,XX.XXX.XXX-K,2025-11-17 19:31:05,207,Flu complications
+1820,920,Sebastián Rojas,54,XX.XXX.XXX-K,2025-12-24 19:31:05,174,Premature birth monitoring
+1821,921,Isidora González,47,XX.XXX.XXX-K,2026-05-26 19:31:05,23,Trauma care
+1822,921,Isidora González,46,XX.XXX.XXX-K,2025-12-22 19:31:05,172,Respiratory infection
+1823,922,Isidora Castro,36,XX.XXX.XXX-K,2026-04-10 19:31:05,69,Post-surgical recovery
+1824,922,Isidora Castro,35,XX.XXX.XXX-K,2025-04-30 19:31:05,413,Cardiac monitoring
+1825,923,Francisca Torres,24,XX.XXX.XXX-K,2026-03-18 19:31:05,89,Respiratory infection
+1826,923,Francisca Torres,23,XX.XXX.XXX-K,2025-06-07 19:31:05,376,Trauma care
+1827,924,Isidora Herrera,27,XX.XXX.XXX-K,2025-01-31 19:31:05,496,Respiratory infection
+1828,924,Isidora Herrera,26,XX.XXX.XXX-K,2024-08-08 19:31:05,670,Respiratory infection
+1829,925,Isidora Torres,41,XX.XXX.XXX-K,2025-07-04 19:31:05,341,Cardiac monitoring
+1830,925,Isidora Torres,41,XX.XXX.XXX-K,2025-07-18 19:31:05,329,Trauma care
+1831,926,Camila Araya,36,XX.XXX.XXX-K,2026-03-08 19:31:05,102,Flu complications
+1832,926,Camila Araya,35,XX.XXX.XXX-K,2025-07-12 19:31:05,341,Post-surgical recovery
+1833,927,Tomás López,54,XX.XXX.XXX-K,2025-05-10 19:31:05,404,Trauma care
+1834,927,Tomás López,54,XX.XXX.XXX-K,2025-06-13 19:31:05,367,Post-surgical recovery
+1835,928,Camila Muñoz,40,XX.XXX.XXX-K,2026-03-09 19:31:05,96,Respiratory infection
+1836,928,Camila Muñoz,38,XX.XXX.XXX-K,2024-08-11 19:31:05,674,Trauma care
+1837,929,Camila Herrera,22,XX.XXX.XXX-K,2025-10-03 19:31:05,258,Premature birth monitoring
+1838,929,Camila Herrera,22,XX.XXX.XXX-K,2025-07-25 19:31:05,321,Post-surgical recovery
+1839,930,Matías Silva,38,XX.XXX.XXX-K,2026-01-24 19:31:05,143,Post-surgical recovery
+1840,930,Matías Silva,36,XX.XXX.XXX-K,2024-12-03 19:31:05,562,Cardiac monitoring
+1841,931,Francisca Fernández,56,XX.XXX.XXX-K,2026-02-11 19:31:05,127,Flu complications
+1842,931,Francisca Fernández,54,XX.XXX.XXX-K,2024-11-12 19:31:05,583,Flu complications
+1843,932,Francisca González,26,XX.XXX.XXX-K,2024-12-04 19:31:05,556,Flu complications
+1844,932,Francisca González,27,XX.XXX.XXX-K,2025-02-01 19:31:05,502,Post-surgical recovery
+1845,933,Valentina Fernández,11,XX.XXX.XXX-K,2025-02-09 19:31:05,494,Premature birth monitoring
+1846,933,Valentina Fernández,11,XX.XXX.XXX-K,2025-10-17 19:31:05,236,Respiratory infection
+1847,934,Fernanda Rojas,39,XX.XXX.XXX-K,2025-03-29 19:31:05,445,Cardiac monitoring
+1848,934,Fernanda Rojas,38,XX.XXX.XXX-K,2024-10-28 19:31:05,598,Cardiac monitoring
+1849,935,Francisca Herrera,41,XX.XXX.XXX-K,2026-02-26 19:31:05,103,Cardiac monitoring
+1850,935,Francisca Herrera,40,XX.XXX.XXX-K,2025-09-08 19:31:05,274,Trauma care
+1851,936,Isidora Muñoz,32,XX.XXX.XXX-K,2025-07-01 19:31:05,349,Flu complications
+1852,936,Isidora Muñoz,33,XX.XXX.XXX-K,2026-06-16 19:31:05,-3,Trauma care
+1853,937,Tomás Rojas,45,XX.XXX.XXX-K,2025-03-05 19:31:05,465,Trauma care
+1854,937,Tomás Rojas,45,XX.XXX.XXX-K,2025-04-30 19:31:05,413,Cardiac monitoring
+1855,938,Valentina González,10,XX.XXX.XXX-K,2025-07-10 19:31:05,334,Cardiac monitoring
+1856,938,Valentina González,11,XX.XXX.XXX-K,2026-01-17 19:31:05,147,Respiratory infection
+1857,939,Isidora Castro,45,XX.XXX.XXX-K,2025-03-19 19:31:05,448,Premature birth monitoring
+1858,939,Isidora Castro,46,XX.XXX.XXX-K,2026-06-07 19:31:05,3,Trauma care
+1859,940,Matías Fernández,18,XX.XXX.XXX-K,2024-09-05 19:31:05,646,Premature birth monitoring
+1860,940,Matías Fernández,19,XX.XXX.XXX-K,2025-11-04 19:31:05,226,Trauma care
+1861,941,Isidora Silva,22,XX.XXX.XXX-K,2024-07-10 19:31:05,700,Post-surgical recovery
+1862,941,Isidora Silva,24,XX.XXX.XXX-K,2026-06-01 19:31:05,9,Trauma care
+1863,942,Matías González,38,XX.XXX.XXX-K,2025-01-27 19:31:05,504,Trauma care
+1864,942,Matías González,37,XX.XXX.XXX-K,2024-12-26 19:31:05,539,Flu complications
+1865,943,Camila López,31,XX.XXX.XXX-K,2026-04-25 19:31:05,49,Respiratory infection
+1866,943,Camila López,29,XX.XXX.XXX-K,2024-08-19 19:31:05,667,Cardiac monitoring
+1867,944,Fernanda López,15,XX.XXX.XXX-K,2024-07-06 19:31:05,712,Trauma care
+1868,944,Fernanda López,15,XX.XXX.XXX-K,2024-09-24 19:31:05,628,Trauma care
+1869,945,Tomás Araya,47,XX.XXX.XXX-K,2026-05-28 19:31:05,17,Trauma care
+1870,945,Tomás Araya,46,XX.XXX.XXX-K,2025-02-05 19:31:05,498,Premature birth monitoring
+1871,946,Tomás Araya,14,XX.XXX.XXX-K,2024-10-24 19:31:05,600,Flu complications
+1872,946,Tomás Araya,14,XX.XXX.XXX-K,2024-07-06 19:31:05,709,Cardiac monitoring
+1873,947,Camila Castro,56,XX.XXX.XXX-K,2026-02-09 19:31:05,128,Post-surgical recovery
+1874,947,Camila Castro,56,XX.XXX.XXX-K,2026-05-16 19:31:05,33,Trauma care
+1875,948,Isidora Fernández,38,XX.XXX.XXX-K,2025-05-22 19:31:05,392,Cardiac monitoring
+1876,948,Isidora Fernández,37,XX.XXX.XXX-K,2024-06-25 19:31:05,716,Cardiac monitoring
+1877,949,Javier González,14,XX.XXX.XXX-K,2025-06-16 19:31:05,366,Flu complications
+1878,949,Javier González,15,XX.XXX.XXX-K,2026-02-11 19:31:05,124,Flu complications
+1879,950,Sebastián Muñoz,39,XX.XXX.XXX-K,2025-01-02 19:31:05,527,Post-surgical recovery
+1880,950,Sebastián Muñoz,39,XX.XXX.XXX-K,2025-04-25 19:31:05,418,Premature birth monitoring
+1881,951,Diego González,21,XX.XXX.XXX-K,2025-06-08 19:31:05,373,Post-surgical recovery
+1882,951,Diego González,21,XX.XXX.XXX-K,2025-08-25 19:31:05,297,Premature birth monitoring
+1883,952,Matías Silva,19,XX.XXX.XXX-K,2025-07-14 19:31:05,336,Premature birth monitoring
+1884,952,Matías Silva,20,XX.XXX.XXX-K,2026-04-02 19:31:05,72,Trauma care
+1885,953,Valentina Araya,48,XX.XXX.XXX-K,2026-05-18 19:31:05,22,Respiratory infection
+1886,953,Valentina Araya,46,XX.XXX.XXX-K,2024-12-18 19:31:05,545,Cardiac monitoring
+1887,954,Valentina Fernández,52,XX.XXX.XXX-K,2026-01-13 19:31:05,151,Trauma care
+1888,954,Valentina Fernández,51,XX.XXX.XXX-K,2025-09-09 19:31:05,278,Respiratory infection
+1889,955,Javier Muñoz,30,XX.XXX.XXX-K,2025-02-08 19:31:05,489,Post-surgical recovery
+1890,955,Javier Muñoz,30,XX.XXX.XXX-K,2025-07-20 19:31:05,328,Flu complications
+1891,956,Isidora Castro,43,XX.XXX.XXX-K,2025-06-20 19:31:05,358,Premature birth monitoring
+1892,956,Isidora Castro,44,XX.XXX.XXX-K,2026-03-31 19:31:05,72,Premature birth monitoring
+1893,957,Fernanda Herrera,49,XX.XXX.XXX-K,2024-08-02 19:31:05,681,Trauma care
+1894,957,Fernanda Herrera,50,XX.XXX.XXX-K,2025-05-15 19:31:05,392,Flu complications
+1895,958,Isidora Silva,10,XX.XXX.XXX-K,2024-10-30 19:31:05,587,Post-surgical recovery
+1896,958,Isidora Silva,11,XX.XXX.XXX-K,2025-03-27 19:31:05,440,Respiratory infection
+1897,959,Tomás Torres,37,XX.XXX.XXX-K,2024-07-06 19:31:05,712,Cardiac monitoring
+1898,959,Tomás Torres,38,XX.XXX.XXX-K,2025-12-16 19:31:05,184,Trauma care
+1899,960,Tomás Araya,55,XX.XXX.XXX-K,2026-03-01 19:31:05,100,Cardiac monitoring
+1900,960,Tomás Araya,55,XX.XXX.XXX-K,2026-01-12 19:31:05,149,Premature birth monitoring
+1901,961,Javier González,14,XX.XXX.XXX-K,2024-06-28 19:31:05,714,Flu complications
+1902,961,Javier González,16,XX.XXX.XXX-K,2026-04-30 19:31:05,48,Cardiac monitoring
+1903,962,Valentina Castro,52,XX.XXX.XXX-K,2024-07-21 19:31:05,697,Trauma care
+1904,962,Valentina Castro,53,XX.XXX.XXX-K,2025-12-10 19:31:05,188,Cardiac monitoring
+1905,963,Francisca Silva,51,XX.XXX.XXX-K,2024-07-15 19:31:05,701,Respiratory infection
+1906,963,Francisca Silva,53,XX.XXX.XXX-K,2026-03-14 19:31:05,94,Flu complications
+1907,964,Fernanda Araya,53,XX.XXX.XXX-K,2026-04-13 19:31:05,65,Respiratory infection
+1908,964,Fernanda Araya,52,XX.XXX.XXX-K,2025-09-02 19:31:05,281,Flu complications
+1909,965,Camila González,13,XX.XXX.XXX-K,2024-06-19 19:31:05,723,Trauma care
+1910,965,Camila González,14,XX.XXX.XXX-K,2025-09-12 19:31:05,279,Trauma care
+1911,966,Francisca Silva,46,XX.XXX.XXX-K,2025-09-06 19:31:05,283,Flu complications
+1912,966,Francisca Silva,45,XX.XXX.XXX-K,2024-08-19 19:31:05,667,Cardiac monitoring
+1913,967,Isidora Rojas,49,XX.XXX.XXX-K,2025-11-10 19:31:05,213,Premature birth monitoring
+1914,967,Isidora Rojas,48,XX.XXX.XXX-K,2024-10-08 19:31:05,615,Flu complications
+1915,968,Diego Araya,40,XX.XXX.XXX-K,2025-09-15 19:31:05,272,Premature birth monitoring
+1916,968,Diego Araya,40,XX.XXX.XXX-K,2025-10-03 19:31:05,251,Post-surgical recovery
+1917,969,Sebastián Araya,33,XX.XXX.XXX-K,2025-12-29 19:31:05,171,Cardiac monitoring
+1918,969,Sebastián Araya,34,XX.XXX.XXX-K,2026-03-27 19:31:05,74,Trauma care
+1919,970,Isidora Araya,24,XX.XXX.XXX-K,2024-07-11 19:31:05,707,Premature birth monitoring
+1920,970,Isidora Araya,25,XX.XXX.XXX-K,2025-09-11 19:31:05,278,Trauma care
+1921,971,Isidora Fernández,33,XX.XXX.XXX-K,2024-10-14 19:31:05,607,Post-surgical recovery
+1922,971,Isidora Fernández,33,XX.XXX.XXX-K,2024-07-02 19:31:05,716,Premature birth monitoring
+1923,972,Sebastián Silva,36,XX.XXX.XXX-K,2025-10-17 19:31:05,244,Respiratory infection
+1924,972,Sebastián Silva,36,XX.XXX.XXX-K,2025-05-20 19:31:05,393,Respiratory infection
+1925,973,Valentina Rojas,32,XX.XXX.XXX-K,2026-01-31 19:31:05,134,Cardiac monitoring
+1926,973,Valentina Rojas,31,XX.XXX.XXX-K,2025-03-02 19:31:05,473,Respiratory infection
+1927,974,Camila Castro,48,XX.XXX.XXX-K,2025-03-22 19:31:05,446,Trauma care
+1928,974,Camila Castro,49,XX.XXX.XXX-K,2026-04-02 19:31:05,71,Flu complications
+1929,975,Fernanda Muñoz,16,XX.XXX.XXX-K,2026-02-08 19:31:05,124,Premature birth monitoring
+1930,975,Fernanda Muñoz,14,XX.XXX.XXX-K,2024-11-06 19:31:05,585,Premature birth monitoring
+1931,976,Tomás Torres,41,XX.XXX.XXX-K,2026-05-05 19:31:05,44,Premature birth monitoring
+1932,976,Tomás Torres,40,XX.XXX.XXX-K,2025-08-10 19:31:05,305,Respiratory infection
+1933,977,Sebastián López,34,XX.XXX.XXX-K,2024-07-08 19:31:05,706,Premature birth monitoring
+1934,977,Sebastián López,35,XX.XXX.XXX-K,2025-11-25 19:31:05,203,Premature birth monitoring
+1935,978,Camila Torres,17,XX.XXX.XXX-K,2024-12-28 19:31:05,530,Flu complications
+1936,978,Camila Torres,17,XX.XXX.XXX-K,2024-11-26 19:31:05,569,Cardiac monitoring
+1937,979,Tomás Herrera,47,XX.XXX.XXX-K,2024-11-16 19:31:05,574,Post-surgical recovery
+1938,979,Tomás Herrera,49,XX.XXX.XXX-K,2026-01-13 19:31:05,154,Post-surgical recovery
+1939,980,Isidora Castro,52,XX.XXX.XXX-K,2024-09-17 19:31:05,635,Cardiac monitoring
+1940,980,Isidora Castro,54,XX.XXX.XXX-K,2026-03-11 19:31:05,92,Premature birth monitoring
+1941,981,Camila López,21,XX.XXX.XXX-K,2026-05-01 19:31:05,41,Flu complications
+1942,981,Camila López,19,XX.XXX.XXX-K,2024-11-01 19:31:05,587,Post-surgical recovery
+1943,982,Tomás Herrera,17,XX.XXX.XXX-K,2026-02-15 19:31:05,114,Post-surgical recovery
+1944,982,Tomás Herrera,17,XX.XXX.XXX-K,2026-02-08 19:31:05,127,Cardiac monitoring
+1945,983,Fernanda Fernández,35,XX.XXX.XXX-K,2025-11-29 19:31:05,194,Premature birth monitoring
+1946,983,Fernanda Fernández,35,XX.XXX.XXX-K,2025-03-31 19:31:05,443,Post-surgical recovery
+1947,984,Fernanda Muñoz,50,XX.XXX.XXX-K,2025-10-09 19:31:05,246,Post-surgical recovery
+1948,984,Fernanda Muñoz,50,XX.XXX.XXX-K,2025-03-09 19:31:05,466,Post-surgical recovery
+1949,985,Fernanda Rojas,39,XX.XXX.XXX-K,2025-01-18 19:31:05,508,Trauma care
+1950,985,Fernanda Rojas,39,XX.XXX.XXX-K,2025-09-25 19:31:05,263,Premature birth monitoring
+1951,986,Valentina Rojas,49,XX.XXX.XXX-K,2025-09-22 19:31:05,261,Respiratory infection
+1952,986,Valentina Rojas,49,XX.XXX.XXX-K,2025-12-15 19:31:05,178,Respiratory infection
+1953,987,Matías Fernández,31,XX.XXX.XXX-K,2025-08-24 19:31:05,295,Premature birth monitoring
+1954,987,Matías Fernández,31,XX.XXX.XXX-K,2025-07-09 19:31:05,340,Trauma care
+1955,988,Camila González,18,XX.XXX.XXX-K,2026-03-03 19:31:05,107,Respiratory infection
+1956,988,Camila González,18,XX.XXX.XXX-K,2026-04-14 19:31:05,56,Respiratory infection
+1957,989,Matías Araya,45,XX.XXX.XXX-K,2025-02-12 19:31:05,483,Cardiac monitoring
+1958,989,Matías Araya,45,XX.XXX.XXX-K,2025-07-04 19:31:05,342,Premature birth monitoring
+1959,990,Sebastián Muñoz,31,XX.XXX.XXX-K,2026-01-25 19:31:05,142,Post-surgical recovery
+1960,990,Sebastián Muñoz,30,XX.XXX.XXX-K,2025-02-21 19:31:05,476,Premature birth monitoring
+1961,991,Francisca González,31,XX.XXX.XXX-K,2026-04-21 19:31:05,55,Premature birth monitoring
+1962,991,Francisca González,31,XX.XXX.XXX-K,2026-03-27 19:31:05,83,Premature birth monitoring
+1963,992,Fernanda Araya,12,XX.XXX.XXX-K,2025-04-29 19:31:05,410,Flu complications
+1964,992,Fernanda Araya,11,XX.XXX.XXX-K,2024-10-24 19:31:05,595,Flu complications
+1965,993,Camila González,38,XX.XXX.XXX-K,2024-09-29 19:31:05,623,Respiratory infection
+1966,993,Camila González,39,XX.XXX.XXX-K,2025-01-07 19:31:05,519,Trauma care
+1967,994,Camila Rojas,11,XX.XXX.XXX-K,2025-06-14 19:31:05,362,Trauma care
+1968,994,Camila Rojas,11,XX.XXX.XXX-K,2025-04-04 19:31:05,432,Post-surgical recovery
+1969,995,Javier González,50,XX.XXX.XXX-K,2025-11-11 19:31:05,219,Post-surgical recovery
+1970,995,Javier González,50,XX.XXX.XXX-K,2025-10-13 19:31:05,243,Trauma care
+1971,996,Camila López,20,XX.XXX.XXX-K,2026-06-08 19:31:05,7,Trauma care
+1972,996,Camila López,20,XX.XXX.XXX-K,2026-03-05 19:31:05,105,Flu complications
+1973,997,Sebastián Muñoz,42,XX.XXX.XXX-K,2026-06-05 19:31:05,7,Respiratory infection
+1974,997,Sebastián Muñoz,41,XX.XXX.XXX-K,2025-05-25 19:31:05,380,Respiratory infection
+1975,998,Javier Muñoz,33,XX.XXX.XXX-K,2024-10-11 19:31:05,606,Premature birth monitoring
+1976,998,Javier Muñoz,34,XX.XXX.XXX-K,2025-05-22 19:31:05,383,Trauma care
+1977,999,Matías Herrera,17,XX.XXX.XXX-K,2024-09-17 19:31:05,637,Trauma care
+1978,999,Matías Herrera,18,XX.XXX.XXX-K,2025-12-18 19:31:05,173,Premature birth monitoring
+1979,1000,Valentina González,11,XX.XXX.XXX-K,2025-02-20 19:31:05,478,Cardiac monitoring
+1980,1000,Valentina González,11,XX.XXX.XXX-K,2025-09-17 19:31:05,266,Trauma care
+1981,1001,Javier López,15,XX.XXX.XXX-K,2025-01-30 19:31:05,497,Cardiac monitoring
+1982,1001,Javier López,15,XX.XXX.XXX-K,2025-06-11 19:31:05,363,Post-surgical recovery
+1983,1002,Isidora Torres,51,XX.XXX.XXX-K,2025-04-17 19:31:05,419,Premature birth monitoring
+1984,1002,Isidora Torres,52,XX.XXX.XXX-K,2026-05-23 19:31:05,21,Premature birth monitoring
+1985,1003,Matías Torres,35,XX.XXX.XXX-K,2025-06-06 19:31:05,373,Respiratory infection
+1986,1003,Matías Torres,36,XX.XXX.XXX-K,2026-06-07 19:31:05,9,Flu complications
+1987,1004,Diego Herrera,41,XX.XXX.XXX-K,2025-09-01 19:31:05,282,Premature birth monitoring
+1988,1004,Diego Herrera,41,XX.XXX.XXX-K,2025-01-04 19:31:05,523,Premature birth monitoring
+1989,1005,Diego Torres,31,XX.XXX.XXX-K,2024-08-17 19:31:05,662,Cardiac monitoring
+1990,1005,Diego Torres,32,XX.XXX.XXX-K,2025-01-14 19:31:05,518,Post-surgical recovery
+1991,1006,Javier López,21,XX.XXX.XXX-K,2025-01-26 19:31:05,505,Respiratory infection
+1992,1006,Javier López,21,XX.XXX.XXX-K,2025-10-19 19:31:05,234,Post-surgical recovery
+1993,1007,Fernanda Herrera,15,XX.XXX.XXX-K,2024-07-17 19:31:05,696,Post-surgical recovery
+1994,1007,Fernanda Herrera,16,XX.XXX.XXX-K,2025-09-22 19:31:05,265,Premature birth monitoring
+1995,1008,Fernanda Torres,28,XX.XXX.XXX-K,2025-03-08 19:31:05,467,Post-surgical recovery
+1996,1008,Fernanda Torres,27,XX.XXX.XXX-K,2024-09-05 19:31:05,651,Cardiac monitoring
+1997,1009,Isidora González,44,XX.XXX.XXX-K,2025-02-26 19:31:05,473,Respiratory infection
+1998,1009,Isidora González,44,XX.XXX.XXX-K,2025-12-09 19:31:05,185,Trauma care
+1999,1010,Sebastián González,52,XX.XXX.XXX-K,2024-06-23 19:31:05,719,Premature birth monitoring
+2000,1010,Sebastián González,52,XX.XXX.XXX-K,2024-07-04 19:31:05,709,Flu complications
+2001,1011,Diego Silva,49,XX.XXX.XXX-K,2025-01-12 19:31:05,521,Post-surgical recovery
+2002,1011,Diego Silva,48,XX.XXX.XXX-K,2024-09-09 19:31:05,645,Cardiac monitoring
+2003,1012,Javier Silva,26,XX.XXX.XXX-K,2026-04-11 19:31:05,64,Trauma care
+2004,1012,Javier Silva,25,XX.XXX.XXX-K,2025-02-23 19:31:05,475,Flu complications
+2005,1013,Diego Fernández,27,XX.XXX.XXX-K,2025-10-12 19:31:05,242,Trauma care
+2006,1013,Diego Fernández,26,XX.XXX.XXX-K,2024-12-21 19:31:05,540,Respiratory infection
+2007,1014,Camila Araya,29,XX.XXX.XXX-K,2025-12-15 19:31:05,177,Flu complications
+2008,1014,Camila Araya,29,XX.XXX.XXX-K,2025-03-21 19:31:05,450,Trauma care
+2009,1015,Javier Muñoz,38,XX.XXX.XXX-K,2025-01-29 19:31:05,505,Post-surgical recovery
+2010,1015,Javier Muñoz,39,XX.XXX.XXX-K,2026-05-12 19:31:05,28,Respiratory infection
+2011,1016,Francisca Torres,30,XX.XXX.XXX-K,2026-04-09 19:31:05,64,Post-surgical recovery
+2012,1016,Francisca Torres,29,XX.XXX.XXX-K,2025-12-23 19:31:05,171,Respiratory infection
+2013,1017,Isidora Rojas,40,XX.XXX.XXX-K,2026-05-25 19:31:05,22,Post-surgical recovery
+2014,1017,Isidora Rojas,40,XX.XXX.XXX-K,2026-04-07 19:31:05,63,Post-surgical recovery
+2015,1018,Valentina Herrera,39,XX.XXX.XXX-K,2025-09-27 19:31:05,261,Premature birth monitoring
+2016,1018,Valentina Herrera,39,XX.XXX.XXX-K,2025-02-04 19:31:05,493,Trauma care
+2017,1019,Fernanda Castro,22,XX.XXX.XXX-K,2025-03-31 19:31:05,436,Flu complications
+2018,1019,Fernanda Castro,22,XX.XXX.XXX-K,2025-01-08 19:31:05,521,Trauma care
+2019,1020,Fernanda Castro,30,XX.XXX.XXX-K,2024-11-24 19:31:05,569,Premature birth monitoring
+2020,1020,Fernanda Castro,30,XX.XXX.XXX-K,2024-06-30 19:31:05,718,Premature birth monitoring
