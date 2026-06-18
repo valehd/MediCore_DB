@@ -4,91 +4,76 @@
 ![Triggers](https://img.shields.io/badge/Triggers-Yes-red)
 ![Views](https://img.shields.io/badge/Views-Yes-yellow)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
+
 # MediCore DB — Hospital Operations Database System
 
-MediCore DB is a relational database system that models real-world hospital operations including patient admissions, bed allocation, and operational analytics.
+MediCore DB is a production-ready relational database system designed to model, automate, and optimize real-world hospital operations, including patient lifecycle tracking, resource allocation, and clinical compliance.
 
-The project goes beyond basic CRUD by implementing database-driven business logic, automation, and reporting using advanced SQL features.
+---
 
-🎯 Key Objectives
+## 🎯 Project Highlights & Impact
+* **Data Volume:** Powered by a procedural generation script supplying **+2,000 realistic clinical records**.
+* **95% Performance Boost:** Query search space optimized via strategic indexation, dropping row scans from **2,020 to just 67**.
+* **Enterprise Compliance:** Zero physical data loss enforced through custom **Soft-Delete** architectures and **automated system auditing**.
 
-This project was built to simulate a real hospital data system where:
+---
 
-Patient admissions are automated
-Bed allocation is dynamically managed
-Operational integrity is enforced at database level
-Historical and analytical reporting is available via SQL views
+## ⚙️ Core Database Architecture
 
-🧱 Core Data Model
+### 🔹 Business Logic Layer (Stored Procedures)
+* `sp_admit_patient`: Validates patient status, automatically assigns available beds, and creates operational admission entries.
+* `sp_discharge_patient`: Safely closes clinical workflows and frees up physical hospital beds in real-time.
 
-The system is built around four main entities:
+### 🔹 Security & Compliance (Triggers & Soft Delete)
+* `trg_prevent_patient_delete`: Blocks physical `DELETE` commands on patient records, forcing a safe `is_active = 0` state (Soft Delete).
+* `trg_bed_status_change`: Automatically tracks infrastructure shifts into `bed_audit_log`, capturing the database `USER()` and timestamps.
 
-Department → Hospital units (ICU, Emergency, etc.)
-Patient → Patient demographic information
-Bed → Hospital resource management
-Admission → Tracks patient hospitalization lifecycle
+### 🔹 Advanced Analytical Layer (Views & Window Functions)
+* `vw_current_admissions` / `vw_bed_occupancy`: Real-time operational KPIs for hospital staff.
+* Time-Series & Multi-Level Rankings: Analytics utilizing complex `RANK()` and `ROW_NUMBER() OVER()` statements.
 
-⚙️ Core Database Features
+---
 
-🔹 Stored Procedures (Business Logic Layer)
-sp_admit_patient
-Automatically assigns available beds
-Creates admission records
-Ensures controlled patient intake
-sp_discharge_patient
-Closes active admissions
-Frees hospital beds
-Maintains data consistency
+## 📁 Project Structure
 
-🔹 Triggers (Data Integrity & Auditing)
-trg_bed_status_change
-Captures all bed status changes
-Stores audit trail for traceability
+The repository follows a clean, execution-ordered deployment pipeline:
 
-🔹 Views (Analytics Layer)
-vw_current_admissions → Active hospitalizations
-vw_bed_occupancy → Department-level occupancy rates
-vw_admission_history → Historical patient stays
-vw_patient_summary → Patient-level aggregated metrics
-
-📊 Business Impact
-
-This system demonstrates how SQL can be used not only for storage, but for:
-
-Automating operational workflows
-Enforcing data consistency at database level
-Providing real-time operational insights
-Supporting healthcare resource optimization
-
-🛠️ Tech Stack
-MySQL
-SQL (DDL, DML, Views, Stored Procedures, Triggers)
-Data modeling & relational design
-Optional Python scripts for data loading / ETL
-
-📁 Project Structure
-medicore-db/
-│
-├── schema.sql
-├── indexes.sql
-├── views.sql
-├── procedures.sql
-├── triggers.sql
-├── queries.sql
-├── audit_tables.sql
+```text
+MediCore_DB/
+├── 01_schema/
+│   ├── schema.sql              # Core DDL & Relational Schema (Soft-Delete enabled)
+│   ├── seed_data.sql           # Initial testing baseline
+│   └── seed_data_expanded.sql  # Procedural loop inserting +2,000 massive records
+├── 02_business_logic/
+│   ├── procedures.sql          # Intake & discharge workflows
+│   └── triggers.sql            # Deletion blockades and audit captures
+├── 03_analytics/
+│   ├── queries/                # Window functions, basic, and analytical queries
+│   └── views.sql               # Abstraction layer for administrative reporting
+├── 04_optimization/
+│   └── indexes.sql             # EXPLAIN-driven index strategies
+├── 05_audit/
+│   └── audit_tables.sql        # Compliance and system tracking data logs
 └── README.md
+```
 
-🚀 Example Usage
-CALL sp_admit_patient(1, 1, 'Respiratory distress');
-CALL sp_discharge_patient(1);
+---
 
-Key Technical Highlights
-Database-driven business logic (no reliance on application layer)
-Automated resource allocation using stored procedures
-Auditability through triggers
-Analytical layer via SQL views
-Clean separation of schema, logic, and reporting layers
+## 📊 Optimization Verification (EXPLAIN Baseline)
 
-👩‍💻 Author
-Valentina Hernandez
-SQL & Data Engineering portfolio project focused on hospital systems, database design, and operational analytics.
+To prove performance stability under load, the active hospitalization reporting query was stressed under a **2,020 row baseline**:
+
+* **Before Optimization (No Indices):** `Table scan on admission (type: ALL)`. Evaluated **2,020 rows** sequentially.
+* **After Optimization (`idx_admission_discharge_date`):** Switched to `Index lookup (type: ref)`. Rows evaluated dropped to **67** (Over **95% database overhead reduction**).
+
+---
+
+## 🛠️ Tech Stack
+* **Engine:** MySQL 8.0+
+* **SQL Paradigms:** DDL/DML, Procedural SQL, Window Functions, Database Indexing, Triggers, Query Optimization.
+
+---
+
+## 👩‍💻 Author
+**Valentina Hernandez**  
+*Data Engineering & Database Design Portfolio Project.*
