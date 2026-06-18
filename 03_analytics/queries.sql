@@ -1,3 +1,8 @@
+-- QUERIES
+
+-- Query 1: Current hospitalized patients (active admissions only)
+-- Shows real-time patient occupancy in the hospital
+
 SELECT
     p.first_name AS patient_name,
     p.last_name AS patient_surname,
@@ -11,6 +16,8 @@ JOIN department d ON b.department_id = d.department_id
 WHERE a.discharge_date IS NULL;
 
 
+-- Query 2: Bed occupancy metrics by department (operational KPI)
+-- Calculates utilization rates per hospital department
 
 SELECT
     d.department_name,
@@ -26,7 +33,8 @@ JOIN bed b ON d.department_id = b.department_id
 GROUP BY d.department_name;
 
 
-
+-- Query 3: Average length of stay per department (clinical KPI)
+-- Measures patient hospitalization duration trends
 
 SELECT
     d.department_name,
@@ -40,6 +48,8 @@ JOIN department d ON b.department_id = d.department_id
 GROUP BY d.department_name;
 
 
+-- Query 4: Monthly admission trends (time-series analysis)
+-- Shows hospital activity over time
 
 SELECT
     DATE_FORMAT(admission_date, '%Y-%m') AS month,
@@ -49,6 +59,8 @@ GROUP BY DATE_FORMAT(admission_date, '%Y-%m')
 ORDER BY month;
 
 
+-- Query 5: Patients with highest number of admissions (utilization analysis)
+-- Identifies frequent users of hospital services
 
 SELECT
     p.first_name,
@@ -60,6 +72,8 @@ GROUP BY p.patient_id
 ORDER BY total_admissions DESC;
 
 
+-- Query 6: Most used beds (resource utilization analysis)
+-- Identifies high-demand hospital beds
 
 SELECT
     b.bed_number,
@@ -70,6 +84,9 @@ GROUP BY b.bed_id
 ORDER BY usage_count DESC;
 
 
+-- Query 7: Department demand ranking
+-- Measures total admissions per department
+
 SELECT
     d.department_name,
     COUNT(a.admission_id) AS total_admissions
@@ -79,6 +96,9 @@ JOIN admission a ON b.bed_id = a.bed_id
 GROUP BY d.department_name
 ORDER BY total_admissions DESC;
 
+
+-- Query 8: Current active patients with clinical context
+-- Provides diagnostic visibility for active hospitalizations
 
 SELECT
     p.first_name,
@@ -93,6 +113,8 @@ JOIN department d ON b.department_id = d.department_id
 WHERE a.discharge_date IS NULL;
 
 
+-- Query 9: Global hospital bed occupancy rate
+-- High-level KPI for overall hospital utilization
 
 SELECT
     ROUND(
@@ -101,6 +123,9 @@ SELECT
     ) AS global_occupancy_rate
 FROM bed;
 
+
+-- Query 10: Admission status distribution
+-- Shows distribution of active vs closed admissions
 
 SELECT
     status,

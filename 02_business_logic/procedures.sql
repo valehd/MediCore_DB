@@ -1,4 +1,14 @@
--- Patient → Admission → Bed (Available → Occupied)
+--PROCEDURES
+
+-- =========================================================
+-- Procedure: sp_admit_patient
+-- Purpose: Handles patient admission workflow
+-- Business logic:
+-- 1. Finds an available bed in a department
+-- 2. Creates an admission record
+-- 3. Marks the bed as occupied
+-- =========================================================
+
 
 DELIMITER $$
 
@@ -10,7 +20,7 @@ CREATE PROCEDURE sp_admit_patient (
 BEGIN
     DECLARE v_bed_id INT;
 
-    -- 1. Buscar cama disponible en el departamento
+    -- Step 1: Find an available bed in the requested department
     SELECT bed_id
     INTO v_bed_id
     FROM bed
@@ -18,13 +28,13 @@ BEGIN
       AND status = 'Available'
     LIMIT 1;
 
-    -- 2. Si no hay camas disponibles, lanzar error
+    -- Step 2: Validate bed availability
     IF v_bed_id IS NULL THEN
         SIGNAL SQLSTATE '45000'
         SET MESSAGE_TEXT = 'No available beds in this department';
     END IF;
 
-    -- 3. Crear hospitalización
+    -- Step 3: Create admission record
     INSERT INTO admission (
         patient_id,
         bed_id,
@@ -38,7 +48,7 @@ BEGIN
         p_diagnosis
     );
 
-    -- 4. Actualizar estado de la cama
+    -- Step 4: Update bed status
     UPDATE bed
     SET status = 'Occupied'
     WHERE bed_id = v_bed_id;
@@ -47,12 +57,19 @@ END $$
 
 DELIMITER ;
 
+-- Example usage:
+-- CALL sp_admit_patient(1, 1, 'Respiratory distress');
 
--- como se usa
-CALL sp_admit_patient(1, 1, 'Respiratory distress');
 
+-- =========================================================
+-- Procedure: sp_discharge_patient
+-- Purpose: Handles patient discharge workflow
+-- Business logic:
+-- 1. Validates active admission
+-- 2. Closes admission record
+-- 3. Frees assigned bed
+-- =========================================================
 
---Admission (OPEN) → Discharge → Bed (Occupied → Available)
 DELIMITER $$
 
 CREATE PROCEDURE sp_discharge_patient (
@@ -62,25 +79,25 @@ BEGIN
     DECLARE v_bed_id INT;
     DECLARE v_admission_date DATETIME;
 
-    -- 1. Obtener datos de la hospitalización
+    -- Step 1: Get active admission data
     SELECT bed_id, admission_date
     INTO v_bed_id, v_admission_date
     FROM admission
     WHERE admission_id = p_admission_id
       AND discharge_date IS NULL;
 
-    -- 2. Validar que exista hospitalización activa
+    -- Step 2: Validate admission exists and is active
     IF v_bed_id IS NULL THEN
         SIGNAL SQLSTATE '45000'
         SET MESSAGE_TEXT = 'Admission not found or already closed';
     END IF;
 
-    -- 3. Actualizar hospitalización (dar alta)
+    -- Step 3: Close admission
     UPDATE admission
     SET discharge_date = NOW()
     WHERE admission_id = p_admission_id;
 
-    -- 4. Liberar cama
+    -- Step 4: Release bed
     UPDATE bed
     SET status = 'Available'
     WHERE bed_id = v_bed_id;
@@ -89,5 +106,5 @@ END $$
 
 DELIMITER ;
 
---como se usa 
-CALL sp_discharge_patient(1);
+-- Example usage:
+-- CALL sp_discharge_patient(1);

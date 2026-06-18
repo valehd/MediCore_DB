@@ -1,4 +1,7 @@
--- Trigger 1
+-- Trigger: trg_bed_status_change
+-- Purpose: Audits every change in bed status to maintain historical traceability
+-- This ensures all modifications to critical hospital resources are recorded
+
 DELIMITER $$
 CREATE TRIGGER trg_bed_status_change
 AFTER UPDATE ON bed

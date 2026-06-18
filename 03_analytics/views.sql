@@ -1,4 +1,8 @@
+-- VIEWS
 
+-- View: vw_current_admissions
+-- Purpose: Shows all patients currently admitted in the hospital (not discharged yet)
+-- Used for real-time monitoring of active hospitalizations
 
 CREATE VIEW vw_current_admissions AS
 SELECT
@@ -18,6 +22,10 @@ JOIN department d ON b.department_id = d.department_id
 WHERE a.discharge_date IS NULL;
 
 
+-- View: vw_bed_occupancy
+-- Purpose: Provides operational KPIs about bed utilization per department
+-- Includes total beds, occupied beds, available beds, and occupancy rate
+
 CREATE VIEW vw_bed_occupancy AS
 SELECT
     d.department_name,
@@ -32,6 +40,9 @@ FROM department d
 JOIN bed b ON d.department_id = b.department_id
 GROUP BY d.department_name;
 
+-- View: vw_admission_details
+-- Purpose: Provides detailed admission records including status classification (Active/Closed)
+-- Used for operational tracking and reporting
 
 CREATE VIEW vw_admission_details AS
 SELECT
@@ -51,6 +62,9 @@ JOIN patient p ON a.patient_id = p.patient_id
 JOIN bed b ON a.bed_id = b.bed_id
 JOIN department d ON b.department_id = d.department_id;
 
+-- View: vw_patient_summary
+-- Purpose: Aggregates patient history and utilization metrics
+-- Includes total admissions, first/last admission, and average length of stay
 
 CREATE VIEW vw_patient_summary AS
 SELECT
